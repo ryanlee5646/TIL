@@ -2,7 +2,10 @@
 # f.write('This is SSAFY')
 # f.close()
 
-with open('ssafe.txt','w',encoding='utf8') as f:
-    f.write('This is SSAFY, with 이용했다.')
-
+with open('ssafy.txt','w',encoding='utf8') as f:
+    #for i in range(10):  
+    f.writelines(['1\n' '2\n' '3\n'])
+        # \t: tab, \\: 
+        # '\\:' 문자 그대로 의미
+        # \' or \" : 따옴표, 쌍따옴표 문자
 
