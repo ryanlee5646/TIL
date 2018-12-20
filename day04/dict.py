@@ -132,7 +132,13 @@ for city_name, city_temp in city.items():
     city_avg = sum(city_temp) / len(city_temp)
     print(f"{city_name} : {round(city_avg,1)}")
         
-
+max_temp = 0
+for name, temp in city.items():
+    for t in temp:
+        if t > max_temp:
+            max_temp = t
+            max_city = name
+print(max_city, max_temp)            
 
 
 
