@@ -8,3 +8,19 @@
 # 출력의 각 줄은 '#t'로 시작하고, 공백을 한 칸 둔 다음 정답을 출력한다.
 # (t는 테스트 케이스의 번호를 의미하여 1부터 시작한다.)
 
+result=[]
+nums=[]
+temp=0
+ 
+cnt = int(input())
+ 
+for i in range(cnt):
+    nums = input().split(" ")
+    for j in nums:
+        if int(j)%2==1:
+            temp+=int(j)
+    result.append(temp)
+    temp=0
+ 
+for i in range(cnt):
+    print("#{} {}".format(i+1, result[i]))
