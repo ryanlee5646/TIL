@@ -4,7 +4,21 @@
 # 출력의 각 줄은 '#t'로 시작하고, 공백을 한 칸 둔 다음 정답을 출력한다.
 # (t는 테스트 케이스의 번호를 의미하며 1부터 시작한다.)
 
-result = []
+# result = []
+# num = []
+# evens = 0
+# T = int(input())
+# for i in range(T):
+#     num = list(map(int, input().split()))
+#     for even in num:
+#         if even % 2 == 1:
+#             evens += even    
+#     result.append(evens)
+#     evens = 0
+# for j, n in enumerate(result):
+#     print(f'#{j+1} {n}')
+
+
 num = []
 evens = 0
 T = int(input())
@@ -13,9 +27,5 @@ for i in range(T):
     for even in num:
         if even % 2 == 1:
             evens += even    
-    result.append(evens)
+    print(f'#{i+1} {evens}')
     evens = 0
-for j, n in enumerate(result):
-    print(f'#{j+1} {n}')
-
-
