@@ -1,0 +1,85 @@
+<!DOCTYPE html> <!-- DOCTYPE 선언부  -->
+<html lang="ko"> <!-- lang => 언어  -->
+<head> <!-- head 요소: 문서 제목, 문자코드와 같이 해당 문서 정보를 담고 있음. 브라우저에 나타나지 않음. CSS 선언 혹은 외부 로딩 파일 지정등을 작성  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hi, HTML!</title>
+    <style>
+    h1{
+        color:aqua
+    }
+    </style>
+</head>
+<body><!--  body 요소: 브라우저 내용에 해당하는 부분  -->
+    <!-- Heading  -->
+    <h1>Hi, There!</h1> <!-- 태그는 대소문자를 구별하지 않으나, 소문자로 작성해야 한다. 요소간 중첩도 가능하다.  -->
+    <h2>Hi, h2</h2>
+    <h3>Hi, h3</h3>
+    <h4>Hi, h4</h4>
+    <h5>Hi, h5</h5>
+    <h6>Hi, h6</h6>
+    <!-- Bold -->
+    <b>This is bold.</b>
+    <strong>This is strong.(semantic)</strong>
+
+    <!-- italic -->
+    <i>This is italic</i>
+    <em>This is em.(semantic)</em><!-- emphasize -->
+
+    <!-- highlighted -->
+    <h2>This is <mark>Mark.</mark>.</h2>
+    
+    <!-- del / ins -->
+    <h2>This is <del>del</del>.</h2>
+    <h2>This is <ins>ins</ins>.</h2>
+
+    <!-- sub / sup -->
+    <h2>This is <sub>sub</sub>.</h2>
+    <h2>This is <sup>sup</sup>.</h2>
+
+    <!-- p(paragraph) / br(띄어쓰기) -->
+    <p>
+        This is p tag. <br>
+        This is p tag. <br>
+        This is p tag. <br>
+        This is p tag. <br> 
+        This is p tag. <br>
+        This is p tag. <br>
+        This is p tag. <br>
+        This is p tag. <br>
+        This is p tag.
+    </p>
+    <!-- 띄어쓰기 자유롭게 가능한 paragraph. 앞에 공백마자 다 인식함  -->
+    <pre>
+from flask import Flask 
+app = Flask(__name__)
+
+@app.route('/')
+    </pre>
+
+    <!-- hr (구분선을 지어줌) -->
+    <hr>
+
+    <!-- q (인용문 "") /  blockquote -->
+    <p>
+        Gyujin said, <q>Hello world!</q>
+    </p>
+    <blockquote>
+        Hello World!
+    </blockquote>
+
+    <!-- ol(숫자있는 리스트) / ul(숫자없는 리스트) / li(ol 이나 ul로 li를 감싸줘야함) -->
+    <ol>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ol>
+    <ul>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ul>
+
+</body>
+</html>
