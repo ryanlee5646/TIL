@@ -3,7 +3,11 @@
 # 알파벳이 아닐 경우엔 그냥 출력하는 코드를 작성하십시오.
 # 출력 시 아스키코드를 함께 출력합니다.
 
-# a = input()
-# if a.isalpha() and a.isupper() == True:
-#     print(f'{a}(ASCII:{ord(a)})')
-print(ord('a'))
+a = input()
+if a.isalpha() == True:
+    if a.isupper == True:
+        print(f'{a}(ASCII: {ord(a)}) => {a.lower()}(ASCII: {ord(a.lower())})')
+    else:
+        print(f'{a}(ASCII: {ord(a)}) => {a.upper()}(ASCII: {ord(a.upper())})')
+else:
+    print(a)
