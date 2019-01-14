@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table, tr, td {
+            border: 1px solid darkgray
+        }
+
+    </style>
+</head>
+<body>
+    <h1>프로그래밍 교육</h1>
+    <a href="#python" target="_self">파이썬</a>
+    <a href="#web" target="_self">웹</a>
+    <a href="#index.htm" target="_self">참고사이트</a>
+    <hr>
+    <section>
+        <h2 id="python"><a href="#web" target="_self">파이썬</a></h2>
+        <h3><b>Number type</b></h3>
+        <p>파이썬에서 숫자형은 아래와 같이 있다.</p> 
+        <ol>
+            <li>int</li>
+            <li>float</li>
+            <li>complex</li>
+            <li><del>str</del></li>
+        </ol> 
+        <h3>Sequence</h3>
+        <p>파이썬에서 시퀀스는 아래와 같이 있다.</p>
+        <h4>시퀀스는 for문을 돌릴 수 있다!!</h4>
+        <ol>
+                <li>str</li>
+                <li>list</li>
+                <li>tuple</li>
+                <li>range</li>
+        </ol> 
+    </section>
+    <section id="web">
+        <hr>
+        <h2><a href="#link" target="_self">웹</a></h2>
+        <h3>기초</h3>
+        <!-- none, square, circle, lower-alpha, 
+            upper-alpha, upper-roman, ... -->
+        <ul>
+            <li style="list-style-type: circle;">HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+    <section id="link"> 
+    <!-- a(anchor) -->
+        <!-- herf values
+            1. 절대 URL
+            2. 상대 URL
+            3. element id
+            4. mailto:
+        -->
+    <!--_self는 자기화면에서 화면이 올겨짐, _blank는 자기화면에서 다른 새로운 탭을 염 -->
+        <a href="https://www.google.com" target="_self">절대 URL</a><br> 
+        <a href="index.htm" target="_blank">상대 URL</a><br> 
+        <a href="#python" target="_self">파이썬으로(id python) 같은 화면에서 이동</a><br> 
+        <a href="mailto:ryanlee5646@gmail.com" target="_blank">메일보내기</a><br> 
+    </section>
+
+    <section>
+        <!-- img
+            1. 이미지 파일
+            2. alt: 이미지 설명(실제 브라우저에 표시되진 않음)
+            3. width, hegiht(이미지의 크기 조절, 입력안하면 이미지 기본값)
+        -->
+        <a href="https://www.google.com" target="_self"><img src="images/iu.jpg" alt="아이유" width="50px" height="50px"></a><br>
+        <br>
+        <!-- controls를 넣지않으면 재생버튼이 안나옴 -->
+        <video src="video.mp4" width="300px" height="" controls></video><br>
+
+        <!-- iframe -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xXFdnHiGwos" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+    </section>
+    <br>
+    <section>
+        <!-- table -->
+        <table>
+            <!-- table row -->
+            <tr>
+                <!-- table head -->
+                <th></th>
+                <th>월</th>
+                <th>화</th>
+                <th>수</th>
+            </tr>
+            <tr>
+                <!-- table data -->
+                <td>A 코스</td>
+                <td rowspan="2">짬뽕</td>
+                <!-- colspan : 가로 칸 길이 병합 -->
+                <td colspan="2">초밥</td>
+                
+            </tr>
+            <tr>
+                <td>B 코스</td>
+                <td>김치찌개</td>
+                <td>삼계탕</td>
+            </tr>
+        </table>
+
+    </section>
+</body>
+</html>

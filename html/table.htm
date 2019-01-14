@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>table</title>
+    <style>
+        table, tr, td
+        {
+            border: 1px solid darkgray
+        }
+    </style>
+</head>
+<body>
+    <h1>2019 타임테이블</h1>
+    <hr>
+    <section>
+            <!-- table -->
+            <table>
+                <!-- table row -->
+                <tr>
+                    <!-- table head -->
+                    <th>TIME</th>
+                    <th>INDOOR</th>
+                    <th colspan="2">OUTDOOR</th>
+                </tr>
+                <tr>
+                    <!-- table data -->
+                    <td></td>
+                    <td>소극장</td>
+                    <!-- colspan : 가로 칸 길이 병합 -->
+                    <td>잔디마당</td>
+                    <td>대공연장</td>
+                </tr>
+                <tr>
+                    <td>10:00</td>
+                    <td rowspan="2">안녕하신가영</td>
+                    <td></td>
+                    <td>10cm</td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td rowspan="2">선우정아</td>
+                    <td rowspan="2">참깨와 솜사탕</td>
+                </tr>
+                <tr>
+                    <td>15:00</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>17:00</td>
+                    <td>크러쉬</td>
+                    <td></td>
+                    <td>폴킴</td>
+                </tr>
+            </table>
+    </section>
+    <br><br>
+    <section>
+        <!-- form(입력칸 및 버튼을 만듬) 
+        action: 특정 URL로 보낼 주소입력
+        -->
+        <form action="" method="GET">
+            Id <input type="text"><br>
+            Password <input type="password"><br>
+            <input type="number" min="15" max="30" step="5"><br>
+            <input type="submit" value="로그인"><br>
+            <!-- radio -->
+            <div>
+                <input type="radio" name="sandwich" checked>에그 마요<br>
+                <input type="radio" name="sandwich">이탈리안 비엠티<br>
+                <input type="radio" name="sandwich">터키 베이컨 아보카도<br>
+            </div>
+            <!-- checkbox -->
+            <div>
+                <input type="checkbox" name="topping" checked>토마토<br>
+                <input type="checkbox" name="topping">오이<br>
+                <input type="checkbox" name="topping">할라피뇨<br>
+                <input type="checkbox" name="topping">핫 칠리<br>
+                <input type="checkbox" name="topping">렌치<br>
+            </div>
+            <!-- select -->
+            <select name="" id="">
+                <option>메뉴를 선택하세요</option>
+                <option>허니오트</option>
+                <option disabled>플랫브레드</option>
+                <option selected>파마산 오레가노</option>
+            </select>
+            
+        </form>
+    </section>
+
+
+</body>
+</html>
