@@ -1,0 +1,11 @@
+.font {
+    /* 1. font-size */
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 800; /* bold */
+    font-family: 'Do Hyeon', sans-serif;
+    line-height: 1.5; /* 라인간 간격*/
+    letter-spacing: -3px;
+    text-align: center; /* left, right, center 라인 정렬 */
+    
+}
