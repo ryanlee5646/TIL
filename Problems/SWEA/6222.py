@@ -4,10 +4,6 @@
 # 출력 시 아스키코드를 함께 출력합니다.
 
 a = input()
-if a.isalpha() == True:
-    if a.isupper == True:
-        print(f'{a}(ASCII: {ord(a)}) => {a.lower()}(ASCII: {ord(a.lower())})')
-    else:
-        print(f'{a}(ASCII: {ord(a)}) => {a.upper()}(ASCII: {ord(a.upper())})')
-else:
-    print(a)
+if a.isalpha() and a.isupper() == True:
+    print(f'{a}(ASCII:{ord(a)}) =>  {a.upper()}: ')
+print(ord('a'))

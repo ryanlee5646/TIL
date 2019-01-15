@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* {}앞에 *을 붙이면 이 문서에 속한 모든 속성에 적용함 */
+        * {
+            color: red;
+        }
+        /* 태그 선택자 */
+        h1 {
+            color: rosybrown;
+        }
+        /* 클래스 선택자 */
+        .blue{
+            color: blue;
+        }
+        #green {
+            color: green
+        }
+        .pink{
+            color: pink
+        }
+    </style>
+</head>
+<body>
+    <p>red, 전체 선택자</p>
+    <h1>rosybrown, 태그 선택자</h1>
+    <h2 class="blue">blue, .클래스 선택자</h2>
+    <h3 id="green">green, #아이디 선택자</h3>
+    <!-- id > class > tag > *(전체선택자) -->
+    <h1 class="blue">h1 vs .blue?</h1> <!-- 태그 선택자와 클래스 선택자 중에서는 클래스가 우선-->
+    <h1 id="green">h1 vs #green?</h1> <!-- 태그 선택자와 아이디 선택자 중에서는 아이디가 우선-->
+    <h1 id="green" class="blue">h1 vs id vs class</h1> <!-- 셋다 적용했을 때 id선택자가 젤 우선함-->
+
+    <p>나는 <span class="blue">파랑색</span>이고 싶고, 여기는 <span class="pink">핑크색</span>이고 싶을 때는?</p>
+
+</body>
+</html>
