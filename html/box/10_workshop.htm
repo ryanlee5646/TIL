@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        /* ssafy라는 id값을 가진 요소에 들어가 */
-        #ssafy > p:nth-child(2) {
+        /* ssafy라는 id값을 가진 요소에 들어가 ()안에 해당하는 요소를 찾음 근데 해당하는 요소가
+        타입이 일치하지 않으면 작동안함. */
+        #ssafy > p:nth-child(4) {
             color: red;
         }
-
-        #ssafy > p:nth-of-type(3) {
+        /*ssafy라는 id값을 가진 요소에 들어가 ()안에 해당하는 요소를 찾고, 그 요소안에서 순서를 찾아감 */
+        #ssafy > p:nth-of-type(2) {
             color: blue;
         }
         
