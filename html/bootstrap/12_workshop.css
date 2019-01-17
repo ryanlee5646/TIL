@@ -1,0 +1,18 @@
+/* Bootstrap 흉내내기 */
+/* 0 ~ 576px */
+.rainbow {
+    color: red;
+}
+/* 576 이상  */
+@media (min-width: 480px) {
+    .rainbow {
+        color: orange;
+    }
+}
+
+/* 768 이상 */
+@media (min-width: 768px) {
+    .rainbow {
+        color: yellow;
+    }
+}

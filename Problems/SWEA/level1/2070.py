@@ -10,11 +10,10 @@
 
 T = int(input())
 for i in range(T):
-    num = list(map(int, input()))
+    num = list(map(int, input().split()))
     if num[0] > num[1]:
-        print('>')
+        print(f'#{i+1} >')
     elif num[0] < num[1]:
-        print('<')
+        print(f'#{i+1} <')
     else:
-        print('=')
-for 
+        print(f'#{i+1} =')
