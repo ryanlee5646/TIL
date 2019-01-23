@@ -4,11 +4,13 @@
 # 5 => False
 # 10 => True
 a = [2, 4, 6, 8, 10]
-def find(a, b=int(input())):
-    for i in a:
+b = [5, 10]
+def find(a, b):
+    for i in b:
         if i in b:
             return f'{b} => False'
         else:
             return f'{b} => True'
-print(find(a))
+for j in b:
+    print(find(a, b))
 
