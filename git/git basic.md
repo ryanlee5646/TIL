@@ -10,7 +10,7 @@
 git clone <깃헙 복사된 주소> [폴더명]
 ```
 
-예) `git clone https://github.com/ryanlee5646/TIL.git harry`
+예) `git clone https://github.com/ryanlee5646/TIL.git`
 
 개인 설정을 하지 않은 상태에서 내려 받을 수 있는 이유?
 
@@ -76,6 +76,22 @@ host=github.com
 `git remote add origin 주소 `: 원격 저장소 (remote repository) 주소 등록
 
 `git remote set-url origin 주소` : 원격 저장소 수정
+
+(ex. 기존 폴더를 github에서 gitlab으로 옮기고 싶을때)
+
+`git remote -v`: 이 폴더를 푸쉬할수있는 주소들이 보임
+
+`git remote add (설정할 별칭) 주소`: 별칭을 설정하지 않으면 origin값으로 설정됨. 
+
+ex )`git remote add github https://github.com/ryanlee5646/homeworkshop.git`        
+
+origin 기본주소가 아닌 다른 주소로 push 하고 싶을때는
+
+`git push 별칭(github) master`
+
+
+
+
 
 ## Git Commit & Push
 
