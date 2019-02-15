@@ -24,10 +24,11 @@
 
 T = int(input())
 for t in range(1, T):
+    index = int(input())
     apart_list = list(map(int, input().split()))
     count = 0
     
-    for i in range(2, len(apart_list)-2): 
+    for i in range(2, index-2):
         if apart_list[i]>apart_list[i-1] and apart_list[i]>apart_list[i-2] and apart_list[i]>apart_list[i+1] and apart_list[i]>apart_list[i+2]:
             count += apart_list[i] -max([apart_list[i-1], apart_list[i-2], apart_list[i+1], apart_list[i+2]])
 

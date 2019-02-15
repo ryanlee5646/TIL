@@ -8,7 +8,7 @@ for index in Data:
     Counts[index] += 1
 print(Counts)
 for i in range(1, len(Counts)):
-    Counts[i] = Counts[i-1] + Counts[i]
+    Counts[i] += Counts[i-1]
 print(Counts)
 # Data = [0, 4, 1, 3, 1, 2, 4, 1]
 # Counts = [1, 4, 5, 6, 8] < 누적시킨 카운트
