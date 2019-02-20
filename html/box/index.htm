@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,19 @@
   <title>BOX</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="big-box">
-    <div class="small-box" id="red"></div>
-    <div class="small-box" id="gold"></div>
-    <div class="small-box" id="green">
-      <div class="small-box" id="purple"></div>
+    <div class="small-box" id="red">absolute</div>
+    <div class="small-box" id="gold">fixed</div>
+    <div class="small-box" id="green">absolute
+      <div class="small-box" id="purple">absolute</div>
     </div>
-    <div class="small-box" id="blue">
-      <div class="small-box" id="orange"></div>
+    <div class="small-box" id="blue">relative
+      <div class="small-box" id="orange">absolute</div>
     </div>
-    <div class="small-box" id="pink"></div>
+    <div class="small-box" id="pink">absolute</div>
   </div>
 </body>
+
 </html>
