@@ -1,4 +1,4 @@
-# import sys
+    # import sys
 # sys.stdin = open("input.txt", "r")
 
 stack = [0]*10
