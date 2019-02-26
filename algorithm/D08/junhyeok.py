@@ -2,11 +2,13 @@ import sys
 sys.stdin = open("junhyeok.txt", "r")
 
 
+
 def Junhyeok(y, cost):
-    global cost_sum, n
+    global cost_sum, n, Flag
 
     if y == n:
-        if cost < cost_sum :
+        Flag = True
+        if cost < cost_sum : #cost = 누적된 비용 , cost_sum = 최소비용
             cost_sum = cost
         return
 
@@ -16,7 +18,7 @@ def Junhyeok(y, cost):
             Junhyeok(x, cost+Costs[y][x])
             visited[x] = False
 
-
+Flag = False
 cost_sum = 98765432
 n, m = map(int, input().split())
 Costs = [[0]*(n+1) for i in range(n+1)]
@@ -27,5 +29,7 @@ for i in range(m):
     Costs[y][x] = Cost
 
 Junhyeok(1,0)
-
-print(cost_sum)
+if Flag == False:
+    print(-1)
+else:
+    print(cost_sum)

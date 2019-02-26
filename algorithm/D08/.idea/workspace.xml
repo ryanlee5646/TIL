@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed61b97-5720-4cca-a668-cf04ec1e22bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4881.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4881_배열최소합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junhyeok.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junhyeok.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../D06/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D07/4869.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D07/4869.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D07/4874.py" beforeDir="false" afterPath="$PROJECT_DIR$/../D07/4874.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D07/4874.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../D07/4874.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D07/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../D07/calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../D07/calculator.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../D07/calculator.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junhyeok.py" beforeDir="false" afterPath="$PROJECT_DIR$/junhyeok.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junhyeok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/junhyeok.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +16,12 @@
     <SUITE FILE_PATH="coverage/D08$4881.coverage" NAME="4881 Coverage Results" MODIFIED="1551079267064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4881_배열최소합.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="616">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -39,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junhyeok.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="146">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -48,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junhyeok.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="198">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -58,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/4881.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -80,8 +70,8 @@
       <list>
         <option value="$PROJECT_DIR$/4881.txt" />
         <option value="$PROJECT_DIR$/4881.py" />
-        <option value="$PROJECT_DIR$/junhyeok.txt" />
         <option value="$PROJECT_DIR$/4881_배열최소합.py" />
+        <option value="$PROJECT_DIR$/junhyeok.txt" />
         <option value="$PROJECT_DIR$/junhyeok.py" />
       </list>
     </option>
@@ -98,6 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,7 +100,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,19 +184,20 @@
       <updated>1551061545601</updated>
       <workItem from="1551061547762" duration="1000" />
       <workItem from="1551061573232" duration="17044000" />
+      <workItem from="1551139623701" duration="3371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17045000" />
+    <option name="totallyTimeSpent" value="20416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13113007" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32929516" />
@@ -219,6 +210,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3340564" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -234,7 +226,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/junhyeok.py</url>
-          <line>4</line>
+          <line>5</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
@@ -244,28 +236,28 @@
     <entry file="file://$PROJECT_DIR$/4881.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junhyeok.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4881_배열최소합.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="616">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junhyeok.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/junhyeok.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="146">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
