@@ -4,7 +4,6 @@ sys.stdin = open("budget.txt", "r")
 Budget = int(input()) #남은 예산
 act_num = int(input()) #활동수
 money = list(map(int, input().split()))
-visited = [0] * len(range(act_num))
 result = 0
 
 def Max_Sum(start, cost):
@@ -30,7 +29,7 @@ def Max_Sum(start, cost):
 
 
 print(money)
-print(visited)
+
 
 Max_Sum(0,0)
 print(result)
