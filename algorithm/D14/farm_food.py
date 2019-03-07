@@ -10,9 +10,10 @@ for t in range(1,T+1):
     for i in range(N):
         data = list(map(int, input()))
         Mymap.append(data)
-    print(Mymap)
+ 
     for i in range((N//2)+1):
         farm += sum(Mymap[i][N//2-i:(N//2)+1+i])
-    print(farm)
-    for j in range(N-(N//2),N):
-        farm += sum(Mymap[j][(N-j)-1:(N+1)-j]
+   
+    for j in range(N-(N//2),N): #(3,5)
+        farm += sum(Mymap[j][(j-(N//2)):N-(j-(N//2))])
+    print("#{} {}".format(t, farm))
