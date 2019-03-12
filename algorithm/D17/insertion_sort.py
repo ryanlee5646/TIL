@@ -1,5 +1,5 @@
 data = [1, 9, 3, 2, 7, 0, 4]
-result = [data[0]]
+
 
 # for i in range(1, len(data)):
 #     result.append(data[i])
