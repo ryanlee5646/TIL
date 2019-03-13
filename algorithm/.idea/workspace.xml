@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="822e66cc-9d2c-49f3-ae9b-a69b692d6559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/D18/Sudoku.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D18/Sudoku.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D19/gcd_lcm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D19/greatest_common_divisor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D19/prime_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D19/prime_num.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D03/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/D03/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D17/insertion_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/D17/insertion_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D17/linked_josephus.py" beforeDir="false" afterPath="$PROJECT_DIR$/D17/linked_josephus.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,35 +24,37 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="TXT" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="59" />
-          <entry key="txt" value="2" />
+          <entry key="py" value="63" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="59" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3830" />
-          <entry key="txt" value="3" />
+          <entry key="dummy" value="10" />
+          <entry key="py" value="4440" />
+          <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="3830" />
+          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="Python" value="4440" />
         </counts>
       </usages-collector>
     </session>
@@ -61,58 +62,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D17/insertion_sort.py">
+        <entry file="file://$PROJECT_DIR$/D19/gcd_lcm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D17/merge_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="29" column="23" lean-forward="true" selection-start-line="2" selection-end-line="29" selection-end-column="23" />
-              <folding>
-                <marker date="1552279577564" expanded="true" signature="56:61" ph="..." />
-                <marker date="1552279577564" expanded="true" signature="311:312" ph="..." />
-                <marker date="1552279577564" expanded="true" signature="311:316" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D17/linked_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="24" />
-              <folding>
-                <marker date="1552287441283" expanded="true" signature="124:440" ph="..." />
-                <marker date="1552287441283" expanded="true" signature="124:452" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D17/linked_josephus.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-              <folding>
-                <marker date="1552368257935" expanded="true" signature="123:698" ph="..." />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/D18/Sudoku.py">
+        <entry file="file://$PROJECT_DIR$/D19/prime_num.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/D19/prime_num.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/D19/greatest_common_divisor.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -155,12 +135,18 @@
         <option value="$PROJECT_DIR$/D17/linked_josephus.py" />
         <option value="$PROJECT_DIR$/D18/Sudoku.txt" />
         <option value="$PROJECT_DIR$/D18/Sudoku.py" />
+        <option value="$PROJECT_DIR$/D19/least_common_multiple.py" />
+        <option value="$PROJECT_DIR$/D19/greatest_common_divisor.txt" />
+        <option value="$PROJECT_DIR$/D19/greatest_common_divisor.py" />
+        <option value="$PROJECT_DIR$/D19/gcd_lcm.py" />
+        <option value="$PROJECT_DIR$/D19/prime_num.py" />
+        <option value="$PROJECT_DIR$/D19/prime_num.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="796" />
-    <option name="width" value="1084" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -180,7 +166,7 @@
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="D01" type="462c0819:PsiDirectoryNode" />
+              <item name="D19" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Sudoku">
+  <component name="RunManager" selected="Python.prime_num">
     <configuration name="Baby_gin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,7 +236,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="insertion_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="greatest_common_divisor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,11 +244,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D17" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D19" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D17/insertion_sort.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\student\gyujin\algorithm\D19\gcd_lcm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,7 +278,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="prime_num" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,11 +286,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D19" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D03/search.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D19/prime_num.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,19 +300,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.insertion_sort" />
-      <item itemvalue="Python.search" />
       <item itemvalue="Python.linked_josephus" />
       <item itemvalue="Python.Baby_gin" />
       <item itemvalue="Python.Sudoku" />
+      <item itemvalue="Python.greatest_common_divisor" />
+      <item itemvalue="Python.prime_num" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prime_num" />
+        <item itemvalue="Python.greatest_common_divisor" />
         <item itemvalue="Python.Sudoku" />
         <item itemvalue="Python.Baby_gin" />
         <item itemvalue="Python.linked_josephus" />
-        <item itemvalue="Python.search" />
-        <item itemvalue="Python.insertion_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -350,15 +336,15 @@
     <option name="totallyTimeSpent" value="29139000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="796" y="0" width="1084" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19980879" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22329059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35855263" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35855263" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3859649" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,34 +400,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/D13/1211_ladder2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D13/2001_beat_pari.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D10/D10 김미진.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D01/ex.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D02/4835.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/D02/4834.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -674,24 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D17/insertion_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D17/linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <marker date="1552287441283" expanded="true" signature="124:440" ph="..." />
-            <marker date="1552287441283" expanded="true" signature="124:452" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -706,10 +646,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/D18/Sudoku.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D17/insertion_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/D17/merge_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="2" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="667">
+          <caret line="29" column="23" selection-start-line="2" selection-end-line="29" selection-end-column="23" />
           <folding>
             <marker date="1552279577564" expanded="true" signature="56:61" ph="..." />
             <marker date="1552279577564" expanded="true" signature="311:312" ph="..." />
@@ -718,20 +672,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D17/linked_josephus.py">
+    <entry file="file://$PROJECT_DIR$/D17/linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        <state relative-caret-position="161">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="24" />
           <folding>
-            <marker date="1552368257935" expanded="true" signature="123:698" ph="..." />
+            <marker date="1552287441283" expanded="true" signature="124:440" ph="..." />
+            <marker date="1552287441283" expanded="true" signature="124:452" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D18/Sudoku.txt">
+    <entry file="file://$PROJECT_DIR$/D17/linked_josephus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="1012">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <marker date="1552368257935" expanded="true" signature="123:698" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -739,6 +697,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D19/least_common_multiple.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D19/gcd_lcm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D19/greatest_common_divisor.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D19/prime_num.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D19/prime_num.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
