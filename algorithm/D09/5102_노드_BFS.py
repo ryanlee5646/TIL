@@ -8,7 +8,7 @@ def BFS(start):
     global V
     queue = []
     visited[start] = 1
-    queue.append(start) #시작지점을 visted에 찍어줌
+    queue.append(start) #시작지점을 visited에 찍어줌
 
     while queue:
         here = queue.pop(0)
