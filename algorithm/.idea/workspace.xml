@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="822e66cc-9d2c-49f3-ae9b-a69b692d6559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/D23/190319.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D23/5185_bi_num.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D23/5185_bi_num.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D23/5186_bi_num2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D23/5186_bi_num2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D23/jungsik_bank.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D23/jungsik_bank.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D23/password_scan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D23/password_scan.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D23/septenary_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D23/구미_1반_이규진.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D24/baby_gin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D24/baby_gin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D24/combination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D24/ex03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D24/permutation_backtracking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D24/recur_selection_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D24/recur_selection_sort.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,37 +28,37 @@
           <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="TXT" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="99" />
-          <entry key="txt" value="18" />
+          <entry key="py" value="109" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="99" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="109" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="15696" />
-          <entry key="txt" value="158" />
+          <entry key="py" value="18625" />
+          <entry key="txt" value="278" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="168" />
-          <entry key="Python" value="15696" />
+          <entry key="PLAIN_TEXT" value="288" />
+          <entry key="Python" value="18625" />
         </counts>
       </usages-collector>
     </session>
@@ -73,52 +69,81 @@
         <entry file="file://$PROJECT_DIR$/D22/password_pattern.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D22/bi_password.py">
+        <entry file="file://$PROJECT_DIR$/D24/baby_gin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="3" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="-61">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <marker date="1553063059563" expanded="true" signature="64:609" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D23/password_scan.py">
+        <entry file="file://$PROJECT_DIR$/D24/combination.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="7" selection-end-column="10" />
+            <state relative-caret-position="92">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="9" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D23/password_scan.txt">
+        <entry file="file://$PROJECT_DIR$/D24/permutation_backtracking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1357">
-              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            <state relative-caret-position="322">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <marker date="1553071446254" expanded="true" signature="583:749" ph="..." />
+                <marker date="1553071446254" expanded="true" signature="583:750" ph="..." />
+                <marker date="1553071446254" expanded="true" signature="583:751" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/D23/구미_1반_이규진.py">
+        <entry file="file://$PROJECT_DIR$/D24/ex03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
-              <caret line="33" column="62" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="62" />
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D23/jungsik_bank.py">
+        <entry file="file://$PROJECT_DIR$/D24/baby_gin.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="115">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/D24/recur_selection_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              <folding>
+                <marker date="1553056824349" expanded="true" signature="389:391" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/D01/Baby_gin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -138,14 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/D14/budget.txt" />
-        <option value="$PROJECT_DIR$/D14/budget.py" />
-        <option value="$PROJECT_DIR$/D14/Pascal.txt" />
-        <option value="$PROJECT_DIR$/D14/Pascal.py" />
-        <option value="$PROJECT_DIR$/D14/diamond.txt" />
-        <option value="$PROJECT_DIR$/D14/diamond.py" />
-        <option value="$PROJECT_DIR$/D14/farm_food.txt" />
-        <option value="$PROJECT_DIR$/D14/farm_food.py" />
         <option value="$PROJECT_DIR$/D13/ladder2.py" />
         <option value="$PROJECT_DIR$/D13/1211_ladder2.txt" />
         <option value="$PROJECT_DIR$/D13/1211_ladder2.py" />
@@ -189,12 +206,21 @@
         <option value="$PROJECT_DIR$/D23/jungsik_bank.py" />
         <option value="$PROJECT_DIR$/D23/password_scan.txt" />
         <option value="$PROJECT_DIR$/D23/password_scan.py" />
+        <option value="$PROJECT_DIR$/D24/recur_selection_sort.txt" />
+        <option value="$PROJECT_DIR$/D24/연습문제1.py" />
+        <option value="$PROJECT_DIR$/D24/recur_selection_sort.py" />
+        <option value="$PROJECT_DIR$/D24/baby_gin.txt" />
+        <option value="$PROJECT_DIR$/D24/baby_gin.py" />
+        <option value="$PROJECT_DIR$/D24/combination.py" />
+        <option value="$PROJECT_DIR$/D24/permutation_backtracking.py" />
+        <option value="$PROJECT_DIR$/D24/ex03.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="924" />
-    <option name="width" value="1005" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="831" />
+    <option name="y" value="16" />
+    <option name="width" value="1169" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -203,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,13 +240,17 @@
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="D23" type="462c0819:PsiDirectoryNode" />
+              <item name="D01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="D24" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,12 +261,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\student\gyujin\algorithm\D24" />
+      <recent name="C:\Users\student\gyujin\algorithm\D22" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\gyujin\algorithm\D24" />
       <recent name="C:\Users\student\gyujin\algorithm\D23" />
       <recent name="C:\Users\student\gyujin\algorithm\D21" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\student\gyujin\algorithm\D22" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -250,49 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.구미_1반_이규진">
-    <configuration name="5185_bi_num" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D23" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D23/5185_bi_num.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5186_bi_num2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D23" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D23/5186_bi_num2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.permutation_backtracking">
     <configuration name="구미_1반_이규진" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -314,7 +305,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jungsik_bank" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="baby_gin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,11 +313,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D23" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D24" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D23/jungsik_bank.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D24/baby_gin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,7 +326,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="septenary_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="combination" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,11 +334,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D23" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D24" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D23/septenary_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D24/combination.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="permutation_backtracking" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D24" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D24/permutation_backtracking.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="recur_selection_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D24" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D24/recur_selection_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -357,19 +390,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.septenary_number" />
-      <item itemvalue="Python.5185_bi_num" />
-      <item itemvalue="Python.5186_bi_num2" />
-      <item itemvalue="Python.jungsik_bank" />
       <item itemvalue="Python.구미_1반_이규진" />
+      <item itemvalue="Python.recur_selection_sort" />
+      <item itemvalue="Python.baby_gin" />
+      <item itemvalue="Python.combination" />
+      <item itemvalue="Python.permutation_backtracking" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.permutation_backtracking" />
+        <item itemvalue="Python.combination" />
+        <item itemvalue="Python.baby_gin" />
+        <item itemvalue="Python.recur_selection_sort" />
         <item itemvalue="Python.구미_1반_이규진" />
-        <item itemvalue="Python.jungsik_bank" />
-        <item itemvalue="Python.5186_bi_num2" />
-        <item itemvalue="Python.5185_bi_num" />
-        <item itemvalue="Python.septenary_number" />
       </list>
     </recent_temporary>
   </component>
@@ -393,15 +426,16 @@
     <option name="totallyTimeSpent" value="29139000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="831" y="16" width="1169" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08219178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18744475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29098806" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3859649" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29057017" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3854506" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -476,71 +510,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/D13/1211_ladder2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="43" column="20" lean-forward="true" selection-start-line="3" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D13/1979_whereword.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D01/Baby_gin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D17/insertion_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D17/merge_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="23" selection-start-line="2" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <marker date="1552279577564" expanded="true" signature="56:61" ph="..." />
-            <marker date="1552279577564" expanded="true" signature="311:312" ph="..." />
-            <marker date="1552279577564" expanded="true" signature="311:316" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D17/linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D17/linked_josephus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding>
-            <marker date="1552368257935" expanded="true" signature="123:698" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D19/least_common_multiple.py" />
     <entry file="file://$PROJECT_DIR$/D19/gcd_lcm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -693,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D23/5185_bi_num.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/D23/5185_bi_num.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -735,24 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D23/5186_bi_num2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/D22/bi_to_deci.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D22/password_pattern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -778,38 +726,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D23/jungsik_bank.py">
+    <entry file="file://$PROJECT_DIR$/D22/bi_password.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        <state relative-caret-position="138">
+          <caret line="6" column="1" selection-start-line="3" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/D23/password_scan.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1357">
-          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D23/password_scan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D22/bi_password.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="3" selection-end-line="6" selection-end-column="1" />
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/D23/구미_1반_이규진.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="33" column="62" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="62" />
+        <state relative-caret-position="228">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D23/5185_bi_num.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="45" column="25" lean-forward="true" selection-start-line="9" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D23/5186_bi_num2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="3" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D23/jungsik_bank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="55" column="39" lean-forward="true" selection-start-line="3" selection-end-line="55" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D23/password_scan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D24/연습문제1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D22/password_pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D24/recur_selection_sort.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D01/Baby_gin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D24/baby_gin.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D24/baby_gin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <marker date="1553063059563" expanded="true" signature="64:609" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D24/recur_selection_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <marker date="1553056824349" expanded="true" signature="389:391" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D24/combination.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D24/permutation_backtracking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <marker date="1553071446254" expanded="true" signature="583:749" ph="..." />
+            <marker date="1553071446254" expanded="true" signature="583:750" ph="..." />
+            <marker date="1553071446254" expanded="true" signature="583:751" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D24/ex03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
