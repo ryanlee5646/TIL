@@ -20,3 +20,4 @@ for a in range(N):
                     mul_combi.append([data[a],data[b],data[c]])
 
 print(mul_combi)
+

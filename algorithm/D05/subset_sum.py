@@ -1,5 +1,5 @@
-import sys
-sys.stdin = open("subset_input.txt","r")
+# import sys
+# sys.stdin = open("subset_input.txt","r")
 
 arr = [-3, 3, -9, 6, 7, -6, 1, 5, 4, -2]
 n = len(arr) # 원소의 개수
