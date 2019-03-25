@@ -97,7 +97,6 @@ for t in range(1, T + 1):
     company = []  # 회사 좌표
     home = []  #
     start_end = []
-    temp = []
     visited = [0] * people
     low = 12359129
     for i in range(0, people * 2 + 4, 2):
