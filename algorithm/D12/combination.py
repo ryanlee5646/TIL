@@ -22,7 +22,7 @@ def combination(data, r):
 
     generate([])
 
-combination([1, 2, 3, 4], 2)
+combination([1, 2, 3, 4], 4)
 
 
 
