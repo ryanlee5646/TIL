@@ -12,7 +12,7 @@ def Backtrack(start):
         tmpresult = cal(route)
         if tmpresult <low:
             low = tmpresult
-        return
+
     if len(route) >= 1 and low != 987654321:    #초기값이 9876...이 아니면(계산이 한번됬으면)계산
         tmpresult = cal(route)
         if tmpresult>=low:      #중간 계산 결과가 결과 값보다 크면 리턴 후속작업 안함
@@ -25,8 +25,7 @@ def Backtrack(start):
             visited[i] = 0
             route.pop()
 T = int(input())
-# 회사, 집, N명의 고객
-# 0 0 100 100 70 40 30 10 10 5 90 70 50 20
+
 for t in range(1,T+1):
     N = int(input())
     data = list(map(int, input().split()))

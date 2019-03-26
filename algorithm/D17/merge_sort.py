@@ -34,6 +34,7 @@ def merge_sort(data):
         return data
     left = merge_sort(data[:len(data)//2])
     right = merge_sort(data[len(data)//2:])
+
     print("left: {}".format(left))
     print("right: {}".format(right))
     return merge(left, right)
