@@ -2,7 +2,6 @@ import sys
 sys.stdin = open("Dijkstra.txt", "r")
 
 def dijkstra(start, A, D):
-
     w = 0
     while V != False:
         temp = 987654321

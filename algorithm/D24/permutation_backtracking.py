@@ -1,20 +1,20 @@
 
 # 순열
-def DFS(here, r):
+def Permutation(here, r):
     global count1
     if len(result) == r:
         count1 += 1
         print(result, end=' ')
         return
     for i in range(len(data)):
-        if not visited[i]:
+        if visited[i] == 0:
             visited[i] = 1
             result.append(data[i])
-            DFS(here+1,r)
+            Permutation(here+1,r)
             visited[i] = 0
             result.pop()
 # 중복순열
-def Mul_DFS(here, r):
+def Mul_Permutation(here, r):
     global count2
     if len(result1) == r:
         count2 += 1
@@ -22,7 +22,7 @@ def Mul_DFS(here, r):
         return
     for i in range(len(data)):
         result1.append(data[i])
-        Mul_DFS(here+1,r)
+        Permutation(here+1,r)
         result1.pop()
 
 
