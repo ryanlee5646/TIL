@@ -19,7 +19,7 @@ def Back(here):
     if len(result) >= 1:
         print(result)
         tmp_result = cal(result)
-        if tmp_result >= low:
+        if tmp_result >= low: # 첫번째 돌때 low 초기값보다 클 순 없음.
             return
     for i in range(len(route)):
         if not visited[i]:
@@ -42,7 +42,45 @@ for t in range(1,T+1):
     print("#{} {}".format(t,low))
 
 
-
+# T = int(input())
+#
+# def Back(here):
+#     global result, low
+#     if len(result) == N:
+#         temp_list = [start] + result + [end]
+#         temp = 0
+#         for i in range(1, len(temp_list)):
+#             temp += (abs(temp_list[i - 1][0] - temp_list[i][0]) + abs(temp_list[i - 1][1] - temp_list[i][1]))
+#         if temp >= low:
+#             return
+#         else:
+#             low = temp
+#     if len(result) >= 1:
+#         temp_list = [start] + result + [end]
+#         temp = 0
+#         for i in range(1, len(temp_list)):
+#             temp += (abs(temp_list[i - 1][0] - temp_list[i][0]) + abs(temp_list[i - 1][1] - temp_list[i][1]))
+#         if temp >= low:
+#             return
+#     for i in range(len(route)):
+#         if not visited[i]:
+#             visited[i] = 1
+#             result.append(route[i])
+#             Back(here+1)
+#             visited[i] = 0
+#             result.pop()
+# for t in range(1,T+1):
+#     N = int(input())
+#     people = list(map(int,input().split()))
+#     start = [people.pop(0),people.pop(0)]
+#     end = [people.pop(0), people.pop(0)]
+#     route = [[people[i],people[i+1]] for i in range(0,len(people),2)]
+#     visited = [0]*N
+#     result = []
+#     low = 987654321
+#
+#     Back(0)
+#     print("#{} {}".format(t,low))
 
 
 

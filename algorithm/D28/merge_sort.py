@@ -20,7 +20,7 @@ def merge(left, right):
             i+=1
             k+=1
         else:
-            result.append(right[i])
+            result.append(right[j])
             j+=1
             k+=1
     if i >= len(left): #i = 1, k = 1, j =0
@@ -35,5 +35,4 @@ for t in range(1,T+1):
     data = list(map(int,input().split()))
     count = 0
     result = merge_sort(data)
-
     print("#{} {} {}".format(t,result[len(result)//2],count))
