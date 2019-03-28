@@ -6,22 +6,78 @@ sys.stdin = open("elec_bus2.txt","r")
 # 가장 밖에 있는 재귀 함수는 최대 충전횟수만큼 인덱스를 추가해줌
 
 def Back(here, remain, count):
-    # here+1, charge[here+1], c
-    # here+1, h-1, c
-
-
+    global low
+    remain -= 1
+    if here == N-1:
+        if count <= low:
+            low = count
+        return
+    if count > low:
+        return
+    if remain == 0:
+        Back(here+1, charge[here], count+1)
+        return
+    if remain > charge[here]:
+        Back(here+1,remain,count)
+        return
+    Back(here + 1, charge[here], count + 1) # 충전하기
+    Back(here + 1, remain, count) # 충전안하고 가기
 
 T = int(input())
-for t in range(1,T+1):
-    charge = list(map(int,input().split())) #충전소
-    N = charge.pop(0) # 충전소 횟수 here이 N이되면 종료
-    print(charge)
-    print(N)
-    low = 987654321 # 충전 횟수
-    temp = 0
-    charge_num = 0 # 충전 잔량
-    # visited = [0]*(N-1)
-    # print(visited)
-    Back(0)
+for t in range(1, T + 1):
+    charge = list(map(int, input().split()))  # 충전소
+    N = charge.pop(0)  # 충전소 횟수 here이 N이되면 종료
+    low = 987654321  # 충전 횟수
+    Back(1, charge[0], 0)
+    print("#{} {}".format(t,low))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #
+    # remain -=1
+    # global low
+    # if here >= N-2:
+    #     if count <= low:
+    #         low = count
+    #     return
+    # if count >= low:
+    #     return
+    # if remain==0:
+    #     Back(here + 1, charge[here], count + 1)
+    #     return
+    # if remain>=charge[here]:
+    #     Back(here+1, remain, count)
+    #     return
+    # Back(here+1,charge[here],count+1)
+    # Back(here+1, remain, count)
+    #
+
+
 
 
