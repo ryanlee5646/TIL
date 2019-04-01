@@ -1,35 +1,75 @@
 import sys
 sys.stdin = open("dongcheol_work.txt", "r")
 
-def Back(y,temp):
-    global max_num
-    # count = 1
-    # for i in permutation:
-    #     count = count * i
-    #     if count > max_num:
-    #         return
 
-    if len(permutation) == N:
-        if  max_num == 1 or temp > max_num:
-            max_num = temp
+# def Back(yy):
+#     global max_result
+#     if len(permutation) == N:
+#         temp = 1
+#         for i in permutation:
+#             temp*=i
+#         if max_result == 1 or temp > max_result:
+#             max_result = temp
+#             return
+#     if len(permutation) < N:
+#         temp = 1
+#         for i in permutation:
+#             temp*=i
+#             # print(temp)
+#         if max_result != 1 and max_result >= temp:
+#             return
+#     for xx in range(N):
+#         if not visited[xx]:
+#             visited[xx] = 1
+#             permutation.append(data[yy][xx])
+#             Back(yy+1)
+#             visited[xx] = 0
+#             permutation.pop()
+# T = int(input())
+# for t in range(1,T+1):
+#     N = int(input())
+#     data = []
+#     visited = [0]*N
+#     max_result = 1
+#     permutation = []
+#     for i in range(N):
+#         data.append(list(map(int,input().split())))
+#     for y in range(N):
+#         for x in range(N):
+#             data[y][x] /= 100
+#     Back(0)
+#     A=round(max_result*100)
+#     A=format(A,".6f")
+#     print("#{} {}".format(t,A))
+
+
+def Back(yy, now_temp):
+    global max_result
+    if yy == N:
+        if now_temp > max_result:
+            max_result = now_temp
+            return
+    if now_temp <= max_result:
         return
-
-    for x in range(N):
-            if not visited[x]:
-                visited[x] = 1
-                count = 1
-                temp = count*data[y][x]
-                Back(y+1,temp)
-                visited[x] = 0
-                permutation.pop()
-
-T = int(input())
+    for i in range(N):
+        if not visited[i]:
+            visited[i] = 1
+            Back(yy+1, now_temp*data[yy][i])
+            visited[i] = 0
+T=int(input())
 for t in range(1,T+1):
     N = int(input())
-    data = [list(map(int, input().split())) for _ in range(N)]
+    data = []
     visited = [0]*N
-    permutation = []
-    max_num = 1
-    print(data)
-    Back(0,0)
-    print("#{} {}".format(t, round(max_num*100, 6)))
+    max_result = 0
+    for i in range(N):
+        data.append(list(map(int,input().split())))
+    for y in range(N):
+        for x in range(N):
+            data[y][x] *= 0.01
+    Back(0,1)
+    A = max_result * 100
+    A = format(A, ".6f")
+    print("#{} {}".format(t,A))
+
+
