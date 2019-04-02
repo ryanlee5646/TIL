@@ -1,7 +1,7 @@
-import sys
+import sys,time
 sys.stdin = open("ex02.txt", "r")
 from itertools import combinations
-
+stime = time.time()
 # def combi(index,combination,length):
 #     if len(combination) == length:
 #         print(combination)
@@ -50,7 +50,7 @@ for t in range(1,T+1):
                         max_sum = temp
 
     print("#{} {}".format(t,max_sum))
-
+    print(time.time() - stime)
 
 
 

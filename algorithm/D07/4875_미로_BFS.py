@@ -12,6 +12,7 @@ def BFS(Start_y, Start_x):
 
     queue.append([Start_y, Start_x])
 
+
     while queue:
         y,x = queue.pop(0)
         for dir in range(4):
@@ -43,7 +44,7 @@ for t in range(1, T+1):
     BFS(Start_y, Start_x)
 
     if data[End_y][End_x] == 1:
-        print(f"#{t} 1")
+        print("#{} 1".format(t))
     else:
-        print(f"#{t} 0")
+        print("#{} 0".format(t))
 

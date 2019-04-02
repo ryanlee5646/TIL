@@ -1,5 +1,6 @@
-import sys
+import sys, time
 sys.stdin = open("ex01.txt", "r")
+stime = time.time()
 
 def Issafe(y,x,N):
     if y>=0 and y<N and x>=0 and x<N and not visited[y][x]:
@@ -34,3 +35,4 @@ for t in range(1,T+1):
     low = 987654321
     Back(start[0], start[1],0)
     print("#{} {}".format(t,low))
+    print(time.time()-stime)

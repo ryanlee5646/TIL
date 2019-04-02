@@ -1,6 +1,6 @@
-import sys
+import sys,time
 sys.stdin = open("ex03.txt", "r")
-
+stime = time.time()
 def cal(snack_per):
     temp = 0
     for i in range(len(snack_per)):
@@ -42,4 +42,5 @@ for t in range(1,T+1):
         snack.append([snack_data[i], snack_data[i+1]])
     permutation(0, len(snack))
     print("#{} {}".format(t,low))
+    print(time.time() - stime)
 
