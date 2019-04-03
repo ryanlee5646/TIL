@@ -3,16 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7bfe0a49-1f41-4836-b55c-ef395a2d05d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D07/4875_미로_BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D07/4875_미로_BFS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D26/supply_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D26/supply_route.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D30/min_cost.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D30/min_cost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D30/min_cost.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D30/min_cost.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex02.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex02.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex03.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex03.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/D30/min_move_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D30/min_move_distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/D31/escapee_arrest.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D31/escapee_arrest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/D31/escapee_arrest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D31/escapee_arrest.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,138 +20,131 @@
     <session id="819906856">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="25" />
-          <entry key="txt" value="8" />
+          <entry key="py" value="33" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="25" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4460" />
-          <entry key="txt" value="32" />
+          <entry key="py" value="7365" />
+          <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Python" value="4460" />
+          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="Python" value="7365" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex03.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/D24/dongcheol_work.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/D30/min_move_distance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <marker date="1554195092747" expanded="true" signature="94:485" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/D30/min_cost.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
-              <folding>
-                <marker date="1554185231353" expanded="true" signature="1218:2129" ph="..." />
-                <marker date="1554185231353" expanded="true" signature="2610:2611" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/D30/min_move_distance.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/D29/Dijkstra.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/D29/computer_worm_2606.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex02.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex03.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="426">
+                  <caret line="45" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="462">
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="118">
+                  <caret line="66" column="33" lean-forward="true" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+                  <folding>
+                    <marker date="1554282023463" expanded="true" signature="516:1650" ph="..." />
+                    <marker date="1554282023463" expanded="true" signature="663:1648" ph="..." />
+                    <marker date="1554282023463" expanded="true" signature="2787:3939" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="1" selection-start-column="1" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/algorithm/D30/min_move_distance.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="431">
+                  <caret line="61" column="53" lean-forward="true" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="814">
+                  <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex02.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1144">
+                  <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="242">
+                  <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="48" />
+                  <folding>
+                    <marker date="1554282023463" expanded="true" signature="516:1650" ph="..." />
+                    <marker date="1554282023463" expanded="true" signature="663:1648" ph="..." />
+                    <marker date="1554282023463" expanded="true" signature="2787:3939" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -204,14 +190,15 @@
         <option value="$PROJECT_DIR$/algorithm/D30/min_cost.py" />
         <option value="$PROJECT_DIR$/algorithm/D30/min_move_distance.txt" />
         <option value="$PROJECT_DIR$/algorithm/D30/min_move_distance.py" />
+        <option value="$PROJECT_DIR$/algorithm/D31/escapee_arrest.txt" />
+        <option value="$PROJECT_DIR$/algorithm/D31/escapee_arrest.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="463" />
-    <option name="y" value="3" />
-    <option name="width" value="1400" />
-    <option name="height" value="994" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="986" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -221,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,28 +220,11 @@
               <item name="gyujin" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="gyujin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gyujin" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="D24" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gyujin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gyujin" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="D30" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gyujin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gyujin" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="D31" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,8 +249,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.min_cost">
-    <configuration name="ex01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.escapee_arrest">
+    <configuration name="escapee_arrest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gyujin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,11 +258,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/D31" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/D31/escapee_arrest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -390,16 +359,16 @@
       <item itemvalue="Python.min_cost" />
       <item itemvalue="Python.ex03" />
       <item itemvalue="Python.ex02 (1)" />
-      <item itemvalue="Python.ex01" />
       <item itemvalue="Python.min_move_distance" />
+      <item itemvalue="Python.escapee_arrest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.escapee_arrest" />
         <item itemvalue="Python.min_cost" />
         <item itemvalue="Python.min_move_distance" />
         <item itemvalue="Python.ex03" />
         <item itemvalue="Python.ex02 (1)" />
-        <item itemvalue="Python.ex01" />
       </list>
     </recent_temporary>
   </component>
@@ -430,8 +399,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3170467" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39630836" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3159609" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45059717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -477,8 +446,65 @@
           <line>51</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="visited" />
+        <watch expression="count" />
+        <watch expression="data" language="Python" />
+        <watch expression="time" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>visited</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>time</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>time\</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/algorithm/ex.py" />
@@ -502,27 +528,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D30/구미_1반_이규진/ex02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D30/구미_1반_이규진/ex01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="33" lean-forward="true" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D30/구미_1반_이규진/ex03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D30/구미_1반_이규진/ex02.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/D30/구미_1반_이규진/ex01.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/D30/구미_1반_이규진/ex03.py" />
     <entry file="file://$PROJECT_DIR$/algorithm/D21/combination.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -575,27 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/sum.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -609,58 +596,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex03.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="814">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D30/min_cost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+          <folding>
+            <marker date="1554185231353" expanded="true" signature="1218:2129" ph="..." />
+            <marker date="1554185231353" expanded="true" signature="2610:2611" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D30/min_move_distance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/D29/Dijkstra.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/D29/computer_worm_2606.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D24/dongcheol_work.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D30/min_move_distance.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/D30/min_move_distance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <marker date="1554195092747" expanded="true" signature="94:485" ph="..." />
-          </folding>
+        <state relative-caret-position="431">
+          <caret line="61" column="53" lean-forward="true" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D30/min_cost.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D24/dongcheol_work.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D25/cargo_dock.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D25/elec_cart.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="45" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="66" column="33" lean-forward="true" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
           <folding>
-            <marker date="1554185231353" expanded="true" signature="1218:2129" ph="..." />
-            <marker date="1554185231353" expanded="true" signature="2610:2611" ph="..." />
+            <marker date="1554282023463" expanded="true" signature="516:1650" ph="..." />
+            <marker date="1554282023463" expanded="true" signature="663:1648" ph="..." />
+            <marker date="1554282023463" expanded="true" signature="2787:3939" ph="..." />
           </folding>
         </state>
       </provider>

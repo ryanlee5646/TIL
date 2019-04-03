@@ -55,8 +55,8 @@ from collections import deque
 #             if # 다음에 갈 위치의 거리보다 현재까지거리 + 다음위치가면서 더해질 거리가 작은가?
 #                 visited[ny][nx] = visited[y][x] + Mymap[ny][nx]
 #                 Q.append([])
-
-
+#
+#
 # T = int(input())
 # for t in range(1,T+1):
 #     N, M = map(int, input().split()) #N은 끝점, M 경로 수
@@ -75,4 +75,4 @@ from collections import deque
 #             start_x = x
 #             BFS(start_y,start_x)
 #             break
-#
+
