@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bfe0a49-1f41-4836-b55c-ef395a2d05d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/D32/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/D32/grid_attach.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/D32/grid_attach.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/D32/square_room.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/D32/square_room.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/D32/vote_olympic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/D32/vote_olympic.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D30/min_move_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D30/min_move_distance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D31/escapee_arrest.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D31/escapee_arrest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/D31/escapee_arrest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D31/escapee_arrest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/D31/sangwon_party.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D31/sangwon_party.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/D31/sangwon_party.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/D31/sangwon_party.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,131 +26,75 @@
     <session id="819906856">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="33" />
-          <entry key="txt" value="9" />
+          <entry key="py" value="40" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="33" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Python" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7365" />
-          <entry key="txt" value="47" />
+          <entry key="py" value="10935" />
+          <entry key="txt" value="244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="47" />
-          <entry key="Python" value="7365" />
+          <entry key="PLAIN_TEXT" value="244" />
+          <entry key="Python" value="10935" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex03.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="426">
-                  <caret line="45" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="45" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="21" selection-start-line="21" selection-end-line="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="118">
-                  <caret line="66" column="33" lean-forward="true" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
-                  <folding>
-                    <marker date="1554282023463" expanded="true" signature="516:1650" ph="..." />
-                    <marker date="1554282023463" expanded="true" signature="663:1648" ph="..." />
-                    <marker date="1554282023463" expanded="true" signature="2787:3939" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="1" selection-start-column="1" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algorithm/D30/min_move_distance.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="431">
-                  <caret line="61" column="53" lean-forward="true" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="814">
-                  <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex02.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1144">
-                  <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="48" />
-                  <folding>
-                    <marker date="1554282023463" expanded="true" signature="516:1650" ph="..." />
-                    <marker date="1554282023463" expanded="true" signature="663:1648" ph="..." />
-                    <marker date="1554282023463" expanded="true" signature="2787:3939" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/D32/grid_attach.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+              <folding>
+                <marker date="1554356471342" expanded="true" signature="186:498" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/D32/square_room.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <folding>
+                <marker date="1554367840937" expanded="true" signature="72:543" ph="..." />
+                <marker date="1554367840937" expanded="true" signature="168:526" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/D32/square_room.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4022">
+              <caret line="709" selection-start-line="709" selection-end-line="709" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -192,11 +142,20 @@
         <option value="$PROJECT_DIR$/algorithm/D30/min_move_distance.py" />
         <option value="$PROJECT_DIR$/algorithm/D31/escapee_arrest.txt" />
         <option value="$PROJECT_DIR$/algorithm/D31/escapee_arrest.py" />
+        <option value="$PROJECT_DIR$/algorithm/vote_olympic.py" />
+        <option value="$PROJECT_DIR$/algorithm/D31/sangwon_party.txt" />
+        <option value="$PROJECT_DIR$/algorithm/D31/sangwon_party.py" />
+        <option value="$PROJECT_DIR$/algorithm/D32/vote_olympic.txt" />
+        <option value="$PROJECT_DIR$/algorithm/D32/vote_olympic.py" />
+        <option value="$PROJECT_DIR$/algorithm/D32/grid_attach.txt" />
+        <option value="$PROJECT_DIR$/algorithm/D32/grid_attach.py" />
+        <option value="$PROJECT_DIR$/algorithm/D32/square_room.py" />
+        <option value="$PROJECT_DIR$/algorithm/D32/square_room.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="986" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -208,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,11 +180,22 @@
               <item name="gyujin" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gyujin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gyujin" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="D31" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gyujin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gyujin" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="D32" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,6 +205,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\gyujin\algorithm\D32" />
       <recent name="C:\Users\student\gyujin\algorithm" />
     </key>
   </component>
@@ -249,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.escapee_arrest">
+  <component name="RunManager" selected="Python.square_room">
     <configuration name="escapee_arrest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gyujin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,7 +243,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex02 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="grid_attach" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gyujin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,11 +251,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/D32" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/D32/grid_attach.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,7 +264,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex03" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sangwon_party" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gyujin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,11 +272,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/D31" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex03.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/D31/sangwon_party.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,7 +285,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="min_cost" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="square_room" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gyujin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,11 +293,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/D30" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/D32" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/D30/min_cost.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/D32/square_room.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,7 +306,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="min_move_distance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="vote_olympic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gyujin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,11 +314,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/D30" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/D32" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/D30/min_move_distance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/D32/vote_olympic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -356,19 +328,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.min_cost" />
-      <item itemvalue="Python.ex03" />
-      <item itemvalue="Python.ex02 (1)" />
-      <item itemvalue="Python.min_move_distance" />
       <item itemvalue="Python.escapee_arrest" />
+      <item itemvalue="Python.sangwon_party" />
+      <item itemvalue="Python.vote_olympic" />
+      <item itemvalue="Python.grid_attach" />
+      <item itemvalue="Python.square_room" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.square_room" />
+        <item itemvalue="Python.grid_attach" />
+        <item itemvalue="Python.vote_olympic" />
+        <item itemvalue="Python.sangwon_party" />
         <item itemvalue="Python.escapee_arrest" />
-        <item itemvalue="Python.min_cost" />
-        <item itemvalue="Python.min_move_distance" />
-        <item itemvalue="Python.ex03" />
-        <item itemvalue="Python.ex02 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +364,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0943098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -416,6 +387,29 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1809909" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31907895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45059717" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30944625" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -471,18 +465,32 @@
           <line>129</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/D32/square_room.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="visited" />
-        <watch expression="count" />
-        <watch expression="data" language="Python" />
-        <watch expression="time" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>y==1</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>y==1 and x==0</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="watch">
       <expression>
         <expression-string>visited</expression-string>
@@ -596,20 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/D30/min_cost.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -642,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D30/min_move_distance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="61" column="53" lean-forward="true" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -671,8 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="45" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="45" />
+        <state relative-caret-position="990">
+          <caret line="45" selection-start-line="44" selection-start-column="4" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -683,6 +670,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D30/min_move_distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="61" column="53" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D31/구미_1반_이규진/ex02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1109">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+          <folding>
+            <marker date="1554282023463" expanded="true" signature="516:1650" ph="..." />
+            <marker date="1554282023463" expanded="true" signature="663:1648" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D31/sangwon_party.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D32/vote_olympic.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -690,14 +723,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D31/escapee_arrest.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/D32/grid_attach.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="66" column="33" lean-forward="true" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D31/sangwon_party.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D32/vote_olympic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D32/grid_attach.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
           <folding>
-            <marker date="1554282023463" expanded="true" signature="516:1650" ph="..." />
-            <marker date="1554282023463" expanded="true" signature="663:1648" ph="..." />
-            <marker date="1554282023463" expanded="true" signature="2787:3939" ph="..." />
+            <marker date="1554356471342" expanded="true" signature="186:498" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D32/square_room.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4022">
+          <caret line="709" selection-start-line="709" selection-end-line="709" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D32/square_room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <marker date="1554367840937" expanded="true" signature="72:543" ph="..." />
+            <marker date="1554367840937" expanded="true" signature="168:526" ph="..." />
           </folding>
         </state>
       </provider>
