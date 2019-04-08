@@ -25,16 +25,17 @@
 
 #   
 # 중복조합
-def combi(index, combination, length):
-    global count
-    if len(combination) == length:
-        print(combination)
-        count+=1
-        return
-    if index>=len(data):
-        return
-    combi(index,combination+[data[index]],length)
-    combi(index+1,combination,length)
+# def combi(index, combination, length):
+#     global count
+#     if len(combination) == length:
+#         print(combination)
+#         count+=1
+#         return
+#     if index>=len(data):
+#         return
+#     combi(index,combination+[data[index]],length)
+#     combi(index+1,combination,length)
+
 
 count = 0
 data = [1,2,3,4,5]

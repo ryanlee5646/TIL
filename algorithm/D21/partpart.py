@@ -7,10 +7,8 @@ def part(now_index):
         print(checker)
         return
 
-
         checker[now_index]=0
         part(now_index+1)
         checker[now_index]=1
         part(now_index + 1)
-
 part(0)

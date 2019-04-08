@@ -1,9 +1,8 @@
 import sys
 sys.stdin = open("square_room.txt", "r")
 
-
 def IsSafe(y,x,N):
-    if 0<=y<N and 0<=x<N:
+    if 0<=y<N and 0<=x<N :
         return True
     else:
         return False
