@@ -14,7 +14,7 @@ def Back(y,x,temp):
         if temp < low:
             low = temp
             return
-    if temp > low:
+    if temp >= low:
         return
 
     for i in range(8):
