@@ -18,9 +18,16 @@ for t in range(1,T+1):
 		else:
 			blue_start.append([i[0],i[1]])
 			blue_end.append([i[2],i[3]])
-	print(red_start)
-	print(red_end)
-	for i in range()
+
+	for i in range(len(red_start)):
+		for y in range(red_start[i][0],red_end[i][0]+1):
+			for x in range(red_start[i][1],red_end[i][1]+1):
+				red_visited[y][x] = 1
+	for i in range(len(blue_start)):
+		for y in range(blue_start[i][0],blue_end[i][0]+1):
+			for x in range(blue_start[i][1],blue_end[i][1]+1):
+				blue_visited[y][x] = 1
+
 
 	count = 0
 	for y in range(10):

@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/algorithm/D33/memory_2048.py" line="31" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bfe0a49-1f41-4836-b55c-ef395a2d05d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/D33/memory_2048.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/D33/memory_2048.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7bfe0a49-1f41-4836-b55c-ef395a2d05d9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +18,11 @@
     <session id="819906856">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="4" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,11 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/D32/grid_attach.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="990">
               <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-              <folding>
-                <marker date="1554356471342" expanded="true" signature="186:498" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -71,12 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/D32/square_room.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-              <folding>
-                <marker date="1554367840937" expanded="true" signature="72:543" ph="..." />
-                <marker date="1554367840937" expanded="true" signature="168:526" ph="..." />
-              </folding>
+            <state relative-caret-position="154">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -84,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/D32/square_room.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="763">
+            <state relative-caret-position="15598">
               <caret line="709" selection-start-line="709" selection-end-line="709" />
             </state>
           </provider>
@@ -93,12 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithm/D33/memory_2048.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="256">
               <caret line="65" selection-start-line="65" selection-end-line="65" />
-              <folding>
-                <marker date="1554450587249" expanded="true" signature="67:268" ph="..." />
-                <marker date="1554450587249" expanded="true" signature="903:2572" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -196,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,28 +195,15 @@
               <item name="gyujin" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="gyujin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gyujin" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="D01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gyujin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gyujin" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="D33" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/algorithm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -393,9 +367,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0943098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0943098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -646,10 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
-          <folding>
-            <marker date="1554185231353" expanded="true" signature="1218:2129" ph="..." />
-            <marker date="1554185231353" expanded="true" signature="2610:2611" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,10 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1109">
           <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
-          <folding>
-            <marker date="1554282023463" expanded="true" signature="516:1650" ph="..." />
-            <marker date="1554282023463" expanded="true" signature="663:1648" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,38 +750,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D32/square_room.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/D32/grid_attach.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <marker date="1554367840937" expanded="true" signature="72:543" ph="..." />
-            <marker date="1554367840937" expanded="true" signature="168:526" ph="..." />
-          </folding>
+        <state relative-caret-position="990">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D32/grid_attach.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/D32/square_room.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-          <folding>
-            <marker date="1554356471342" expanded="true" signature="186:498" ph="..." />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/D32/square_room.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
+        <state relative-caret-position="15598">
           <caret line="709" selection-start-line="709" selection-end-line="709" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/D33/memory_2048.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -827,14 +778,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/D33/memory_2048.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/D33/memory_2048.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="256">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <marker date="1554450587249" expanded="true" signature="67:268" ph="..." />
-            <marker date="1554450587249" expanded="true" signature="903:2572" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
