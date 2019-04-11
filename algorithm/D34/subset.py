@@ -1,20 +1,26 @@
 import sys
 sys.stdin = open("subset.txt", "r")
 
-def combination(index,combi,N):
+def combination(index,combi):
+	global count
 	if len(combi) == N:
-		print(combi)
+		if sum(combi) == K:
+			count+=1
+			return
+	if index >= len(data):
 		return
-	if index > len(data):
+
+	elif sum(combi) > K:
 		return
-	combination(index+1,combi+[data[index]],N)
-	combination(index,combi,N)
 
-
+	combination(index+1,combi+[data[index]])
+	combination(index+1,combi)
 
 T = int(input())
 data = [i for i in range(1,13)]
-print(data)
+
 for t in range(1,T+1):
 	N, K = map(int,input().split())
-	combination(0,[],N)
+	count = 0
+	combination(0, [])
+	print("#{} {}".format(t,count))
