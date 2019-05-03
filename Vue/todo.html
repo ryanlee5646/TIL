@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="todo in todos" v-if="!todo.completed" v-on:click="check(todo)"> <!-- for, if문 중에서는 for이 우선순위 위치가 바껴도, if를 먼저 쓰고싶으면 한칸 위에서 써야함-->
+                {{ todo.content }}
+            </li>
+            <!-- <li v-else-if="true"></li> -->
+            <li v-else v-on:click="check(todo)">[완료!]</li>
+            <!-- v-on -->
+        </ul>
+    </div>
+    
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                todos: [
+                    {
+                        content: '점심 메뉴 고민하기',
+                        completed: true,
+                    },
+                    {
+                        content: '사다리 타기',
+                        completed: false,
+                    },
+                    {
+                        content: '약속의 2시, 낮잠자기',
+                        completed: false,
+                    },
+                    {
+                        content: '야자하기',
+                        completed: false,
+                    },
+                ]
+            },
+            methods : {
+                check: function(todo){
+                    todo.completed = !todo.completed
+                }
+            }
+        })
+    </script>
+</body>
+</html>
