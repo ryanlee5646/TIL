@@ -9,16 +9,20 @@
 </head>
 <body>
     <div id="app">
-        <input type="text" v-model="url">
-        <a v-bind:href="url">Go!</a>
+ 		<ul>
+            <li v-for="number in numbers" v-if="number % 2 == 0">
+            	{{ number }}
+            </li>
+        </ul>
     </div>
+
 
     <script>
         const app = new Vue({
-            el: '#app',
+            el: '#app', 
             data: {
-                url: '',
-            }
+                numbers: [0,1,2,3,4,5,6,7,8,9],
+            },
         })
     </script>
 </body>

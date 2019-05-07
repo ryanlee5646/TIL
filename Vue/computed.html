@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- '@'은 v-on의 약자 -->
+        <button v-on:click="visible = !visible">Toggle Rendering</button>
+        <ul v-if="visible">
+            <li>dateMethod: {{ dateMethod() }}</li> <!-- dateMethod는 함수를 실행할 때마다 실행-->
+            <li>dateComputed: {{ dateComputed }}</li> <!-- computed는 한번 실행 된 함수가 남아있음 -->
+        </ul>
+    </div>
+
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                visible: true,
+            },
+            methods: {
+                dateMethod: function(){
+                    return new Date()
+                },
+            },
+            computed: {
+                dateComputed: function(){
+                    return new Date()
+                },
+            }
+        })
+    </script>
+</body>
+</html>
