@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="app">  
+        <ul>
+            <li v-for="music in musics">
+                <div>
+                {{ music.artist_name }} - {{ music.title }} <!-- c9 django api를 복사한 프로젝트안에 serializer를 artist의 이름이 보이도록 설정-->
+                </div>
+                <ul>
+                    <li v-for="comment in music.comment_set">
+                        {{ comment.content }} <button @click="deleteComment(music, comment)">X</button>     <!-- 노래에 달린 댓글들 반복 돌려서 출력-->
+                    </li>
+                </ul>
+                <div>
+                    <input type="text" v-model="music.newComment"> <!-- 자기자신(music)의 newComment 이렇게 해야 각각의 댓글이 써짐-->
+                    <button @click="addComment(music)">+</button>
+                </div>
+            </li>
+        </ul>
+        
+    </div>
+
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                musics: [],
+            }, 
+            methods:{
+                getMusics: function(){
+                    axios.get('http://playground-ryanlee5646.c9users.io:8080/api/v1/musics/')
+                            .then((response)=>{
+                                return response.data
+                            })
+                            .then((musics)=>{
+                                this.musics = musics.map((music)=>{ // musics를 반복돌려서 music을 꺼내 배열을 만듬
+                                    return { ...music, newComment:''} // 배열값을 ...으로 복사해주고, 그 배열 뒤에 newComment를 꼽사리껴줌
+                                })
+                            })
+                            .catch((error)=>{
+                                console.log(error) // 에러가나면 console에 찍히게
+                            })
+                },
+                addComment: function(music){
+                    axios.post(`http://playground-ryanlee5646.c9users.io:8080/api/v1/musics/${music.id}/comments/`, {content: music.newComment}) // post를 보내는 주소는 get요청 주소랑 다름
+                            // ${music.id} f스트링을 사용하기 위해서는 backtic을 써야함
+                            .then((response)=>{
+                                return(response.data)
+                            })
+                            .then((comment)=>{
+                                music.comment_set.push(comment) // 새로 작성된 comment를 현재 music에 comment 배열(comment_set)에 추가해줌
+                                music.newComment = '' // 그리고 새로운 댓글칸을 빈칸으로 만들어줌
+                            })
+                            .catch((error)=>{
+                                console.log(error) // 에러가나면 console에 찍히게
+                            })
+                },
+                deleteComment: function(music, comment){
+                    axios.delete(`http://playground-ryanlee5646.c9users.io:8080/api/v1/musics/${music.id}/comments/${comment.id}/`) // delete에서는 어떠한 값을 넘겨줄 필요가 없음 {}있는거 생략
+                            // ${music.id} f스트링을 사용하기 위해서는 backtic을 써야함
+                            .then((response)=>{
+                                music.comment_set = music.comment_set.filter((c)=>{ // 여기서 c는 comment_set을 돌면서 하나씩 꺼내온 comment
+                                    return c.id !== comment.id
+                                })
+                            })
+                            
+                            .catch((error)=>{
+                                console.log(error) // 에러가나면 console에 찍히게
+                            })
+                }
+            },
+            mounted: function(){
+                this.getMusics()
+            },
+        })
+    </script>
+    
+</body>
+</html>
