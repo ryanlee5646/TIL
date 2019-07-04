@@ -1,5 +1,5 @@
 import sys, time
-sys.stdin = open("ex01.txt","r")
+sys.stdin = open("swea_1945.txt","r")
 stime = time.time()
 def IsSafe(y,x):
     if 0<=y<N and 0<=x<N and not visited[y][x]:

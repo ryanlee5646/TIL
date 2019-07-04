@@ -1,5 +1,5 @@
 import sys, time
-sys.stdin = open("ex01.txt", "r")
+sys.stdin = open("swea_1945.txt", "r")
 stime = time.time()
 
 def Issafe(y,x,N):
