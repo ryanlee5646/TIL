@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var grades = {
+            'list' : {'egoing': 10, 'gyujin': 80, 'ryan': 35},
+            'show' : function(){
+                for(var name in this.list){
+                    console.log(name, this.list[name]);
+                }
+            }
+        }
+        grades['show']();
+        grades.show();
+    </script>
+</body>
+</html>
