@@ -1,3 +1,5 @@
+**7/21(일) TIL**
+
 ### javascript 수의 연산
 
 1. `Math.pow(3,2);` : 9, // 3의 제곱(3의 2승)
@@ -124,7 +126,7 @@
 
 => 배열(array)이란 연관된 데이터를 모아서 통으로 관리하기 위해서 사용하는 데이터 타입
 
-
+**7/22(화) TIL**
 
 ### Javascript  값을 추가하는 메서드
 
@@ -250,7 +252,7 @@ for(var name in a){
 }
 ```
 
-
+**7/23(화) TIL**
 
 ### Javascript 객체지향 프로그래밍
 
@@ -363,3 +365,310 @@ Javascript 대표적인 모듈인 **jQuery**
 
 * jQuery의 처음 시작은 무조건 `$` 로 시작한다.
 * 선택자(Selector) 접근 할때는 선택자 고유의 접근 기호를 사용하고 한칸을 띄운후 내부 태그명으로 접근
+
+
+
+**7/25(목) TIL**
+
+### Javascript 정규표현식(regular expression)
+
+
+
+#### 정규표현식 객체 생성자
+
+```javascript
+// 이 둘은 같은 표현
+var pattern = /a/;
+var pattern = new RegExp('a');
+
+console.log(pattern);
+// => /a/
+```
+
+#### 	정규표현식 메서드 실행
+
+**1. RegExp.exec()**
+
+* 인자안에 들어오는 값 중에서 객체안에 문자를 찾는 메서드
+* 문자열 뒤에 `.` 이 있으면 다음 오는 문자까지 찾아줌
+
+```javascript
+var pattern = /a/
+
+pattern.exec('abcde');
+=> 'a'
+
+var pattern = /a./
+pattern.exec('abcde');
+=> 'ab'
+pattern.exec('bcdef');
+=> null // 찾고자 하는 문자가 없음
+
+```
+
+ **2. RegExp.test()**
+
+* 인자안에 문자열이 있으면 True, 없으면 False값을 반환
+
+```javascript
+var pattern = /a/
+
+pattern.test('abcde');
+=> true
+pattern.test('bcde');
+=> false
+```
+
+**3. String.match()**
+
+* `RegExp.exec()`와 유사하며 정규표현식 패텬과 일치하는 문자열들을 담고 있는 배열을 리턴
+* 해당되는 문자열이 없을 경우 null을 리턴
+
+```javascript
+var pattern = /a/
+var str = 'abcedf'
+str.match(pattern);
+=> ["a"]
+```
+
+**4. String.replace()**
+
+* 문자열에서 패턴을 검색해서 이를 변경한 후에 변경된 값을 리턴한다.
+
+```javascript
+'abcdef'.repalce("a", "A");
+=> "Abcdef"
+```
+
+
+
+### 옵션(Option) - i 와 g
+
+* `i` 는 찾는 문자열의 대소문자 구분없이 리턴
+
+```javascript
+var xi = /a/;
+console.log("Abcde".match(xi)); // null
+var oi = /a/i;
+console.log("Abcde".match(oi)); // ["A"];
+```
+
+* `g` 는 검색된 모든 결과를 리턴함
+
+```javascript
+var xg = /a/;
+console.log("abcdea".match(xg)); ["a"]
+var og = /a/g;
+console.log("abcdea".match(og)); // ["a","a"]
+```
+
+* `ig` 형태로 한번에 붙여서 값을 리턴 할 수도 있음
+
+```javascript
+"AabcdAa".match(/a/ig);
+=> ["A","a","A","a"]
+```
+
+
+
+### 함수에서 전역변수(Global scope)와 지역변수(Local scope)
+
+1. **전역변수로 선언**
+
+```javascript
+var vscope = 'global';
+function fscope(){
+  alert(vscope);
+}
+fscope();
+// 'global' 출력
+```
+
+2. **함수안에 전역변수를 정의**
+
+```javascript
+var vscope = 'global';
+function fscope(){
+  var vscope = 'local' // 지역변수를 선언
+  alert(vscope);
+}
+fscope();
+alert(vscope);
+// 지역변수 'local' 출력
+// 그 다음 전역변수 'global' 출력
+```
+
+3. **함수 안에서 전역변수를 재정의**
+
+```javascript
+var vscope = 'global';
+function fscope(){
+  vscope = 'local'
+  alert(vscope);
+}
+fscope();
+alert(vscope);
+// 'local' 이 2번 출력
+```
+
+
+
+### 유효범위의 효용성
+
+```javascript
+function a (){
+  var i = 0;
+}
+for(var i=0; i<5; i++){
+  a();
+  document.write(i);
+}
+
+// 01234
+```
+
+=> 전역에다가 변수를 선언하고 for문을 돌렸지만 함수 안에 같은 이름의 지역변수를 선언하였다고 해서 영향을 주지 않음.
+
+```javascript
+function a (){
+  i = 0;
+}
+for(var i=0; i<5; i++){
+  a();
+  document.write(i);
+}
+
+// 무한루프
+```
+
+=> 이 경우에는 함수안에서 전역변수를 계속 0으로 초기화하기 때문에 **무한루프**에 빠짐, 그러므로 전역변수를 지역변수와 같게 지정하면 이러한 오류를 범할 수 가 있음.
+
+
+
+### 전역변수의 사용 (모듈화)
+
+```javascript
+// 하나의 전역변수를 사용
+var MYAPP = {}
+MYAPP.calcurator = {
+  'left' : null,
+  'right' : null
+}
+MYAPP.coordinate = {
+  'left': null,
+  'right': null
+}
+console.log(MYAPP)
+MYAPP.calcurator.left = 10;
+MYAPP.calcurator.right = 20;
+function sum(){
+  return MYAPP.calculator.left + MYAPP.calcurator.right;
+}
+document.write(sum());
+```
+
+=> 하나의 전역변수 객체에 하위에 전역변수들을 관리하게 되면, 변수 충돌이 일어나는 것을 방지할 수 있다.
+
+```javascript
+function myappfn(){
+  var MYAPP = {}
+  MYAPP.calcurator = {
+    'left' : null,
+    'right' : null
+  }
+  MYAPP.coordinate = {
+    'left': null,
+    'right': null
+  }
+  console.log(MYAPP)
+  MYAPP.calcurator.left = 10;
+  MYAPP.calcurator.right = 20;
+  function sum(){
+    return MYAPP.calculator.left + MYAPP.calcurator.right;
+  }
+  document.write(sum());
+}
+myappfn();
+```
+
+=> 함수를 선언했지만 함수명을 지정하는 것 역시 하나의 전역변수를 사용하는 것과 동일하다.
+
+```javascript
+(function(){
+  var MYAPP = {}
+  MYAPP.calcurator = {
+    'left' : null,
+    'right' : null
+  }
+  MYAPP.coordinate = {
+    'left': null,
+    'right': null
+  }
+  console.log(MYAPP)
+  MYAPP.calcurator.left = 10;
+  MYAPP.calcurator.right = 20;
+  function sum(){
+    return MYAPP.calculator.left + MYAPP.calcurator.right;
+  }
+  document.write(sum());
+}()) <-//함수를 호출하는 부분
+```
+
+=> 함수를 바로 호출함으로써 하나의 전역변수도 사용하지 않음, 함수의 지역변수로 사용
+
+
+
+### 유효범위의 대상(함수)
+
+```javascript
+// javascript
+
+for(var i=0; i<1; i++){
+  var name = 'coding everybody'
+}
+alert(name);
+
+// 'coding everybody'
+```
+
+```java
+// java
+for(int i=0; i<10; i++){
+  String name = "egoing";
+}
+System.out.println(name);
+
+// 출력결과 없음
+
+```
+
+=> **자바스크립트**에서는 for문 안에서 선언한 지역변수를 밖에서 호출해도 출력가능 (`{}` 중갈호 유효범위에 해당하지 않음)
+
+​	* 자바스크립트만의 특징
+
+=> **자바** 에서는 함수 뿐만 아니라 for문안에 지역변수를 밖에서 호출해도 호출이 되지않는다. 
+
+
+
+### 정적 유효범위(Static), Lexical 유효범위
+
+```javascript
+var i = 5;
+
+function a(){
+  var i = 10;
+  b();
+}
+
+function b(){
+  document.write(i);
+}
+a()
+
+// 5
+```
+
+=> 여기서 핵심은 `function b()` 에서 지역변수 `i` 가 어디에 전역변수를 쓸 것이냐가 쟁점인데, `function a()`  의 `i`가 아닌 가장 바깥의 전역변수 `i` 의 값을 출력하게 된다. 즉, `function b()` 의 전역변수는 **함수 호출시점인 아닌 함수 정의 시점에서의 지역변수를 가져온다.**
+
+* 반대로 호출되는 시점에서 바로 상위 전역변수에 접근이 가능하다면 그것은 **동적 유효범위**에 해당한다.
+
