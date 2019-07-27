@@ -6,24 +6,54 @@
 2. `Math.round(10.6);`: 11, // 10.6을 반올림
 3. `Math.ceil(10.2);`: 11, // 10.2를 올림
 4. `Math.floor(10.6);`: 10, // 10.6을 내림
-5. `Math.sqrt(10.6);`: 3,  // 3의 제곱근()
+5. `Math.sqrt(10.6);`: 3, // 3의 제곱근()
+6. `Math.random()`: 0부터 1.0 사이의 랜덤한 숫자
 
-6.  `Math.random()`: 0부터 1.0 사이의 랜덤한 숫자
-
-* `Math.round(100 * Math.random())` : 0과 1사이의 랜덤한 수에 100을 곱한 소수자리를 반올림함
-
-
+- `Math.round(100 * Math.random())` : 0과 1사이의 랜덤한 수에 100을 곱한 소수자리를 반올림함
 
 ### 비교연산자 `==`(동등연산자) 와 `===`(일치연산자)
 
-* 비교연산자 `==` 는 데이터 type과 관계없이 형태가 같으면 `True`
-  * `1 == '1'` == `True`
-* 일치연산자 `===` 는 데이터 type까지 일치해야 `True`
-  * `1 == '1'` == `False`
+- 비교연산자
+
+   
+
+  ```
+  ==
+  ```
+
+   
+
+  는 데이터 type과 관계없이 형태가 같으면
+
+   
+
+  ```
+  True
+  ```
+
+  - `1 == '1'` == `True`
+
+- 일치연산자
+
+   
+
+  ```
+  ===
+  ```
+
+   
+
+  는 데이터 type까지 일치해야
+
+   
+
+  ```
+  True
+  ```
+
+  - `1 == '1'` == `False`
 
 => 작업을 할때 일치연산자는 안쓰는 것을 권장! 무조건 일치연산자를 쓰는 것이 나중에 코드오류가 나지 않는다.
-
-
 
 ### alert와 prompt
 
@@ -31,11 +61,9 @@
 
 `prompt`: 입력창이 있어서 사용자로부터 입력한 정보를 받을 수 있음
 
-
-
 ### 논리연산자 And('&&') 와 Or('||')
 
-```html
+```
 <script>
         id = prompt('아이디를 입력해주세요.');
         password = prompt('비밀번호를 입력해주세요.');
@@ -50,46 +78,41 @@
 
 코드 앞에 `!` 을 붙이면 not의 의미를 가진다.
 
-
-
 ### Javascript에서 True와 False로 간주하는 데이터
 
-1. 숫자 `1` 은 True   `0` 은 Flase
+1. 숫자 `1` 은 True `0` 은 Flase
 
 2. 빈문자열
 
-3. ```html
+3. ```
    if(!''){
    	alert('빈 문자열')
    }
-   
    ```
 
-3. **Undefiend**
+4. **Undefiend**
 
-4. **Null**
-5. 값이 할당되지 않은 변수
-6. !NaN 
+5. **Null**
 
+6. 값이 할당되지 않은 변수
 
+7. !NaN
 
 ### docoumet.write
 
 => 자바스크립트를 이용해서 웹페이지에 텍스트를 출력할 때 쓰는 메서드
 
-```html
+```
 <script>
     document.write('Coding everybody <br />')
 </script>
 ```
 
-
-
 ### Javascript 함수 (Function)
 
-* 함수는 코드의 재사용성을 높여준다.
+- 함수는 코드의 재사용성을 높여준다.
 
-```javascript
+```
 /* 함수 정의 방법 1 */
         numbering = function (){
             i = 0;
@@ -120,17 +143,15 @@
         })();
 ```
 
-
-
 #### 배열(Array)
 
 => 배열(array)이란 연관된 데이터를 모아서 통으로 관리하기 위해서 사용하는 데이터 타입
 
 **7/22(화) TIL**
 
-### Javascript  값을 추가하는 메서드
+### Javascript 값을 추가하는 메서드
 
-```java
+```
 data = ["a", "b", "c", "d", "e"]
 
 // push()
@@ -146,10 +167,7 @@ data.unshift('z');
 => ["z","a", "b", "c", "d", "e", "f", "h", "i"]
 
 // splice()
-
 ```
-
-
 
 #### Splice() 메서드
 
@@ -159,7 +177,7 @@ data.unshift('z');
 | howmany               | number   | 필수      | index에서부터 제거될 원소들의 수. index부터 index+howmany에 해당하는 원소들은 삭제된다. 이 값이 0이면 어떠한 원소도 삭제되지 않는다. |
 | element1,...,elementN | number   | 옵션      | index와 index+howmany 사이에 추가될 값                       |
 
-```javascript
+```
 var numbers = [1,2,3,4,5,6,7,8,9,10];
 alert(numbers.splice(2)); // array, [3,4,5,6,7,8,9,10], 시작점 2부터 배열의 마지막 원소까지를 대상으로 한다.
 alert(numbers); // array, [1,2], 원본이 수정된다. 
@@ -173,44 +191,38 @@ alert(numbers.splice(2, 4, 'three', 'four', 'five', 'six'));
 alert(numbers); // array, [1,2,three,four,five,six,7,8,9,10]
 ```
 
-
-
 ### javascript 값을 제거하는 메서드
 
-```javascript
+```
 var numbers = [1,2,3,4,5,6,7,8,9,10];
 
 numbers.shift(); // 가장 왼쪽에 값을 제거 후 출력
 1
 numbers
-(9) [2, 3, 4, 5, 6, 7, 8, 9, 10]
+(9) [2, 3, 4, 5, 6, 7, 8, 9, 10]
 numbers.pop() // 가장 오른쪽에 값을 제거 후 출력
 10
 numbers
-(8) [2, 3, 4, 5, 6, 7, 8, 9]
+(8) [2, 3, 4, 5, 6, 7, 8, 9]
 ```
-
-
 
 ### javascript 값을 정렬하는 메서드
 
-```javascript
+```
 var li = ['c','e','a','b','d']
 
 li.sort(); // 배열의 값을 순서대로 정렬
-(5) ["a", "b", "c", "d", "e"]
+(5) ["a", "b", "c", "d", "e"]
 
 li.reverse() // 현재 배열의 값을 역순으로 정렬
-(5) ["e", "d", "c", "b", "a"]
+(5) ["e", "d", "c", "b", "a"]
 ```
-
-
 
 ### 객체(Object)
 
 => 배열은 아이템에 대한 식별자로 숫자를 사용했다. 데이터를 추가하게 되면 배열 전체에서 중복되지 않는 인덱스가 자동으로 만들어져서 추가된 데이터에 대한 식별자가 된다. 이 인덱스를 이용해서 데이터를 가져오게 되는 것이다. 만약 인덱스로 문자를 사용하고 싶다면 객체(Dictionary)를 사용해야 한다. 다른 언어에서는 연관배열(Associative array) 또는 **맵(map)**, **딕셔너리(Dictionary)**라는 데이터 타입이 객체에 해당한다.
 
-```javascript
+```
 // 객체 생성 방법 1
 var grade = {'egoing':10, 'ryan': 30, 'gyujin': 80}
 
@@ -231,11 +243,9 @@ grades['eg'+'oing']
 30
 ```
 
-
-
 ### 객체(Object)의 반복문(for)
 
-```javascript
+```
 var grades = {'egoing': 10, 'ymbrdii2002': 30, 'gyujin': 50};
 
 for(key in grades) {
@@ -256,10 +266,9 @@ for(var name in a){
 
 ### Javascript 객체지향 프로그래밍
 
-* `this` 는 정해져있는 변수로, 특정 함수가 속해있는 객체의 변수를 뜻함(grades)
+- `this` 는 정해져있는 변수로, 특정 함수가 속해있는 객체의 변수를 뜻함(grades)
 
-```javascript
-
+```
 var grades = {
   'list' : {'egoing': 10, 'gyujin': 80, 'ryan': 35},
   'show' : function(){
@@ -270,21 +279,16 @@ var grades = {
 }
 grades['show']();
 grades.show();
-
 ```
-
-
 
 ### Javascript 모듈화(Module)
 
-* 하나의 코드를 여러개의 파일로 분리하는 것이다.
-  * 자주 사용되는 코드를 별도의 파일로 만들어서 필요할 때마다 재활용할 수 있다.
-  * 코드를 개선하면 이를 사용하고 있는 모든 애플리케이션의 동작이 개선된다.
-  * 코드 수정 시에 필요한 로직을 빠르게 찾을 수 있다.
-  * 필요한 로직만을 로드해서 메모리의 낭비를 줄일 수 있다.
-  * 한번 다운로드된 모듈은 웹브라우저에 의해서 저장되기 때문에 동일한 로직을 로드 할 때 시간과 네트워크 트래픽을 절약 할 수 있다. (브라우저에서만 해당)
-
-
+- 하나의 코드를 여러개의 파일로 분리하는 것이다.
+  - 자주 사용되는 코드를 별도의 파일로 만들어서 필요할 때마다 재활용할 수 있다.
+  - 코드를 개선하면 이를 사용하고 있는 모든 애플리케이션의 동작이 개선된다.
+  - 코드 수정 시에 필요한 로직을 빠르게 찾을 수 있다.
+  - 필요한 로직만을 로드해서 메모리의 낭비를 줄일 수 있다.
+  - 한번 다운로드된 모듈은 웹브라우저에 의해서 저장되기 때문에 동일한 로직을 로드 할 때 시간과 네트워크 트래픽을 절약 할 수 있다. (브라우저에서만 해당)
 
 ### 모듈이란
 
@@ -294,11 +298,9 @@ grades.show();
 
 호스트 환경이란 **자바스크립트가 구동되는 환경**을 의미한다. 자바스크립트는 브라우저를 위한 언어로 시작했지만, 더 이상 브라우저만을 위한 언어가 아니다. 예를들어 [node.js](http://nodejs.org/about/)는 서버 측에서 실행되는 자바스크립트다. 이 언어는 자바스크립트의 문법을 따르지만 이 언어가 구동되는 환경은 브라우저가 아니라 서버측 환경이다. 또 구글의 제품 위에서 돌아가는 [Google Apps Script](https://developers.google.com/apps-script/) 역시 자바스크립트이지만 google apps script가 동작하는 환경은 구글 스프레드쉬트와 같은 구글의 제품 위이다. 여러분은 자바스크립트의 문법을 이용해서 PHP와 같은 **서버 시스템을 제어(node.js)**하거나 **구글의 제품(Google Apps Script)을 제어** 할 수 있다. 지금 당장은 어렵겠지만, 언어와 그 언어가 구동되는 환경에 대해서 구분해서 사고 할 수 있어야 한다. 이를 위해서는 다양한 언어를 접해봐야 한다.
 
-
-
 ### Javascript 모듈화
 
-```javascript
+```
 // main.html
 <head>
     <meta charset="UTF-8">
@@ -319,30 +321,25 @@ grades.show();
 function welcome(){
     return 'Hello world'
 }
-
 ```
 
-* `greeting.js` 의 있는 함수를 끌어다 쓰기위해서는 `main.html` 의 **`<head>`** 태그 아래에 
+- `greeting.js` 의 있는 함수를 끌어다 쓰기위해서는 `main.html` 의 **<head>** 태그 아래에
 
-  `<script src="greeting.js"></script>` 형식으로 호출해준다.
-
-
+  <script src="greeting.js"></script> 형식으로 호출해준다.
 
 ### 라이브러리(Library)
 
-라이브러리는 모듈과 비슷한 개념이다. 모듈이 프로그램을 구성하는 작은 부품으로서의 로직을 의미한다면 **라이브러리는 자주 사용되는 로직을 재사용하기 편리하도록 잘 정리한 일련의 코드들의 집합을 의미**한다고 할 수 있다. 
+라이브러리는 모듈과 비슷한 개념이다. 모듈이 프로그램을 구성하는 작은 부품으로서의 로직을 의미한다면 **라이브러리는 자주 사용되는 로직을 재사용하기 편리하도록 잘 정리한 일련의 코드들의 집합을 의미**한다고 할 수 있다.
 
 Javascript 대표적인 모듈인 **jQuery**
 
-**URL** : http://jquery.com
+**URL** : [http://jquery.com](http://jquery.com/)
 
-**Manual**: http://api.jquery.com
-
-
+**Manual**: [http://api.jquery.com](http://api.jquery.com/)
 
 **jQuery** **사용방법**
 
-```javascript
+```
     <script src=jquery.js></script>  //jQuery 모듈을 호출
 </head>
 <body>
@@ -363,20 +360,16 @@ Javascript 대표적인 모듈인 **jQuery**
     </script>
 ```
 
-* jQuery의 처음 시작은 무조건 `$` 로 시작한다.
-* 선택자(Selector) 접근 할때는 선택자 고유의 접근 기호를 사용하고 한칸을 띄운후 내부 태그명으로 접근
-
-
+- jQuery의 처음 시작은 무조건 `$` 로 시작한다.
+- 선택자(Selector) 접근 할때는 선택자 고유의 접근 기호를 사용하고 한칸을 띄운후 내부 태그명으로 접근
 
 **7/25(목) TIL**
 
 ### Javascript 정규표현식(regular expression)
 
-
-
 #### 정규표현식 객체 생성자
 
-```javascript
+```
 // 이 둘은 같은 표현
 var pattern = /a/;
 var pattern = new RegExp('a');
@@ -385,14 +378,14 @@ console.log(pattern);
 // => /a/
 ```
 
-#### 	정규표현식 메서드 실행
+#### 정규표현식 메서드 실행
 
 **1. RegExp.exec()**
 
-* 인자안에 들어오는 값 중에서 객체안에 문자를 찾는 메서드
-* 문자열 뒤에 `.` 이 있으면 다음 오는 문자까지 찾아줌
+- 인자안에 들어오는 값 중에서 객체안에 문자를 찾는 메서드
+- 문자열 뒤에 `.` 이 있으면 다음 오는 문자까지 찾아줌
 
-```javascript
+```
 var pattern = /a/
 
 pattern.exec('abcde');
@@ -403,14 +396,13 @@ pattern.exec('abcde');
 => 'ab'
 pattern.exec('bcdef');
 => null // 찾고자 하는 문자가 없음
-
 ```
 
- **2. RegExp.test()**
+**2. RegExp.test()**
 
-* 인자안에 문자열이 있으면 True, 없으면 False값을 반환
+- 인자안에 문자열이 있으면 True, 없으면 False값을 반환
 
-```javascript
+```
 var pattern = /a/
 
 pattern.test('abcde');
@@ -421,10 +413,10 @@ pattern.test('bcde');
 
 **3. String.match()**
 
-* `RegExp.exec()`와 유사하며 정규표현식 패텬과 일치하는 문자열들을 담고 있는 배열을 리턴
-* 해당되는 문자열이 없을 경우 null을 리턴
+- `RegExp.exec()`와 유사하며 정규표현식 패텬과 일치하는 문자열들을 담고 있는 배열을 리턴
+- 해당되는 문자열이 없을 경우 null을 리턴
 
-```javascript
+```
 var pattern = /a/
 var str = 'abcedf'
 str.match(pattern);
@@ -433,49 +425,45 @@ str.match(pattern);
 
 **4. String.replace()**
 
-* 문자열에서 패턴을 검색해서 이를 변경한 후에 변경된 값을 리턴한다.
+- 문자열에서 패턴을 검색해서 이를 변경한 후에 변경된 값을 리턴한다.
 
-```javascript
+```
 'abcdef'.repalce("a", "A");
 => "Abcdef"
 ```
 
-
-
 ### 옵션(Option) - i 와 g
 
-* `i` 는 찾는 문자열의 대소문자 구분없이 리턴
+- `i` 는 찾는 문자열의 대소문자 구분없이 리턴
 
-```javascript
+```
 var xi = /a/;
 console.log("Abcde".match(xi)); // null
 var oi = /a/i;
 console.log("Abcde".match(oi)); // ["A"];
 ```
 
-* `g` 는 검색된 모든 결과를 리턴함
+- `g` 는 검색된 모든 결과를 리턴함
 
-```javascript
+```
 var xg = /a/;
 console.log("abcdea".match(xg)); ["a"]
 var og = /a/g;
 console.log("abcdea".match(og)); // ["a","a"]
 ```
 
-* `ig` 형태로 한번에 붙여서 값을 리턴 할 수도 있음
+- `ig` 형태로 한번에 붙여서 값을 리턴 할 수도 있음
 
-```javascript
+```
 "AabcdAa".match(/a/ig);
 => ["A","a","A","a"]
 ```
-
-
 
 ### 함수에서 전역변수(Global scope)와 지역변수(Local scope)
 
 1. **전역변수로 선언**
 
-```javascript
+```
 var vscope = 'global';
 function fscope(){
   alert(vscope);
@@ -484,9 +472,9 @@ fscope();
 // 'global' 출력
 ```
 
-2. **함수안에 전역변수를 정의**
+1. **함수안에 전역변수를 정의**
 
-```javascript
+```
 var vscope = 'global';
 function fscope(){
   var vscope = 'local' // 지역변수를 선언
@@ -498,9 +486,9 @@ alert(vscope);
 // 그 다음 전역변수 'global' 출력
 ```
 
-3. **함수 안에서 전역변수를 재정의**
+1. **함수 안에서 전역변수를 재정의**
 
-```javascript
+```
 var vscope = 'global';
 function fscope(){
   vscope = 'local'
@@ -511,11 +499,9 @@ alert(vscope);
 // 'local' 이 2번 출력
 ```
 
-
-
 ### 유효범위의 효용성
 
-```javascript
+```
 function a (){
   var i = 0;
 }
@@ -529,7 +515,7 @@ for(var i=0; i<5; i++){
 
 => 전역에다가 변수를 선언하고 for문을 돌렸지만 함수 안에 같은 이름의 지역변수를 선언하였다고 해서 영향을 주지 않음.
 
-```javascript
+```
 function a (){
   i = 0;
 }
@@ -543,11 +529,9 @@ for(var i=0; i<5; i++){
 
 => 이 경우에는 함수안에서 전역변수를 계속 0으로 초기화하기 때문에 **무한루프**에 빠짐, 그러므로 전역변수를 지역변수와 같게 지정하면 이러한 오류를 범할 수 가 있음.
 
-
-
 ### 전역변수의 사용 (모듈화)
 
-```javascript
+```
 // 하나의 전역변수를 사용
 var MYAPP = {}
 MYAPP.calcurator = {
@@ -569,7 +553,7 @@ document.write(sum());
 
 => 하나의 전역변수 객체에 하위에 전역변수들을 관리하게 되면, 변수 충돌이 일어나는 것을 방지할 수 있다.
 
-```javascript
+```
 function myappfn(){
   var MYAPP = {}
   MYAPP.calcurator = {
@@ -593,7 +577,7 @@ myappfn();
 
 => 함수를 선언했지만 함수명을 지정하는 것 역시 하나의 전역변수를 사용하는 것과 동일하다.
 
-```javascript
+```
 (function(){
   var MYAPP = {}
   MYAPP.calcurator = {
@@ -616,11 +600,9 @@ myappfn();
 
 => 함수를 바로 호출함으로써 하나의 전역변수도 사용하지 않음, 함수의 지역변수로 사용
 
-
-
 ### 유효범위의 대상(함수)
 
-```javascript
+```
 // javascript
 
 for(var i=0; i<1; i++){
@@ -629,9 +611,6 @@ for(var i=0; i<1; i++){
 alert(name);
 
 // 'coding everybody'
-```
-
-```java
 // java
 for(int i=0; i<10; i++){
   String name = "egoing";
@@ -639,20 +618,17 @@ for(int i=0; i<10; i++){
 System.out.println(name);
 
 // 출력결과 없음
-
 ```
 
 => **자바스크립트**에서는 for문 안에서 선언한 지역변수를 밖에서 호출해도 출력가능 (`{}` 중갈호 유효범위에 해당하지 않음)
 
 ​	* 자바스크립트만의 특징
 
-=> **자바** 에서는 함수 뿐만 아니라 for문안에 지역변수를 밖에서 호출해도 호출이 되지않는다. 
-
-
+=> **자바** 에서는 함수 뿐만 아니라 for문안에 지역변수를 밖에서 호출해도 호출이 되지않는다.
 
 ### 정적 유효범위(Static), Lexical 유효범위
 
-```javascript
+```
 var i = 5;
 
 function a(){
@@ -668,11 +644,63 @@ a()
 // 5
 ```
 
-=> 여기서 핵심은 `function b()` 에서 지역변수 `i` 가 어디에 전역변수를 쓸 것이냐가 쟁점인데, `function a()`  의 `i`가 아닌 가장 바깥의 전역변수 `i` 의 값을 출력하게 된다. 즉, `function b()` 의 전역변수는 **함수 호출시점인 아닌 함수 정의 시점에서의 지역변수를 가져온다.**
+=> 여기서 핵심은 `function b()` 에서 지역변수 `i` 가 어디에 전역변수를 쓸 것이냐가 쟁점인데, `function a()` 의 `i`가 아닌 가장 바깥의 전역변수 `i` 의 값을 출력하게 된다. 즉, `function b()` 의 전역변수는 **함수 호출시점인 아닌 함수 정의 시점에서의 지역변수를 가져온다.**
 
-* 반대로 호출되는 시점에서 바로 상위 전역변수에 접근이 가능하다면 그것은 **동적 유효범위**에 해당한다.
+- 반대로 호출되는 시점에서 바로 상위 전역변수에 접근이 가능하다면 그것은 **동적 유효범위**에 해당한다.
 
 
+
+##### **7/26**
 
 #### 값으로서의 함수와 콜백
+
+* 리턴값으로의 함수의 사용
+
+```javascript
+function cal(mode){
+    var funcs = {
+        'plus' : function(left, right){return left + right},
+      	'minus' : function(left, right){return left - right}
+    }
+    return funcs[mode];
+}
+
+alert(cal('plus')(2,1));
+// 3
+```
+
+=> `cal('plus')` 를 호출하게 되면 `cal` 함수 인자값에 `'plus'`  가 들어가게 되고,
+
+​	`funcs['plus']`를 리턴하게 된다.
+
+​	`funcs['plus']` 의 value값인 `function(left, right){return left + right}` 함수가 실행된다.
+
+​	결국 `cal('plus')` 는 `function(left, right){return left + right}` 과 동일하다.
+
+​	다음으로, 소괄호는 함수의 실행을 의미함으로 함수 인자값으로 `(2,1)` 넣음으로써 결과값은 `3`이 된다.
+
+
+
+* 배열로서의 함수의 사용
+
+```javascript
+var process = [
+    function(input){ return input + 10;},
+    function(input){ return input * input;},
+    function(input){ return input / 2;}
+];
+var input = 1;
+for(var i = 0; i < process.length; i++){
+    input = process[i](input);
+}
+alert(input);
+```
+
+
+
+
+
+
+
+
 
