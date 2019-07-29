@@ -17,7 +17,7 @@
 
    
 
-  ```
+  ```javascript
   ==
   ```
 
@@ -27,7 +27,7 @@
 
    
 
-  ```
+  ```javascript
   True
   ```
 
@@ -37,7 +37,7 @@
 
    
 
-  ```
+  ```javascript
   ===
   ```
 
@@ -47,8 +47,8 @@
 
    
 
-  ```
-  True
+  ```javascript
+  true
   ```
 
   - `1 == '1'` == `False`
@@ -63,7 +63,7 @@
 
 ### 논리연산자 And('&&') 와 Or('||')
 
-```
+```javascript
 <script>
         id = prompt('아이디를 입력해주세요.');
         password = prompt('비밀번호를 입력해주세요.');
@@ -84,7 +84,7 @@
 
 2. 빈문자열
 
-3. ```
+3. ```javascript
    if(!''){
    	alert('빈 문자열')
    }
@@ -102,7 +102,7 @@
 
 => 자바스크립트를 이용해서 웹페이지에 텍스트를 출력할 때 쓰는 메서드
 
-```
+```javascript
 <script>
     document.write('Coding everybody <br />')
 </script>
@@ -112,7 +112,7 @@
 
 - 함수는 코드의 재사용성을 높여준다.
 
-```
+```javascript
 /* 함수 정의 방법 1 */
         numbering = function (){
             i = 0;
@@ -151,7 +151,7 @@
 
 ### Javascript 값을 추가하는 메서드
 
-```
+```javascript
 data = ["a", "b", "c", "d", "e"]
 
 // push()
@@ -177,7 +177,7 @@ data.unshift('z');
 | howmany               | number   | 필수      | index에서부터 제거될 원소들의 수. index부터 index+howmany에 해당하는 원소들은 삭제된다. 이 값이 0이면 어떠한 원소도 삭제되지 않는다. |
 | element1,...,elementN | number   | 옵션      | index와 index+howmany 사이에 추가될 값                       |
 
-```
+```javascript
 var numbers = [1,2,3,4,5,6,7,8,9,10];
 alert(numbers.splice(2)); // array, [3,4,5,6,7,8,9,10], 시작점 2부터 배열의 마지막 원소까지를 대상으로 한다.
 alert(numbers); // array, [1,2], 원본이 수정된다. 
@@ -193,7 +193,7 @@ alert(numbers); // array, [1,2,three,four,five,six,7,8,9,10]
 
 ### javascript 값을 제거하는 메서드
 
-```
+```javascript
 var numbers = [1,2,3,4,5,6,7,8,9,10];
 
 numbers.shift(); // 가장 왼쪽에 값을 제거 후 출력
@@ -208,7 +208,7 @@ numbers
 
 ### javascript 값을 정렬하는 메서드
 
-```
+```javascript
 var li = ['c','e','a','b','d']
 
 li.sort(); // 배열의 값을 순서대로 정렬
@@ -222,7 +222,7 @@ li.reverse() // 현재 배열의 값을 역순으로 정렬
 
 => 배열은 아이템에 대한 식별자로 숫자를 사용했다. 데이터를 추가하게 되면 배열 전체에서 중복되지 않는 인덱스가 자동으로 만들어져서 추가된 데이터에 대한 식별자가 된다. 이 인덱스를 이용해서 데이터를 가져오게 되는 것이다. 만약 인덱스로 문자를 사용하고 싶다면 객체(Dictionary)를 사용해야 한다. 다른 언어에서는 연관배열(Associative array) 또는 **맵(map)**, **딕셔너리(Dictionary)**라는 데이터 타입이 객체에 해당한다.
 
-```
+```javascript
 // 객체 생성 방법 1
 var grade = {'egoing':10, 'ryan': 30, 'gyujin': 80}
 
@@ -245,7 +245,7 @@ grades['eg'+'oing']
 
 ### 객체(Object)의 반복문(for)
 
-```
+```javascript
 var grades = {'egoing': 10, 'ymbrdii2002': 30, 'gyujin': 50};
 
 for(key in grades) {
@@ -268,7 +268,7 @@ for(var name in a){
 
 - `this` 는 정해져있는 변수로, 특정 함수가 속해있는 객체의 변수를 뜻함(grades)
 
-```
+```javascript
 var grades = {
   'list' : {'egoing': 10, 'gyujin': 80, 'ryan': 35},
   'show' : function(){
@@ -300,7 +300,7 @@ grades.show();
 
 ### Javascript 모듈화
 
-```
+```javascript
 // main.html
 <head>
     <meta charset="UTF-8">
@@ -339,7 +339,7 @@ Javascript 대표적인 모듈인 **jQuery**
 
 **jQuery** **사용방법**
 
-```
+```javascript
     <script src=jquery.js></script>  //jQuery 모듈을 호출
 </head>
 <body>
@@ -369,7 +369,7 @@ Javascript 대표적인 모듈인 **jQuery**
 
 #### 정규표현식 객체 생성자
 
-```
+```javascript
 // 이 둘은 같은 표현
 var pattern = /a/;
 var pattern = new RegExp('a');
@@ -385,7 +385,7 @@ console.log(pattern);
 - 인자안에 들어오는 값 중에서 객체안에 문자를 찾는 메서드
 - 문자열 뒤에 `.` 이 있으면 다음 오는 문자까지 찾아줌
 
-```
+```javascript
 var pattern = /a/
 
 pattern.exec('abcde');
@@ -402,7 +402,7 @@ pattern.exec('bcdef');
 
 - 인자안에 문자열이 있으면 True, 없으면 False값을 반환
 
-```
+```javascript
 var pattern = /a/
 
 pattern.test('abcde');
@@ -416,7 +416,7 @@ pattern.test('bcde');
 - `RegExp.exec()`와 유사하며 정규표현식 패텬과 일치하는 문자열들을 담고 있는 배열을 리턴
 - 해당되는 문자열이 없을 경우 null을 리턴
 
-```
+```javascript
 var pattern = /a/
 var str = 'abcedf'
 str.match(pattern);
@@ -427,7 +427,7 @@ str.match(pattern);
 
 - 문자열에서 패턴을 검색해서 이를 변경한 후에 변경된 값을 리턴한다.
 
-```
+```javascript
 'abcdef'.repalce("a", "A");
 => "Abcdef"
 ```
@@ -436,7 +436,7 @@ str.match(pattern);
 
 - `i` 는 찾는 문자열의 대소문자 구분없이 리턴
 
-```
+```javascript
 var xi = /a/;
 console.log("Abcde".match(xi)); // null
 var oi = /a/i;
@@ -445,7 +445,7 @@ console.log("Abcde".match(oi)); // ["A"];
 
 - `g` 는 검색된 모든 결과를 리턴함
 
-```
+```javascript
 var xg = /a/;
 console.log("abcdea".match(xg)); ["a"]
 var og = /a/g;
@@ -454,7 +454,7 @@ console.log("abcdea".match(og)); // ["a","a"]
 
 - `ig` 형태로 한번에 붙여서 값을 리턴 할 수도 있음
 
-```
+```javascript
 "AabcdAa".match(/a/ig);
 => ["A","a","A","a"]
 ```
@@ -463,7 +463,7 @@ console.log("abcdea".match(og)); // ["a","a"]
 
 1. **전역변수로 선언**
 
-```
+```javascript
 var vscope = 'global';
 function fscope(){
   alert(vscope);
@@ -474,7 +474,7 @@ fscope();
 
 1. **함수안에 전역변수를 정의**
 
-```
+```javascript
 var vscope = 'global';
 function fscope(){
   var vscope = 'local' // 지역변수를 선언
@@ -488,7 +488,7 @@ alert(vscope);
 
 1. **함수 안에서 전역변수를 재정의**
 
-```
+```javascript
 var vscope = 'global';
 function fscope(){
   vscope = 'local'
@@ -501,7 +501,7 @@ alert(vscope);
 
 ### 유효범위의 효용성
 
-```
+```javascript
 function a (){
   var i = 0;
 }
@@ -515,7 +515,7 @@ for(var i=0; i<5; i++){
 
 => 전역에다가 변수를 선언하고 for문을 돌렸지만 함수 안에 같은 이름의 지역변수를 선언하였다고 해서 영향을 주지 않음.
 
-```
+```javascript
 function a (){
   i = 0;
 }
@@ -531,7 +531,7 @@ for(var i=0; i<5; i++){
 
 ### 전역변수의 사용 (모듈화)
 
-```
+```javascript
 // 하나의 전역변수를 사용
 var MYAPP = {}
 MYAPP.calcurator = {
@@ -553,7 +553,7 @@ document.write(sum());
 
 => 하나의 전역변수 객체에 하위에 전역변수들을 관리하게 되면, 변수 충돌이 일어나는 것을 방지할 수 있다.
 
-```
+```javascript
 function myappfn(){
   var MYAPP = {}
   MYAPP.calcurator = {
@@ -577,7 +577,7 @@ myappfn();
 
 => 함수를 선언했지만 함수명을 지정하는 것 역시 하나의 전역변수를 사용하는 것과 동일하다.
 
-```
+```javascript
 (function(){
   var MYAPP = {}
   MYAPP.calcurator = {
@@ -602,7 +602,7 @@ myappfn();
 
 ### 유효범위의 대상(함수)
 
-```
+```javascript
 // javascript
 
 for(var i=0; i<1; i++){
@@ -628,7 +628,7 @@ System.out.println(name);
 
 ### 정적 유효범위(Static), Lexical 유효범위
 
-```
+```javascript
 var i = 5;
 
 function a(){
@@ -650,7 +650,7 @@ a()
 
 
 
-##### **7/26**
+##### **7/26**(금)
 
 #### 값으로서의 함수와 콜백
 
@@ -698,9 +698,33 @@ alert(input);
 
 
 
+**7/28(일)**
 
+### 값으로서의 함수와 콜백 - 콜백이란?
 
+### 처리의 위임
 
+=> 값으로 사용될 수 있는 특성을 이용하면 함수의 인자로 함수를 전달할 수 있다. 값으로 전달된 함수는 호출될 수 있기 때문에 이를 이용하면 함수의 동작을 완전히 바꿀 수 있다. 인자로 전달된 함수 sortNumber의 구현에 따라서 sort의 동작방법이 완전히 바뀌게 된다.
+
+```javascript
+function sortNumber(a,b){
+  return b-a; // 역순
+}
+var numbers = [20, 10, 9,8,7,6,5,4,3,2,1];
+alert(numbers.sort(sortNumber)); // array, [20,10,9,8,7,6,5,4,3,2,1]
+
+function sortNumber(a,b){
+  return a-b; // 정렬
+}
+var numbers = [20, 10, 9,8,7,6,5,4,3,2,1];
+alert(numbers.sort(sortNumber)); // array, [1,2,3,4,5,6,7,8,9,10,20]
+```
+
+=> sortNumber 함수를 콜백함수라고 부른다.
+
+Sort() 내장함수에는 기본적으로 비교하여 정렬을 하는 알고리즘이 구현되어 있다.
+
+콜백함수로 두개의 비교값을 넣어서 비교하게되면 자체적으로 두 수의 차이가 음수인지 양수인지 0인지를 비교하여 정렬하게 된다.
 
 
 
