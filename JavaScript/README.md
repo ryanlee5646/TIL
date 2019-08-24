@@ -923,3 +923,41 @@ two('val1');  // two.length 2 arguments 1
 => 함수 정의할때 인자값을 정해주면 정해진 수만큼 호출시에 인자값을 넘겨줘야함.
 
 만약 이 둘의 값이 다르면 에러를 발생시킬때 유용
+
+
+
+### **apply**(), call()
+
+```javascript
+ function sum(arg1,arg2){
+            return arg1+arg2
+        }
+				alert(sum(1,2))
+				// 3
+        alert(sum.apply(null,[1,2]));
+        a = [3,2]
+
+				sum.apply
+			
+```
+
+`sum(arg1,arg2)` 는 function(함수)의 객체이다. 그러므로 기본적으로 function을 상속받으므로 내장함수인 `apply()` 를 호출할 수 있다.
+
+```javascript
+o1 = { val1: 1, val2: 2, val3: 3 }
+o2 = { v1: 10, v2: 50, v3: 100, v4: 25 }
+function sum() {
+  var _sum = 0;
+  for (name in this) {
+    _sum += this[name];
+  }
+  return _sum;
+}
+alert(sum.apply(o1)) // 6
+alert(sum.apply(o2)) // 185
+
+// o1.sum
+// 02.sum
+```
+
+=> `apply()`는 인자값을 배열로, `call()`은 인자값 각각을 넘겨줌으로써 `this` 를 사용하면 함수내에서 값을 사용할 수도 변경할 수도 있다.

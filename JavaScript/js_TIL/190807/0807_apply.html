@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*
+        function sum(arg1, arg2) {
+            return arg1 + arg2
+        }
+        alert(sum.apply([1, 2]));
+        a = [3, 2] 
+        */
+
+        o1 = { val1: 1, val2: 2, val3: 3 }
+        o2 = { v1: 10, v2: 50, v3: 100, v4: 25 }
+        function sum() {
+            var _sum = 0;
+            for (name in this) {
+                console.log(name);
+                _sum += this[name];
+            }
+            return _sum;
+        }
+        alert(sum.apply(o1)) // 6
+        alert(sum.apply(o2)) // 185
+        console.log(sum(o1));
+        
+    </script>
+</body>
+
+</html>
