@@ -19,6 +19,7 @@ c1 = Cal(10,10)
 
 # 덧셈
 print(c1. add())
+print(c1. add())
 
 # 빼기
 print(c1.subtract())
