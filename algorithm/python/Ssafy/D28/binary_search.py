@@ -38,3 +38,4 @@ for t in range(1,T+1):
                     flag = 2 #(오른쪽
 
     print("#{} {}".format(t,count))
+
