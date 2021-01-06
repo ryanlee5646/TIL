@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block container %}
+
+<h1> User Delete</h1>
+
+<form method='POST'>
+    {% csrf_token %}
+    <p>정말 탈퇴하실꺼??</p>
+    <input type="submit" value="탈퇴하기"/>
+</form>
+
+{% endblock %}

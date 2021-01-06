@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>학생 리스트</h1>
+    <a href="/student/new/">새로운 학생정보등록</a>
+    <ul>
+    {% for student in students %}
+        <li><a href="/student/{{student.pk}}/">{{ student.name }}</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

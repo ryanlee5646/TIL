@@ -1,0 +1,36 @@
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* ssafy라는 id값을 가진 요소에 들어가 ()안에 해당하는 요소를 찾음 근데 해당하는 요소가
+        타입이 일치하지 않으면 작동안함. */
+        #ssafy > p:nth-child(4) {
+            color: red;
+        }
+        /*ssafy라는 id값을 가진 요소에 들어가 ()안에 해당하는 요소를 찾고, 그 요소안에서 순서를 찾아감 */
+        #ssafy > p:nth-of-type(2) {
+            color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="ssafy">
+        <p>첫번째 단락</p>
+        <h2>어떤게 선택될까?</h2> 
+        <p>두번째 단락</p>
+        <p>세번째 단락</p>
+        <p>네번째 단락</p>
+    </div>
+    
+</body>
+</html>
+```
+

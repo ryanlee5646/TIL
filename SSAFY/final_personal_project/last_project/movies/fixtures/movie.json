@@ -1,0 +1,4232 @@
+[
+
+{
+
+
+"pk": 1,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 299534,
+
+
+
+"title_kr": "어벤져스: 엔드게임",
+
+
+
+"title_en": "Avengers: Endgame",
+
+
+
+"poster_path": "/n78LK2t1uQP68Ud0VXHRe0HmKOp.jpg",
+
+
+
+"overview": "인피니티 워 이후 절반만 살아남은 지구, 마지막 희망이 된 어벤져스! 먼저 떠난 그들을 위해 모든 것을 걸었다!",
+
+
+
+"genres": [
+
+
+
+
+12,
+
+
+
+
+878,
+
+
+
+
+28
+
+
+
+],
+
+
+
+"release_date": "2019-04-24",
+
+
+
+"vote_count": 5232,
+
+
+
+"vote_average": 8.5
+
+
+}
+
+},
+
+{
+
+
+"pk": 2,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 287947,
+
+
+
+"title_kr": "샤잠!",
+
+
+
+"title_en": "Shazam!",
+
+
+
+"poster_path": "/sPZxApU8d90Czd11S60UqOhuP9R.jpg",
+
+
+
+"overview": "솔로몬의 지혜, 헤라클레스의 힘, 아틀라스의 체력, 제우스의 권능, 아킬레스의 용기, 머큐리의 스피드까지 우연히 슈퍼 파워를 얻게 된 소년. 자신의 능력을 깨닫고 악당을 물리치는 슈퍼히어로로 다시 태어난다! 주문을 외쳐라, ‘샤잠’!",
+
+
+
+"genres": [
+
+
+
+
+35,
+
+
+
+
+12,
+
+
+
+
+14,
+
+
+
+
+28
+
+
+
+],
+
+
+
+"release_date": "2019-03-23",
+
+
+
+"vote_count": 1538,
+
+
+
+"vote_average": 7.1
+
+
+}
+
+},
+
+{
+
+
+"pk": 3,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 447404,
+
+
+
+"title_kr": "명탐정 피카츄",
+
+
+
+"title_en": "Pokémon Detective Pikachu",
+
+
+
+"poster_path": "/8Vb7PJ2aUzel5iQ6R2Jxe4MTWac.jpg",
+
+
+
+"overview": "기억을 잃은 채 깨어난 피카츄, 난 누구? 여긴 어디? 유일한 단서는 탐정모자에 적힌 해리란 이름과 주소. 주소 속 아파트에서 자신의 말을 유일하게 알아 듣는, 실종된 해리의 아들 팀 굿맨을 만나게 된다. 명탐정의 촉으로 이건 그야말로 대.박.사.건! 사라진 아빠를 찾기 위해 피카츄와 떠나는 기상천외한 모험이 시작된다. 피카피카!",
+
+
+
+"genres": [
+
+
+
+
+9648,
+
+
+
+
+10751,
+
+
+
+
+80,
+
+
+
+
+14,
+
+
+
+
+35,
+
+
+
+
+878
+
+
+
+],
+
+
+
+"release_date": "2019-05-03",
+
+
+
+"vote_count": 389,
+
+
+
+"vote_average": 7
+
+
+}
+
+},
+
+{
+
+
+"pk": 4,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 531309,
+
+
+
+"title_kr": "더 보이",
+
+
+
+"title_en": "Brightburn",
+
+
+
+"poster_path": "/eTEXcHiEk6r10HD2015xNYLUWYu.jpg",
+
+
+
+"overview": "어느 날, 간절히 아기를 원하던 부부에게 찾아온 다른 세계의 소년 ‘브랜든’. 부모의 보살핌 속에 평범하게 자라던 중 자신에게 숨겨진 강력한 힘을 깨닫게 되면서 인류를 위협할 사악한 본성을 드러내기 시작하는데…",
+
+
+
+"genres": [
+
+
+
+
+27,
+
+
+
+
+878,
+
+
+
+
+18,
+
+
+
+
+53
+
+
+
+],
+
+
+
+"release_date": "2019-05-10",
+
+
+
+"vote_count": 2,
+
+
+
+"vote_average": 7.5
+
+
+}
+
+},
+
+{
+
+
+"pk": 5,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 438650,
+
+
+
+"title_kr": "콜드 체이싱",
+
+
+
+"title_en": "Cold Pursuit",
+
+
+
+"poster_path": "/r2pzXSlKzof7U7ahrX5hh1HNGit.jpg",
+
+
+
+"overview": "평범한 제설차 운전수이자 올해의 모범시민 ‘넬스 콕스맨’. 법 없이도 살 수 있던 그는 마약 조직의 사이코패스 보스 ‘바이킹’이 꾸며낸 아들의 처참한 죽음 앞에서 분노의 심판자로 다시 태어난다. ‘스피도’, ‘림보’, ‘산타’ 등 마피아들을 연달아 처단하며 그들의 소굴에 한 걸음 가까워질수록 ‘넬스’의 분노는 죽음도 대신할 수 없는 깊은 복수심으로 소용돌이 치는데…",
+
+
+
+"genres": [
+
+
+
+
+28,
+
+
+
+
+18,
+
+
+
+
+53,
+
+
+
+
+80,
+
+
+
+
+35
+
+
+
+],
+
+
+
+"release_date": "2019-02-07",
+
+
+
+"vote_count": 499,
+
+
+
+"vote_average": 5.2
+
+
+}
+
+},
+
+{
+
+
+"pk": 6,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 456740,
+
+
+
+"title_kr": "헬보이",
+
+
+
+"title_en": "Hellboy",
+
+
+
+"poster_path": "/gua7L4syuPUZeG35lpu5xvOzquH.jpg",
+
+
+
+"overview": "'헬보이' 자신이 소속된 B.P.R.D의 임무로 영국의 한 비밀 단체의 괴수 사냥을 도우러 갔지만 되려 공격을 당하고, 곧 영국에서 어마어마한 일이 벌어지고 있다는 것을 알게 된다. 서기 566년, 아서왕에게 패하고 몸이 7조각으로 나뉘어 봉인된 '블러드 퀸'을 다시 부활시켜 인류를 파멸시키려는 초자연적 빌런들에 의해 영국은 물론 전 세계가 위험에 빠지게 된다. 헬보이는 이들에 맞서 인류를 위험으로부터 구해야만 하는데…",
+
+
+
+"genres": [
+
+
+
+
+28,
+
+
+
+
+12,
+
+
+
+
+14
+
+
+
+],
+
+
+
+"release_date": "2019-04-10",
+
+
+
+"vote_count": 365,
+
+
+
+"vote_average": 5.1
+
+
+}
+
+},
+
+{
+
+
+"pk": 7,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 157433,
+
+
+
+"title_kr": "공포의 묘지",
+
+
+
+"title_en": "Pet Sematary",
+
+
+
+"poster_path": "/vMwJY1zpUZ0zsLFyIqVVWuAzZQz.jpg",
+
+
+
+"overview": "갑작스런 사고로 딸 엘리를 잃은 크리드(제이슨 클락)는 죽은 것이 살아 돌아온다는 애완동물 공동묘지에 딸을 묻게 되고, 어딘가 다른 모습으로 돌아온 엘리는 무시무시한 공포의 대상이 되어 가족들의 숨통을 조여오는데…",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+9648,
+
+
+
+
+27
+
+
+
+],
+
+
+
+"release_date": "2019-04-04",
+
+
+
+"vote_count": 482,
+
+
+
+"vote_average": 5.9
+
+
+}
+
+},
+
+{
+
+
+"pk": 8,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 576393,
+
+
+
+"title_kr": "장난스런 키스",
+
+
+
+"title_en": "一吻定情",
+
+
+
+"poster_path": "/wtaSH8MfJSCEIrrEX9SQuHdU5sl.jpg",
+
+
+
+"overview": "A반 남신 ‘장즈수’와 처음 본 순간 KISS한 F반 ‘위안샹친’! 수학처럼 안 풀려도 절대 포기할 수 없는 확률 0% 멀고도 용감한 짝사랑 일대기.  장난 아니게 설레는 로코의 새로운 흥행 공식. 2019년 봄, 너 x 나 = 공식 ♡ 로코",
+
+
+
+"genres": [
+
+
+
+
+10749,
+
+
+
+
+35
+
+
+
+],
+
+
+
+"release_date": "2019-02-14",
+
+
+
+"vote_count": 22,
+
+
+
+"vote_average": 6
+
+
+}
+
+},
+
+{
+
+
+"pk": 9,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 537915,
+
+
+
+"title_kr": "애프터",
+
+
+
+"title_en": "After",
+
+
+
+"poster_path": "/zTZ7Q9mAwBQoYaR8HgGbmBNp6AC.jpg",
+
+
+
+"overview": "모범생 ‘테사’와 반항아 ‘하딘’ 강렬했던 첫 만남 이후 아슬아슬하고 위태로운 사랑을 시작한다.",
+
+
+
+"genres": [
+
+
+
+
+18,
+
+
+
+
+10749
+
+
+
+],
+
+
+
+"release_date": "2019-04-11",
+
+
+
+"vote_count": 879,
+
+
+
+"vote_average": 6
+
+
+}
+
+},
+
+{
+
+
+"pk": 10,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 457799,
+
+
+
+"title_kr": "나는 악마를 사랑했다",
+
+
+
+"title_en": "Extremely Wicked, Shockingly Evil and Vile",
+
+
+
+"poster_path": "/3S9hjxjPePMGUjNRwnA4MrQxJFX.jpg",
+
+
+
+"overview": "잔인한 연쇄살인범 테드 번디를 새로운 시선으로 바라본다. 수년간 번디가 무고하다 믿었던 그의 오랜 연인 리즈. 그녀의 눈에 비친 번디는 어떤 남자였을까.",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+80,
+
+
+
+
+18,
+
+
+
+
+36
+
+
+
+],
+
+
+
+"release_date": "2019-05-02",
+
+
+
+"vote_count": 412,
+
+
+
+"vote_average": 7
+
+
+}
+
+},
+
+{
+
+
+"pk": 11,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 449562,
+
+
+
+"title_kr": "허슬",
+
+
+
+"title_en": "The Hustle",
+
+
+
+"poster_path": "/qibqW5Dnvqp4hcEnoTARbQgxwJy.jpg",
+
+
+
+"overview": "",
+
+
+
+"genres": [
+
+
+
+
+35
+
+
+
+],
+
+
+
+"release_date": "2019-05-09",
+
+
+
+"vote_count": 33,
+
+
+
+"vote_average": 6.2
+
+
+}
+
+},
+
+{
+
+
+"pk": 12,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 166428,
+
+
+
+"title_kr": "드래곤 길들이기 3",
+
+
+
+"title_en": "How to Train Your Dragon: The Hidden World",
+
+
+
+"poster_path": "/tR7qCJvVql0OQ42TzE1T6GUxjsI.jpg",
+
+
+
+"overview": "바이킹 족장으로 거듭난 히컵과 그의 영원한 친구 투슬리스가 누구도 찾지 못했던 드래곤의 파라다이스 히든월드를 찾아 떠나는 마지막 모험을 담은 스펙터클 액션 어드벤처",
+
+
+
+"genres": [
+
+
+
+
+16,
+
+
+
+
+10751,
+
+
+
+
+12
+
+
+
+],
+
+
+
+"release_date": "2019-01-03",
+
+
+
+"vote_count": 1769,
+
+
+
+"vote_average": 7.6
+
+
+}
+
+},
+
+{
+
+
+"pk": 13,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 526050,
+
+
+
+"title_kr": "Little",
+
+
+
+"title_en": "Little",
+
+
+
+"poster_path": "/4MDB6jJl3U7xK1Gw64zIqt9pQA4.jpg",
+
+
+
+"overview": "",
+
+
+
+"genres": [
+
+
+
+
+35,
+
+
+
+
+14
+
+
+
+],
+
+
+
+"release_date": "2019-04-04",
+
+
+
+"vote_count": 54,
+
+
+
+"vote_average": 6.1
+
+
+}
+
+},
+
+{
+
+
+"pk": 14,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 566555,
+
+
+
+"title_kr": "명탐정 코난: 감청의 주먹",
+
+
+
+"title_en": "名探偵コナン 紺青の拳（フィスト）",
+
+
+
+"poster_path": "/gCbJGWpWsmmu4FvqwoG4dkO48EN.jpg",
+
+
+
+"overview": "19세기 말에 해적선과 함께 싱가폴 앞 바다에 침몰되었다 알려진 세계 최대의 블루 사파이어인 \"감청의 주먹\"은 현지의 부자가 회수에 투자, 무대에 그 모습을 드러냈다. 그 때, 마리나 베이 샌즈에서 살인 사건이 발생. 현장에는 괴도 키드의 「피로 물든 예고장」이 남아 있었다. 한 편, 싱가포르에서 개최되는 가라데 토너먼트를 관전하기 위해 란과 소노코는 현지를 방문했다. 여권을 가지고 있지 않기 때문에 해외로 갈 수 없는 코난은 집을 볼 예정이었지만 그를 이용하려는 키드의 기묘한 방법으로 강제로 싱가포르에 끌려온다. 키드를 따르지 않으면 일본에 갈 수 조차없는 코난은 안경, 시계, 옷 등 모든 걸 빼앗기고 변장하게 된다. 그 정체를 모르고 란이 이름을 묻자 순간 아서 히라이(!?)라고 자칭한다. 이윽고 키드는 어느 저택의 지하 금고에 블루 사파이어가 잠들어 있다는 정보를 얻는다. 아주 간단하게 침입에 성공했다고 생각했지만 너무 위험한 함정이 키드를 기다리고 있었다. 가로막은 건 400전 무패의 최강의 가라테 선수인 쿄고쿠. 키드의 운명은... 그리고 불길한 뭔가를 전조하는 것처럼 싱가포르의 상징인 머라이언에서 진홍색으로 물든 물이 방출된다!",
+
+
+
+"genres": [
+
+
+
+
+16,
+
+
+
+
+28,
+
+
+
+
+18,
+
+
+
+
+9648,
+
+
+
+
+35
+
+
+
+],
+
+
+
+"release_date": "2019-04-12",
+
+
+
+"vote_count": 5,
+
+
+
+"vote_average": 5.4
+
+
+}
+
+},
+
+{
+
+
+"pk": 15,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 329996,
+
+
+
+"title_kr": "덤보",
+
+
+
+"title_en": "Dumbo",
+
+
+
+"poster_path": "/ffiqLwHHHRKXs6cXKj0278qPi8H.jpg",
+
+
+
+"overview": "몸보다 훨씬 큰 귀를 가지고 태어나, 뒤뚱거리는 모습으로 서커스단의 웃음거리가 된 ‘덤보’. 어느 날 왕년의 서커스 스타 ‘홀트(콜린 파렐)’와 그의 아이들, 밀리와 조가 ’덤보’가 하늘을 날 수 있다는 것을 알게 되고, 유능한 사업가 ‘반데비어(마이클 키튼)’가 ‘덤보’를 스타로 만들기 위해 접근한다. 매력적인 공중 곡예사 ‘콜레트(에바 그린)’와 함께 하늘을 날게 된 ‘덤보’는 그의 친구들과 함께 환상적인 쇼를 둘러싼 어둠의 비밀을 발견하게 되는데…",
+
+
+
+"genres": [
+
+
+
+
+12,
+
+
+
+
+10751,
+
+
+
+
+14
+
+
+
+],
+
+
+
+"release_date": "2019-03-27",
+
+
+
+"vote_count": 1130,
+
+
+
+"vote_average": 6.6
+
+
+}
+
+},
+
+{
+
+
+"pk": 16,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 445629,
+
+
+
+"title_kr": "파이팅 위드 마이 패밀리",
+
+
+
+"title_en": "Fighting with My Family",
+
+
+
+"poster_path": "/3TZCBAdKQiz0cGKGEjZiyZUA01O.jpg",
+
+
+
+"overview": "",
+
+
+
+"genres": [
+
+
+
+
+35,
+
+
+
+
+18
+
+
+
+],
+
+
+
+"release_date": "2019-02-14",
+
+
+
+"vote_count": 191,
+
+
+
+"vote_average": 6.5
+
+
+}
+
+},
+
+{
+
+
+"pk": 17,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 513083,
+
+
+
+"title_kr": "와인 컨트리",
+
+
+
+"title_en": "Wine Country",
+
+
+
+"poster_path": "/mi5l29DQFdwrTXxbqM2OLbs830H.jpg",
+
+
+
+"overview": "50번째 생일을 맞은 여인. 오랜 여자 친구들이 그날을 축하하기 위해 여행을 떠난다. 하지만 변치 않을 우정은 개뿔, 애증의 판도라 상자가 열렸다! 우리, 아직 친구 맞니?",
+
+
+
+"genres": [
+
+
+
+
+35
+
+
+
+],
+
+
+
+"release_date": "2019-05-08",
+
+
+
+"vote_count": 56,
+
+
+
+"vote_average": 6.2
+
+
+}
+
+},
+
+{
+
+
+"pk": 18,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 458723,
+
+
+
+"title_kr": "어스",
+
+
+
+"title_en": "Us",
+
+
+
+"poster_path": "/vfNBftZoXsUnNWccz8ew9h8Jicx.jpg",
+
+
+
+"overview": "애들레이드와 게이브 윌슨(루피타 뇽오와 윈스턴 듀크)은 아이들을 데리고 캘리포니아 북부에 있는 아들레이드의 오래된 해변가로 여름 휴가를 떠난다. 다음날 합류 한 타일러 가족(엘리자베스 모스와 팀 하이데커)과 함께 해변에서 하루를 보내지만, 애들레이드는 과거에 겪은 트라우마 증상이 심해지며 나쁜 일이 일어날 것이라는 공포에 시달린다. 밤이 되고 윌슨은 차도에 조용히 서있는 네명의 손을 맞잡은 뭔가를 보게 되는데...",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+27
+
+
+
+],
+
+
+
+"release_date": "2019-03-14",
+
+
+
+"vote_count": 1295,
+
+
+
+"vote_average": 7.2
+
+
+}
+
+},
+
+{
+
+
+"pk": 19,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 532671,
+
+
+
+"title_kr": "프로디지",
+
+
+
+"title_en": "The Prodigy",
+
+
+
+"poster_path": "/wYKMKjuygREXTfcgsmYD0mBymNh.jpg",
+
+
+
+"overview": "아기때부터 천재적인 지능을 보이며 엄마 ‘새라’를 흡족하게 하던 완벽한 소년 ‘마일스’.  영재교육을 받는 8살이 된 ‘마일스’는 점점 폭력적이고 손에 집착하는 이상 행동을 하며 무서운 소년으로 변해간다. 혹시 살인본능? 아니면 사이코패스? ‘마일스’의 증상을 걱정하던 ‘새라’는 한 의사를 통해 퇴행 최면을 받게 하고, 아들이 과거 끔찍한 일을 저지른 사람에게 빙의 됐다는 사실을 알게 된다.",
+
+
+
+"genres": [
+
+
+
+
+27,
+
+
+
+
+53
+
+
+
+],
+
+
+
+"release_date": "2019-02-06",
+
+
+
+"vote_count": 180,
+
+
+
+"vote_average": 5.9
+
+
+}
+
+},
+
+{
+
+
+"pk": 20,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 480414,
+
+
+
+"title_kr": "요로나의 저주",
+
+
+
+"title_en": "The Curse of La Llorona",
+
+
+
+"poster_path": "/8kllbCOM38idMWXzsk6mMzpbcsC.jpg",
+
+
+
+"overview": "1973년, 애나는 남편 없이 두 아이와 살고 있다. 사회복지사인 애나가 담당하던 한 여인의 아이들이 불의의 사고로 목숨을 잃자, 그녀는 이것이 ‘요로나’의 짓이라면서 애나에게도 똑같은 저주가 내릴 것이라 예언한다. 어느 날부터인가 울음소리를 들려오고 의문의 존재가 아이들을 위협하는데...",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+27,
+
+
+
+
+9648
+
+
+
+],
+
+
+
+"release_date": "2019-04-17",
+
+
+
+"vote_count": 265,
+
+
+
+"vote_average": 5.5
+
+
+}
+
+},
+
+{
+
+
+"pk": 21,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 302349,
+
+
+
+"title_kr": "아이언 스카이2: 더 커밍 레이스",
+
+
+
+"title_en": "Iron Sky: The Coming Race",
+
+
+
+"poster_path": "/pONHJTsLWi5oADisMqunEEQLpsd.jpg",
+
+
+
+"overview": "2047년, 달 나치의 침략으로 멸망해버린 지구. 살아남은 마지막 인류는 달의 뒷면으로 이주해 살아간다. 하지만 인구 과잉에 물자 부족까지, 인간들이 살아가기엔 너무나 열악하다. 달에서 버틸 수 있는 시간도 얼마 남지 않은 상황에서 ‘오비’는 인류를 구할 단 하나의 방법이 지구에 있다는 사실을 알게 되는데…",
+
+
+
+"genres": [
+
+
+
+
+28,
+
+
+
+
+35,
+
+
+
+
+14,
+
+
+
+
+878,
+
+
+
+
+12
+
+
+
+],
+
+
+
+"release_date": "2019-01-25",
+
+
+
+"vote_count": 27,
+
+
+
+"vote_average": 4.9
+
+
+}
+
+},
+
+{
+
+
+"pk": 22,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 450001,
+
+
+
+"title_kr": "엽문 외전",
+
+
+
+"title_en": "葉問外傳：張天志",
+
+
+
+"poster_path": "/oVrm99JDN7j5Zu2yKqTINIMXasC.jpg",
+
+
+
+"overview": "영춘권 일인자 엽문에게 패배한 뒤, 무술계를 떠나 아들과 함께 평범한 삶을 살아가던 ‘장천지’ 우연히 암흑 조직에 쫓기던 한 여자를 도와준 그는 이후 생계는 물론, 목숨마저 위협받게 된다. 술과 마약 등 불법 사업을 확장해나가던 조직이 장천지의 주변 사람들까지 죽음으로 몰고 가자 더 이상 참지 못한 그는 정의를 위해 최후의 결전을 벌이게 되는데…",
+
+
+
+"genres": [
+
+
+
+
+28
+
+
+
+],
+
+
+
+"release_date": "2018-12-20",
+
+
+
+"vote_count": 134,
+
+
+
+"vote_average": 5.1
+
+
+}
+
+},
+
+{
+
+
+"pk": 23,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 468224,
+
+
+
+"title_kr": "톨킨",
+
+
+
+"title_en": "Tolkien",
+
+
+
+"poster_path": "/5ElXRKi773koW0mAnRjpNTpgZXZ.jpg",
+
+
+
+"overview": "고아인 한 작가의 우정과 사랑 및 예술적인 영감을 그린 영화로 학교에서 소외된 학생들로 구성된 그룹의 일원으로 지내다가 1차 세계대전에 참전하면서 이들과의 우정에 위기가 다가오며 이런 일련의 일들을 토대로 그 유명한 중간계 소설들을 쓰게되는 영감이 된다.",
+
+
+
+"genres": [
+
+
+
+
+18
+
+
+
+],
+
+
+
+"release_date": "2019-05-03",
+
+
+
+"vote_count": 11,
+
+
+
+"vote_average": 5.4
+
+
+}
+
+},
+
+{
+
+
+"pk": 24,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 500852,
+
+
+
+"title_kr": "미스 발라",
+
+
+
+"title_en": "Miss Bala",
+
+
+
+"poster_path": "/ae9yrSAS7nLZPbbkOm61pSuIqeo.jpg",
+
+
+
+"overview": "글로리아 푸엔테스(지나 로드리게스 분)는 로스앤젤레스 출신의 라틴 아메리카 메이크업 아티스트로, 가장 친한 친구 스즈(Suzu)를 만나러 멕시코 티후아나를 방문한다.  그들은 만남을 즐기기 위해 현지 나이트클럽에 함께 갔다가 멕시코 갱단과의 범죄에 연루된다.",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+28,
+
+
+
+
+18
+
+
+
+],
+
+
+
+"release_date": "2019-02-01",
+
+
+
+"vote_count": 64,
+
+
+
+"vote_average": 6.5
+
+
+}
+
+},
+
+{
+
+
+"pk": 25,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 535167,
+
+
+
+"title_kr": "유랑지구",
+
+
+
+"title_en": "The Wandering Earth",
+
+
+
+"poster_path": "/yrCsTt8phrO3tYQy0Nwep3bjLKm.jpg",
+
+
+
+"overview": "​가까운 미래, 태양계 소멸 위기를 맞은 지구는 영하 70도의 이상 기후와 함께 목성과의 충돌이라는 대재앙에 직면한다. 그러자, 전 세계 연합정부는 지구 자체를 태양계 밖으로 이동시키기 위한 범우주적 인류이민계획을 세우는데…",
+
+
+
+"genres": [
+
+
+
+
+878,
+
+
+
+
+28,
+
+
+
+
+18
+
+
+
+],
+
+
+
+"release_date": "2019-02-05",
+
+
+
+"vote_count": 126,
+
+
+
+"vote_average": 6.4
+
+
+}
+
+},
+
+{
+
+
+"pk": 26,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 361292,
+
+
+
+"title_kr": "서스페리아",
+
+
+
+"title_en": "Suspiria",
+
+
+
+"poster_path": "/l7RweYloEealQuhaaldcxDU5VS8.jpg",
+
+
+
+"overview": "마담 블랑의 무용 아카데미에 들어가기 위해 미국에서 베를린으로 찾아온 소녀 수지 그리고 그 곳에서 겪는 기이하고 놀라운 경험",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+9648,
+
+
+
+
+27,
+
+
+
+
+14
+
+
+
+],
+
+
+
+"release_date": "2018-10-11",
+
+
+
+"vote_count": 680,
+
+
+
+"vote_average": 7.1
+
+
+}
+
+},
+
+{
+
+
+"pk": 27,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 376865,
+
+
+
+"title_kr": "하이 라이프",
+
+
+
+"title_en": "High Life",
+
+
+
+"poster_path": "/wElOvH7H6sLElsTOLu1MY6oWRUx.jpg",
+
+
+
+"overview": "고립된 이 우주선에서는 모든 것이 인공적이며 인간의 욕망 또한 통제된다. 과거의 상처로 인해 아이에게 집착하는 의사는, 탑승객이자 지구에서 버려진 죄수들을 대상으로 인공 수정을 시도하고, 아이가 태어난다. 유일한 생존자로 남은 몬테는 어린 딸을 돌보며 버티어 낸다. 블랙홀의 회전 에너지를 확인하여 인류에 크게 기여하려던 임무는 완수하지 못했다. 소녀로 성장한 딸과 몬테는 더 이상 구조의 희망을 기다릴 수 없다. 두 사람은 블랙홀로의 여정을 시작한다.",
+
+
+
+"genres": [
+
+
+
+
+878,
+
+
+
+
+18,
+
+
+
+
+9648,
+
+
+
+
+53
+
+
+
+],
+
+
+
+"release_date": "2018-11-07",
+
+
+
+"vote_count": 117,
+
+
+
+"vote_average": 5.9
+
+
+}
+
+},
+
+{
+
+
+"pk": 28,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 440161,
+
+
+
+"title_kr": "시스터스 브라더스",
+
+
+
+"title_en": "The Sisters Brothers",
+
+
+
+"poster_path": "/7Tl2nZ6uvmxwK14Skbf9VFHEHpX.jpg",
+
+
+
+"overview": "찰리와 엘리 시스터스 형제는 손에 피를 묻히고 산다. 청부살인이 직업이다. 형제는 파트너 존과 더불어 범죄자를 소탕하지만, 재미를 위해 살인을 하는 것은 아니다. 단지 일일 뿐이다. 동생 찰리가 이 일에 재능을 타고 난 반면, 엘리야는 평범한 삶을 꿈꾼다. 오레곤에서 캘리포니아까지, 새로운 추격이 시작된다.",
+
+
+
+"genres": [
+
+
+
+
+35,
+
+
+
+
+18,
+
+
+
+
+37
+
+
+
+],
+
+
+
+"release_date": "2018-09-19",
+
+
+
+"vote_count": 538,
+
+
+
+"vote_average": 7
+
+
+}
+
+},
+
+{
+
+
+"pk": 29,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 454294,
+
+
+
+"title_kr": "왕이 될 아이",
+
+
+
+"title_en": "The Kid Who Would Be King",
+
+
+
+"poster_path": "/dHAuBMp69Oz9HiHi7RjxGyOIl0f.jpg",
+
+
+
+"overview": "바위에 꽂힌 미스터리한 검을 발견한 ‘알렉스’(루이스 서키스). 득템의 기쁨도 잠시, 다크포스 풍기는 마법 존재들의 공격에서 가까스로 위기를 모면한다. 마법사 ‘멀린’(패트릭 스튜어트)은 ‘알렉스’가 미래를 구할 왕이 될 아이라 말하고, 레알 베프와 무늬만 친구였던 아이들을 모아 최악의 마녀 ‘모가나’(레베카 퍼거슨)와 싸워야 한다. 최 연 소 초딩 히어로의 탄생• 절대악에 맞서 세상을 구하라!",
+
+
+
+"genres": [
+
+
+
+
+28,
+
+
+
+
+12,
+
+
+
+
+14,
+
+
+
+
+10751
+
+
+
+],
+
+
+
+"release_date": "2019-01-16",
+
+
+
+"vote_count": 168,
+
+
+
+"vote_average": 6.1
+
+
+}
+
+},
+
+{
+
+
+"pk": 30,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 411728,
+
+
+
+"title_kr": "교수와 광인",
+
+
+
+"title_en": "The Professor and the Madman",
+
+
+
+"poster_path": "/gtGCDLhfjW96qVarwctnuTpGOtD.jpg",
+
+
+
+"overview": "19세기 중반, 영국언어학회는 '옥스퍼드 영어 사전' 편찬에 참여할 자원봉사자를 모집한다. 그중 가장 정력적으로 빼어난 예문들을 보내오는 닥터 마이너는 단연 돋보였다. 평소 이런 마이너에게 감사하던 새 사전 책임편집자 머리는 여러차례 그를 옥스퍼드로 초대하지만, 왠지 모르게 번번이 거절당한다. 그래서 20년 동안 두사람의 관계는 서신왕래를 통해서만 지속된다. 뛰어난 언어학 스럴러로 두사람의 기묘하게 얽힌 인생을 재창조해 낸다.",
+
+
+
+"genres": [
+
+
+
+
+18,
+
+
+
+
+36,
+
+
+
+
+9648
+
+
+
+],
+
+
+
+"release_date": "2019-03-07",
+
+
+
+"vote_count": 96,
+
+
+
+"vote_average": 7.3
+
+
+}
+
+},
+
+{
+
+
+"pk": 31,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 459992,
+
+
+
+"title_kr": "롱 샷",
+
+
+
+"title_en": "Long Shot",
+
+
+
+"poster_path": "/unUPqfHsgPjO9kiIO1NcDyxV82S.jpg",
+
+
+
+"overview": "첫사랑 베이비시터 ‘샬롯’(샤를리즈 테론)을 20년 만에 만난 실직 기자 ‘프레드’(세스 로건)가 현직 미 국무 장관이자 대선 후보가 된 그녀의 연설문 작가가 되면서 벌어지는 상상불가 케미를 그린 대유잼 로코버스터",
+
+
+
+"genres": [
+
+
+
+
+35,
+
+
+
+
+10749
+
+
+
+],
+
+
+
+"release_date": "2019-05-02",
+
+
+
+"vote_count": 49,
+
+
+
+"vote_average": 6.8
+
+
+}
+
+},
+
+{
+
+
+"pk": 32,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 517839,
+
+
+
+"title_kr": "경계선",
+
+
+
+"title_en": "Gräns",
+
+
+
+"poster_path": "/v8dAVKte2x1Zjivt1yNaLyhQdNQ.jpg",
+
+
+
+"overview": "출입국 세관 요원인 티나, 그녀는 불법 반입을 시도하는 사람들을 기가 막히게 구분해내는 능력이 있다. 어느 날 입국하는 사람들을 매섭게 바라보던 그녀에게 수상한 남자가 나타나고 티나는 그 남자에게 묘한 매력을 느끼는데…",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+14,
+
+
+
+
+10749,
+
+
+
+
+878,
+
+
+
+
+18
+
+
+
+],
+
+
+
+"release_date": "2018-09-27",
+
+
+
+"vote_count": 150,
+
+
+
+"vote_average": 6.8
+
+
+}
+
+},
+
+{
+
+
+"pk": 33,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 514439,
+
+
+
+"title_kr": "브레이크스루",
+
+
+
+"title_en": "Breakthrough",
+
+
+
+"poster_path": "/t58dx7JIgchr9If5uxn3NmHaHoS.jpg",
+
+
+
+"overview": "",
+
+
+
+"genres": [
+
+
+
+
+18
+
+
+
+],
+
+
+
+"release_date": "2019-04-11",
+
+
+
+"vote_count": 39,
+
+
+
+"vote_average": 6.9
+
+
+}
+
+},
+
+{
+
+
+"pk": 34,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 399402,
+
+
+
+"title_kr": "헌터 킬러",
+
+
+
+"title_en": "Hunter Killer",
+
+
+
+"poster_path": "/dvXBT2VJGARkijXvavsF9JbccAO.jpg",
+
+
+
+"overview": "미 국방부는 격추당한 잠수함의 행방을 찾기 위해 ‘헌터 킬러’를 극비리에 투입시키고 캡틴 ‘글래스’(제라드 버틀러)는 배후에 숨겨진 음모가 있음을 알게 된다. 한편, 지상에서는 VIP가 납치되어 전세계는 초긴장 상태에 놓이게 되는데…  일촉즉발 위기상황, VIP를 구출하라!  단 한 척의 공격 잠수함 ‘헌터 킬러’와 최정예 특수부대 네이비 씰의 숨막히는 육해공 합동 작전이 펼쳐진다!",
+
+
+
+"genres": [
+
+
+
+
+28,
+
+
+
+
+53
+
+
+
+],
+
+
+
+"release_date": "2018-10-19",
+
+
+
+"vote_count": 625,
+
+
+
+"vote_average": 6.3
+
+
+}
+
+},
+
+{
+
+
+"pk": 35,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 300681,
+
+
+
+"title_kr": "레플리카",
+
+
+
+"title_en": "Replicas",
+
+
+
+"poster_path": "/vHvbd0ERau7TM9sOhMFiiX6rcK1.jpg",
+
+
+
+"overview": "윌의 가족들은 불의의 교통사고로 이미 세상을 떠났지만 신경과학자인 그가 가족의 복제품을 만들어 함께 살아가고 있는 것. 극비리에 가족을 복제하고 윌은 일상의 평화를 되찾지만 아내와 아이들이 하나 둘 몸과 기억의 이상을 호소하기 시작하고 생명 윤리와 법을 거스른 그는 정부의 추적에 쫓기기 시작하는데…",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+878
+
+
+
+],
+
+
+
+"release_date": "2018-10-25",
+
+
+
+"vote_count": 249,
+
+
+
+"vote_average": 5.7
+
+
+}
+
+},
+
+{
+
+
+"pk": 36,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 471507,
+
+
+
+"title_kr": "디스트로이어",
+
+
+
+"title_en": "Destroyer",
+
+
+
+"poster_path": "/sHw9gTdo43nJL82py0oaROkXXNr.jpg",
+
+
+
+"overview": "LA 형사였던 에린 벨, 젊은 시절 잠입 수사를 위해 캘리포니아 사막의 갱단에 심어졌다가 비극적인 결말을 맞는다. 그녀의 도덕적, 존재론적 오디세이",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+80,
+
+
+
+
+18,
+
+
+
+
+28
+
+
+
+],
+
+
+
+"release_date": "2018-12-25",
+
+
+
+"vote_count": 145,
+
+
+
+"vote_average": 5.9
+
+
+}
+
+},
+
+{
+
+
+"pk": 37,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 527641,
+
+
+
+"title_kr": "파이브 피트",
+
+
+
+"title_en": "Five Feet Apart",
+
+
+
+"poster_path": "/oXDWCIrCCA8kfz3kLIzfN61GafF.jpg",
+
+
+
+"overview": "같은 병을 가진 사람끼리 6피트 이상 접근해서도, 접촉도 해선 안되는 CF(낭포성 섬유증)를 가진 ‘스텔라’와 ‘윌’. 첫눈에 반한 두 사람은 서로를 위해 안전거리를 유지하려고 하지만 그럴수록 더욱 빠져든다. 손을 잡을 수도 키스를 할 수도 없는 그들은 병 때문에 지켜야 했던 6피트에서 1피트 더 가까워지는 걸 선택하고 처음으로 용기를 내 병원 밖 데이트를 결심한다. 그러나 갑자기 숨을 쉬지 못하는 ‘스텔라’. ‘윌’은 그녀를 살리기 위해 안전거리를 어기게 되는데…",
+
+
+
+"genres": [
+
+
+
+
+10749,
+
+
+
+
+18
+
+
+
+],
+
+
+
+"release_date": "2019-03-15",
+
+
+
+"vote_count": 486,
+
+
+
+"vote_average": 8.2
+
+
+}
+
+},
+
+{
+
+
+"pk": 38,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 489925,
+
+
+
+"title_kr": "에잇스 그레이드",
+
+
+
+"title_en": "Eighth Grade",
+
+
+
+"poster_path": "/xTa9cLhGHfQ7084UvoPQ2bBXKqd.jpg",
+
+
+
+"overview": "",
+
+
+
+"genres": [
+
+
+
+
+35,
+
+
+
+
+18
+
+
+
+],
+
+
+
+"release_date": "2018-01-19",
+
+
+
+"vote_count": 485,
+
+
+
+"vote_average": 7.4
+
+
+}
+
+},
+
+{
+
+
+"pk": 39,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 438674,
+
+
+
+"title_kr": "드래그드 어크로스 콘크리트",
+
+
+
+"title_en": "Dragged Across Concrete",
+
+
+
+"poster_path": "/fVG4a27ImyPS4vvNMjCtan3QhDl.jpg",
+
+
+
+"overview": "",
+
+
+
+"genres": [
+
+
+
+
+18,
+
+
+
+
+80,
+
+
+
+
+28,
+
+
+
+
+53
+
+
+
+],
+
+
+
+"release_date": "2019-02-21",
+
+
+
+"vote_count": 102,
+
+
+
+"vote_average": 6.8
+
+
+}
+
+},
+
+{
+
+
+"pk": 40,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 429197,
+
+
+
+"title_kr": "바이스",
+
+
+
+"title_en": "Vice",
+
+
+
+"poster_path": "/bdOClE5efi9o2tNJFmV1gzLTbzm.jpg",
+
+
+
+"overview": "대기업의 CEO에서 펜타곤 수장을 거쳐 미국 부통령까지 오른 딕 체니(크리스찬 베일). 재임 시절, 보이지 않는 이면에서 그가 내린 결정들은 세계의 흐름을 바꿔 버리고 뒤바뀐 역사는 다시는 회복될 수 없는 시간에 묻혀버렸다. 이제 그가 바꾼 글로벌한 역사의 변곡점들을 추적한다.",
+
+
+
+"genres": [
+
+
+
+
+18,
+
+
+
+
+36,
+
+
+
+
+35
+
+
+
+],
+
+
+
+"release_date": "2018-12-25",
+
+
+
+"vote_count": 1123,
+
+
+
+"vote_average": 7.1
+
+
+}
+
+},
+
+{
+
+
+"pk": 41,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 472451,
+
+
+
+"title_kr": "보이 이레이즈드",
+
+
+
+"title_en": "Boy Erased",
+
+
+
+"poster_path": "/oZbhTdi0ZQY7iiSQ0L7h3ya6NDF.jpg",
+
+
+
+"overview": "",
+
+
+
+"genres": [
+
+
+
+
+18
+
+
+
+],
+
+
+
+"release_date": "2018-09-24",
+
+
+
+"vote_count": 382,
+
+
+
+"vote_average": 7.2
+
+
+}
+
+},
+
+{
+
+
+"pk": 42,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 471506,
+
+
+
+"title_kr": "그레타",
+
+
+
+"title_en": "Greta",
+
+
+
+"poster_path": "/6Lgk1OGexD0fU8QqDBQHcvEwd1Z.jpg",
+
+
+
+"overview": "뉴욕의 젊은 여성 프란세스가 서서히 사악함을 드러내는 의문의 미망인 그레타와 우연히 알게 되며 벌어지는 이야기를 그린 스릴러.",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+18,
+
+
+
+
+9648
+
+
+
+],
+
+
+
+"release_date": "2019-02-28",
+
+
+
+"vote_count": 40,
+
+
+
+"vote_average": 6.3
+
+
+}
+
+},
+
+{
+
+
+"pk": 43,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 457136,
+
+
+
+"title_kr": "메리, 퀸 오브 스코틀랜드",
+
+
+
+"title_en": "Mary Queen of Scots",
+
+
+
+"poster_path": "/yfXepc4qpll8ln3zbGvSROxppDO.jpg",
+
+
+
+"overview": "비운의 스코틀랜드 여왕 메리 스튜어트의 일대기를 그린 사극",
+
+
+
+"genres": [
+
+
+
+
+18,
+
+
+
+
+36
+
+
+
+],
+
+
+
+"release_date": "2018-12-07",
+
+
+
+"vote_count": 538,
+
+
+
+"vote_average": 6.7
+
+
+}
+
+},
+
+{
+
+
+"pk": 44,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 524247,
+
+
+
+"title_kr": "인트루더",
+
+
+
+"title_en": "The Intruder",
+
+
+
+"poster_path": "/p9xKyetr0ihJ2K6HJMeXzc4IwEv.jpg",
+
+
+
+"overview": "",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+18
+
+
+
+],
+
+
+
+"release_date": "2019-05-03",
+
+
+
+"vote_count": 9,
+
+
+
+"vote_average": 7.8
+
+
+}
+
+},
+
+{
+
+
+"pk": 45,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 498248,
+
+
+
+"title_kr": "Mia et le lion blanc",
+
+
+
+"title_en": "Mia et le lion blanc",
+
+
+
+"poster_path": "/zXfwBeYe0RnqsJ0dnBoFTB4SSrG.jpg",
+
+
+
+"overview": "",
+
+
+
+"genres": [
+
+
+
+
+12,
+
+
+
+
+18,
+
+
+
+
+10751
+
+
+
+],
+
+
+
+"release_date": "2018-12-26",
+
+
+
+"vote_count": 145,
+
+
+
+"vote_average": 7.7
+
+
+}
+
+},
+
+{
+
+
+"pk": 46,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 339380,
+
+
+
+"title_kr": "세상을 바꾼 변호인",
+
+
+
+"title_en": "On the Basis of Sex",
+
+
+
+"poster_path": "/xAGqNhB6QY12Y1LxqhcrXvQ7LYN.jpg",
+
+
+
+"overview": "남녀 차별이 당연시되던 시대에 태어난 ‘긴즈버그’는 1950년대 하버드대학교 로스쿨에서 남자들의 자리를 뺏은 9명의 여학생 중 한 명으로서 수석졸업을 하고 두 아이를 키우며 법대 교수가 된다. 그리고 1970년대, 차별의 완벽한 조건을 가진 여성 변호사로서 우연히 남성 보육자와 관련된 사건을 접하게 된다. 긴즈버그는 이것이 남성의 역차별 사건이며 성차별의 근원을 무너뜨릴 수 있는, 50년 전쟁의 포문을 열 열쇠임을 직감한다. 모두가 도저히 이길 수 없는 싸움, 패배가 확정된 재판이라 말렸지만, 긴즈버그는 남편과 딸의 지지에 힘입어 178건의 합법적 차별을 무너뜨릴 세기의 재판에 나서는데…",
+
+
+
+"genres": [
+
+
+
+
+18,
+
+
+
+
+36
+
+
+
+],
+
+
+
+"release_date": "2018-12-25",
+
+
+
+"vote_count": 191,
+
+
+
+"vote_average": 7.4
+
+
+}
+
+},
+
+{
+
+
+"pk": 47,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 458253,
+
+
+
+"title_kr": "미싱 링크",
+
+
+
+"title_en": "Missing Link",
+
+
+
+"poster_path": "/gEkKHiiQRVUSX15Iwo8VFydXrtu.jpg",
+
+
+
+"overview": "",
+
+
+
+"genres": [
+
+
+
+
+16,
+
+
+
+
+35,
+
+
+
+
+12,
+
+
+
+
+14,
+
+
+
+
+10751
+
+
+
+],
+
+
+
+"release_date": "2019-04-04",
+
+
+
+"vote_count": 39,
+
+
+
+"vote_average": 7.2
+
+
+}
+
+},
+
+{
+
+
+"pk": 48,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 453755,
+
+
+
+"title_kr": "아틱",
+
+
+
+"title_en": "Arctic",
+
+
+
+"poster_path": "/8Ol6BtkDutGMwrxmoGNnzpLB4Ji.jpg",
+
+
+
+"overview": "비행기 추락 사고 이후, 북극에 조난된 ‘오버가드(매즈 미켈슨)’는 언젠가는 구조될 날이 올 것을 믿고 기다린다. 그는 매일 정해진 시간에 무전을 치고, 북극의 지형을 조사하고, 송어를 잡고, 죽은 동료의 무덤에 가서 인사를 한다. 그러던 어느 날, 추락한 헬기 속 생존자를 발견한다. 심각한 부상으로 인해 이대로 구조를 기다릴 수는 없고, 자칫 이동하면 함께 위험해질 수 있는 상황… 하지만 홀로 지내면서 잊고 있었던 생명의 온기. 그녀를 살리기 위해, 지도 한 장에 의지한 채 임시 기지를 찾아가기로 결심한다.",
+
+
+
+"genres": [
+
+
+
+
+18,
+
+
+
+
+12
+
+
+
+],
+
+
+
+"release_date": "2018-07-26",
+
+
+
+"vote_count": 171,
+
+
+
+"vote_average": 6.1
+
+
+}
+
+},
+
+{
+
+
+"pk": 49,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 527729,
+
+
+
+"title_kr": "아스테릭스 - 더 시크릿 오브 더 매직 포션",
+
+
+
+"title_en": "Astérix - Le Secret de la Potion Magique",
+
+
+
+"poster_path": "/wmMq5ypRNJbWpdhC9aPjpdx1MMp.jpg",
+
+
+
+"overview": "",
+
+
+
+"genres": [
+
+
+
+
+16,
+
+
+
+
+10751,
+
+
+
+
+35,
+
+
+
+
+12
+
+
+
+],
+
+
+
+"release_date": "2018-12-05",
+
+
+
+"vote_count": 350,
+
+
+
+"vote_average": 7
+
+
+}
+
+},
+
+{
+
+
+"pk": 50,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 11185,
+
+
+
+"title_kr": "See No Evil, Hear No Evil",
+
+
+
+"title_en": "See No Evil, Hear No Evil",
+
+
+
+"poster_path": "/psB1Zb6sqnzHyCgtJrEJqphflVx.jpg",
+
+
+
+"overview": "",
+
+
+
+"genres": [
+
+
+
+
+80,
+
+
+
+
+35
+
+
+
+],
+
+
+
+"release_date": "1989-05-12",
+
+
+
+"vote_count": 407,
+
+
+
+"vote_average": 6.6
+
+
+}
+
+},
+
+{
+
+
+"pk": 51,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 400157,
+
+
+
+"title_kr": "원더랜드",
+
+
+
+"title_en": "Wonder Park",
+
+
+
+"poster_path": "/8KomINZhIuJeB4oB7k7tkq8tmE.jpg",
+
+
+
+"overview": "한 소녀, 준의 상상력으로 만들어진 환상적인 놀이공원이 현실로 나타나는 이야기",
+
+
+
+"genres": [
+
+
+
+
+35,
+
+
+
+
+16,
+
+
+
+
+12,
+
+
+
+
+10751,
+
+
+
+
+14
+
+
+
+],
+
+
+
+"release_date": "2019-03-14",
+
+
+
+"vote_count": 87,
+
+
+
+"vote_average": 6.3
+
+
+}
+
+},
+
+{
+
+
+"pk": 52,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 452832,
+
+
+
+"title_kr": "세레니티",
+
+
+
+"title_en": "Serenity",
+
+
+
+"poster_path": "/hgWAcic93phg4DOuQ8NrsgQWiqu.jpg",
+
+
+
+"overview": "플레이마우스라 불리우는 섬에서 낚시 배를 모는 베이커 딜(매튜 맥커너히)에게 전부인이었던 카렌(앤 해서웨이)이 찾아와 지금의 남편(제이슨 클락)을 제거해달라고 부탁하면서 벌어지는 이야기",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+18,
+
+
+
+
+9648,
+
+
+
+
+878
+
+
+
+],
+
+
+
+"release_date": "2019-01-24",
+
+
+
+"vote_count": 288,
+
+
+
+"vote_average": 5.1
+
+
+}
+
+},
+
+{
+
+
+"pk": 53,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 508763,
+
+
+
+"title_kr": "어 독스 웨이 홈",
+
+
+
+"title_en": "A Dog's Way Home",
+
+
+
+"poster_path": "/pZn87R7gtmMCGGO8KeaAfZDhXLg.jpg",
+
+
+
+"overview": "의대생 루카스와 떨어지게 된 강아지 벨라가 구를 다시 만나기 위해 400마일에 달하는 긴 여정을 시작한다. 루카스를 만나러 가는 동안 많은 사람들을 만나 다양한 모험을 겪게 된다. 고아가 된 어린 사자부터 운이 나쁜 홈리스까지, 만나는 이들에게 기쁨과 위안을 전하는 벨라의 감동적인 여정이 펼쳐진다.",
+
+
+
+"genres": [
+
+
+
+
+18,
+
+
+
+
+10751,
+
+
+
+
+12
+
+
+
+],
+
+
+
+"release_date": "2019-01-10",
+
+
+
+"vote_count": 219,
+
+
+
+"vote_average": 6.5
+
+
+}
+
+},
+
+{
+
+
+"pk": 54,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 351044,
+
+
+
+"title_kr": "웰컴 투 마웬",
+
+
+
+"title_en": "Welcome to Marwen",
+
+
+
+"poster_path": "/o45VIAUYDcVCGuzd43l8Sr5Dfti.jpg",
+
+
+
+"overview": "2010년 제프 말버그의 다큐멘터리 마웬콜을 바탕으로 폭행을 당해 뇌손상을 당한 마크 호건캠프가 정신을 회복할 수 있는 방법으로 제2차 세계대전 배경의 미니어처를 만드는 이야기를 그린다.",
+
+
+
+"genres": [
+
+
+
+
+18,
+
+
+
+
+35,
+
+
+
+
+14
+
+
+
+],
+
+
+
+"release_date": "2018-12-21",
+
+
+
+"vote_count": 248,
+
+
+
+"vote_average": 6.6
+
+
+}
+
+},
+
+{
+
+
+"pk": 55,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 1487,
+
+
+
+"title_kr": "헬보이",
+
+
+
+"title_en": "Hellboy",
+
+
+
+"poster_path": "/l7ofyLowQCZsL1tBPmaBwiPoaoX.jpg",
+
+
+
+"overview": "1944년, 2차세계대전에서 수세에 몰린 나치는 러시아의 흑마술사 라스푸틴을 고용, 지옥의 악마를 불러와 전세를 역전시킬 음모를 꾸민다. 라스푸틴의 염력으로 혼돈의 지옥신 자하드가 깨어나고 지옥의 문이 열리려 할 때, 미리 정보를 입수한 연합군의 공격으로 간신히 저지한다. 간발의 차이로 지옥에서 지구로 불려온 헬보이는 B.P.R.D.(Bureau of Paranormal Research &amp; Defence)를 설립한 브룸교수에게 인도되어 텔레파시 예지력을 지닌 양서인간 아베 사피엔, 불을 자유자재로 다루는 '파이로-키네시스' 리즈와 함께 악에 맞서는 전사로 성장한다.",
+
+
+
+"genres": [
+
+
+
+
+14,
+
+
+
+
+28
+
+
+
+],
+
+
+
+"release_date": "2004-04-02",
+
+
+
+"vote_count": 3943,
+
+
+
+"vote_average": 6.6
+
+
+}
+
+},
+
+{
+
+
+"pk": 56,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 500904,
+
+
+
+"title_kr": "비질란테",
+
+
+
+"title_en": "A Vigilante",
+
+
+
+"poster_path": "/iTM359SCARENWkZsYFyMvHRms72.jpg",
+
+
+
+"overview": "10년간 이어진 남편의 지독한 가정폭력으로 몸과 마음을 다친 세이디. 남은 인생은 자신과 같은 피해자를 구출하는 데 쓰기로 결심하고 잠적을 감춘다. 세이디는 긴 시간 몸을 단련하고 무술을 익혀 비밀스럽게 피해자들의 복수를 대신한다. 하지만 어느 날, 실종된 줄 알았던 남편이 그녀 앞에 다시 나타나는데...",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+18
+
+
+
+],
+
+
+
+"release_date": "2019-03-29",
+
+
+
+"vote_count": 57,
+
+
+
+"vote_average": 4.6
+
+
+}
+
+},
+
+{
+
+
+"pk": 57,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 278154,
+
+
+
+"title_kr": "아이스 에이지: 지구 대충돌",
+
+
+
+"title_en": "Ice Age: Collision Course",
+
+
+
+"poster_path": "/ppPiBuuXsUf1znHZq1lBqwtmRJg.jpg",
+
+
+
+"overview": "막 터진다!! 신나게 터진다!! 놓지마 정신줄!! 뭣이 중헌디?  도토리를 쫓던 스크랫이 이번에는 우주로 날아가 태양계를 위협하는 행성 충돌 사건을 일으킨다.  이로 인해 거대 운석이 지구로 향해 떨어지는 사상 초유의 위기가 닥치고, 시드와 매니, 디에고를 비롯한 그의 친구들은 안전한 곳을 찾아 머나먼 땅으로 떠나야만 한다.  다시 돌아온 벅은 그들을 이끄는 길잡이가 되고 요가의 대가 샹그리라마, 초절정 미녀 브룩 등이 있는 지오토피아를 만난다.  과연 그들은 지구의 위기를 뚫고 모두를 구해낼 수 있을 것인가?  우주 사상 초유의 모험이 시작된다!",
+
+
+
+"genres": [
+
+
+
+
+12,
+
+
+
+
+16,
+
+
+
+
+10751,
+
+
+
+
+35
+
+
+
+],
+
+
+
+"release_date": "2016-06-23",
+
+
+
+"vote_count": 2381,
+
+
+
+"vote_average": 5.9
+
+
+}
+
+},
+
+{
+
+
+"pk": 58,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 449985,
+
+
+
+"title_kr": "트리플 쓰렛",
+
+
+
+"title_en": "Triple Threat",
+
+
+
+"poster_path": "/eSl9zWkVmHNEwSYZAJcVFc0cL7b.jpg",
+
+
+
+"overview": "죽거나, 죽이거나, 살아남거나! 범죄조직 테러범의 탈출을 도운 후 배신당한 파이유(토니 자)\r 테러범들을 잡기 위한 미끼로 이용된 롱페이(타이거 첸) 갑작스런 공격에 아내의 시신과 함께 정글에 버려진 자카(이코 우웨이스) 그들의 복수가 하나가 된 순간, 생존을 건 리얼 액션이 시작된다!",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+28,
+
+
+
+
+80
+
+
+
+],
+
+
+
+"release_date": "2019-03-19",
+
+
+
+"vote_count": 76,
+
+
+
+"vote_average": 5.5
+
+
+}
+
+},
+
+{
+
+
+"pk": 59,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 402897,
+
+
+
+"title_kr": "스탈린이 죽었다!",
+
+
+
+"title_en": "The Death of Stalin",
+
+
+
+"poster_path": "/zZNTT08oTs6doyKEXbZIojhlwEI.jpg",
+
+
+
+"overview": "1953년 3월 2일 밤 한 남성이 죽어가고 있다. 심각한 뇌졸중이 그의 육체 전체에 고통을 가져다 준다. 그는 이오시프 스탈린이다. 소련 독재자의 최후의 날들을 추적하면서 그의 사망 이후 정권에 몰아닥친 혼란을 묘사한다.",
+
+
+
+"genres": [
+
+
+
+
+35,
+
+
+
+
+36
+
+
+
+],
+
+
+
+"release_date": "2017-10-20",
+
+
+
+"vote_count": 711,
+
+
+
+"vote_average": 7
+
+
+}
+
+},
+
+{
+
+
+"pk": 60,
+
+
+"model": "movies.movie",
+
+
+"fields": {
+
+
+
+"movie_id": 13448,
+
+
+
+"title_kr": "천사와 악마",
+
+
+
+"title_en": "Angels & Demons",
+
+
+
+"poster_path": "/86rlBxaXdKSQjaPoCJZWpTTjSxm.jpg",
+
+
+
+"overview": "세계 최대의 과학연구소 ‘CERN’(유럽 원자핵 공동 연구소)에서 우주 탄생을 재현하는 빅뱅 실험이 진행되고 실험을 통해 강력한 에너지원인 반물질 개발에 성공하지만 과학자가 살해되고 반물질이 사라지는 사건이 발생한다.  한편, 하버드대 종교기호학 교수 로버트 랭던(톰 행크스)은 교황청으로부터 의문의 사건과 관련된 암호 해독을 의뢰받는다. 새로운 교황을 선출하는 고대의식인 ‘콘클라베’가 집행되기 전, 가장 유력한 4명의 교황 후보가 납치되고 교황청에 비밀결사 일루미나티의 상징인 앰비그램이 나타난 것. 500년만에 부활한 일루미나티는 4명의 교황 후보를 한 시간에 한 명씩 살해하고 마지막에는 CERN에서 탈취한 반물질로 바티칸을 폭파시킬 것이라며 카톨릭 교회를 위협한다.  사건을 해결하기 위해 로마 바티칸에 도착한 로버트 랭던과 비토리아는 곳곳에 숨겨져 있는 일루미나티의 단서를 파헤치며 그들의 근거지로 향하는 ‘계몽의 길’ 추적에 나서는데…",
+
+
+
+"genres": [
+
+
+
+
+53,
+
+
+
+
+9648
+
+
+
+],
+
+
+
+"release_date": "2009-05-13",
+
+
+
+"vote_count": 3850,
+
+
+
+"vote_average": 6.6
+
+
+}
+
+}
+]

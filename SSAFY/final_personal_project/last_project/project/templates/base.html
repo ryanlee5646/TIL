@@ -1,0 +1,221 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Movier</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/simple-sidebar.css' %}" rel="stylesheet">
+  <link href="{% static 'css/imagehover.css' %}" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+  <div class="d-flex " id="wrapper">
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">
+        <a href="{% url 'movies:list' %}"> Start Bootstrap </a>
+      </div>
+      <div class="list-group list-group-flush">
+        <a href="{% url 'movies:list' %}" class="list-group-item list-group-item-action bg-light">List</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
+        <a href="{% url 'movies:top' %}" class="list-group-item list-group-item-action bg-light">top10</a>
+        <a href="{% url 'movies:selfsearch' %}" class="list-group-item list-group-item-action bg-light">상세조건검색</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom d-flex justify-content-between">
+        <button class="btn btn-primary mr-5" id="menu-toggle">Toggle Menu</button>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          정보
+        </button>
+        <div class="">
+        <form class="form-inline d-flex justify-content-between " action="{% url 'movies:search' %}" style="width:500px" >
+        <input class="form-control mr-lg-2 mt-lg-0" type="search" placeholder="Search" aria-label="Search"name='keyword' style="width:410px">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        </div>
+        <div class="collapse navbar-collapse col-3 d-flex justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav  mt-2 mt-lg-0">
+            {% if user.is_authenticated %}
+            <li class="nav-item">
+                <a class="nav-link" href="#">{{ user.username }}</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'accounts:logout' %}">로그아웃</a>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                정보
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{% url 'accounts:profile_update' %}">프로필</a>
+                <a class="dropdown-item" href="{% url 'accounts:password' %}">비밀번호변경</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            {% else %}
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'accounts:login' %}">로그인</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'accounts:signup' %}">회원가입</a>
+            </li>
+            {% endif %}
+      
+          </ul>
+        </div>
+      </nav>
+      {% block container %}
+      {% endblock %}
+    </div>
+    <!-- /#page-content-wrapper -->
+
+
+
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+
+<!--<head>-->
+<!--  <meta charset="UTF-8">-->
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--  <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--  <title>Document</title>-->
+  
+<!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
+<!--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
+<!--  <link rel="stylesheet" href="css/style.css">-->
+<!--  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>-->
+<!--  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>-->
+  
+<!--  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <!-- Popper.JS -->
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>-->
+  <!-- Bootstrap JS -->
+<!--  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>-->
+<!--  <style>-->
+<!--    #cont {-->
+<!--      width:720px;-->
+<!--      position: rerlative;-->
+<!--      margin-top : 20px;-->
+<!--      margin-bottom: 20px;-->
+<!--      padding: 15px;-->
+<!--      border : 1px solid #000;-->
+<!--    }-->
+<!--    #font {-->
+<!--       color: grey;-->
+<!--    }#font {-->
+<!--      font : "돋움";-->
+<!--      color : grey;-->
+<!--      font-size: 14px;-->
+<!--    }-->
+<!--  </style>-->
+<!--</head>-->
+
+<!--<body>-->
+  
+    <!--<div class="conatainer">-->
+    <!--    <ul class="nav nav-pills">-->
+    <!--        <li class="nav-item">-->
+    <!--            <a class="nav-link active" href="{% url 'movies:list' %}">HOME</a>-->
+    <!--        </li>-->
+    <!--        <li class="nav-item dropdown">-->
+    <!--            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"-->
+    <!--                aria-expanded="false">회원정보</a>-->
+    <!--            <div class="dropdown-menu">-->
+    <!--                <a class="dropdown-item" href="{% url 'accounts:profile_update' %}">프로필변경</a>-->
+    <!--                <a class="dropdown-item" href="{% url 'accounts:password' %}">비번수정</a>-->
+    <!--                <a class="dropdown-item" href="{% url 'accounts:delete' %}">회원탈퇴</a>-->
+    <!--                <div class="dropdown-divider"></div>-->
+    <!--            </div>-->
+    <!--        </li>-->
+    <!--        <li class="nav-item">-->
+    <!--            <a class="nav-link" href="#">영화찾기</a>-->
+    <!--        </li>-->
+    <!--        {% if user.is_authenticated %}-->
+    <!--        <li class="nav-item">-->
+    <!--            <a class="nav-link" href="{% url 'accounts:logout' %}">로그아웃</a>-->
+    <!--        </li>-->
+    <!--        {% else %}-->
+    <!--        <li class="nav-item">-->
+    <!--            <a class="nav-link" href="{% url 'accounts:login' %}">로그인</a>-->
+    <!--        </li>-->
+    <!--        <li class="nav-item">-->
+    <!--            <a class="nav-link" href="{% url 'accounts:signup' %}">회원가입</a>-->
+    <!--        </li>-->
+    <!--        {% endif %}-->
+    <!--    </ul>-->
+    <!--</div>-->
+    
+
+
+<!--    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"-->
+<!--        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"-->
+<!--        crossorigin="anonymous"></script>-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"-->
+<!--        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"-->
+<!--        crossorigin="anonymous"></script>-->
+<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"-->
+<!--        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"-->
+<!--        crossorigin="anonymous"></script>-->
+
+<!--</body>-->
+
+<!--</html>-->

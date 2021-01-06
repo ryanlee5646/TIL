@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block container %}
+
+<h1>회원가입</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form }} 
+    <input type="submit" value="Submit"/>
+</form>
+
+
+{% endblock %}

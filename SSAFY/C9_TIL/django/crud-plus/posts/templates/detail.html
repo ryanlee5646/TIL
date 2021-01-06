@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Post Detail</h1>
+    <h2>Title : {{ post.title }}</h2>
+    <p>Content : {{ post.content }}</p>
+    <a href="{% url 'posts:list' %}">List</a>
+    <a href="{% url 'posts:edit' post.pk %}">Edit</a>
+    <a href="{% url 'posts:delete' post.pk %}">Delete</a>
+    
+    <hr>
+    
+    <form action="{% url 'posts:comments_create' post.pk %}" method="post">
+        {% csrf_token %}
+        댓글 : <input type="text" name="content"/>
+        <input type="submit" value="Submit"/>
+    </form>
+    
+    <ul>
+        <!-- 여기서는 파이썬 언어와 유사한걸 쓴거임, 파이썬 언어가 아님. 그래서 all() 괄호가 필요없음 -->
+        {% for comment in post.comment_set.all %}
+        <li> {{ comment.content }}-<a href="{% url 'posts:comments_delete' post.pk comment.pk %}">Delete</a></li>  
+        {% endfor %}
+    </ul>
+</body>
+</html>

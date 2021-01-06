@@ -1,0 +1,66 @@
+
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    {% if post.user.profile.image %}
+    <img src="{{ post.user.profile.image.url }}" width="25"alt=""{{ post.user.profile.image.url }}"">
+    {% endif %}
+    <a href="{% url 'people' post.user.username %}">{{ post.user.username }}</a>
+    
+  </div>
+  <div id="post_{{ post.id }}" class="carousel slide" data-ride="carousel"> <!--#carousel bootstrap -->
+  <div class="carousel-inner">
+    {% for image in post.image_set.all %} <!-- post와 1:N관계가 맺어진 모든 이미지를 가져와서 하나씩 풀어서 보여줌  -->
+    <div class="carousel-item {% if forloop.counter == 1 %}active{% endif %}"> <!--첫번째 사진에만 active가 추가되도록 하는 코드 -->
+      <img src="{{ image.file.url }}" class="d-block w-100" alt="{{ image.file.url }}">
+    </div>
+    {% endfor %}
+  </div>
+  <a class="carousel-control-prev" href="#post_{{ post.id }}" role="button" data-slide="prev"> <!-- id값이 중복되지 않게 고유한 값을 줌 앞에 #이 중요 -->
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span> <!-- 왼쪽버튼 -->
+  </a>
+  <a class="carousel-control-next" href="#post_{{ post.id }}" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span> <!-- 왼쪽버튼 -->
+  </a>
+</div>
+  
+  <div class="card-body">
+    <i class="{% if user in post.like_users.all %}fas{% else %}far{% endif %} fa-heart like-button" data-id="{{ post.id }}"></i> <!-- 원래 있던거 자바스크립트로 개편된거임 기존꺼는 readme참조-->
+       <!--만약 이 사진을 좋아요 누른 사람들 중에 현재 유저가 있다면  -->
+        <!--<i class="fas fa-heart"></i> <!--하트표시 (awesome font에서 가지고온 하트 아이콘)  -->-->
+        <!--<i class="far fa-heart"></i> <!--빈 하트 표시  -->-->
+    <p class="card-text">
+      <span id="like-count-{{ post.id }}">{{ post.like_users.count }}</span>명이 좋아합니다.
+    </p>
+  
+    <p class="card-text">{{ post.content }}</p>
+    {% if post.user == user %}
+    <a href="{% url 'posts:update' post.id %}" class="btn btn-info">Edit</a>
+    <a href="{% url 'posts:delete' post.id %}" class="btn btn-danger">Delete</a>
+    {% endif %}
+  </div>
+  <div class="card=body" id="comment-list-{{ post.id }}"> <!-- (js) 어떤 포스트에 대한 댓글인지 정보를 줌-->
+    {% for comment in post.comment_set.all %} <!--댓글이 있는 개수만큼 출력  -->
+      <div class="card=text"> 
+        <strong>{{ comment.user.username }}</strong> {{ comment.content }}
+        {% if comment.user == user %} <!-- 댓글유저와 현재 유저가 같다면 댓글을 삭제할 수 잇도록  -->
+          <a href="{% url 'posts:comment_delete' post.id comment.id %}">삭제</a> <!--아이디값 순서대로 띄어쓰기로 구분  -->
+        {% endif %}
+      </div>
+    {% empty%} <!-- 반복이 돌릴게 없다면  -->
+      <!--<div class="card-text"> 댓글이 없습니다. </div>-->
+    {% endfor %}
+  </div>
+  {% if user.is_authenticated %}
+  <form action="{% url 'posts:comment_create' post.id %}" method="POST" class="comment-form"> <!--  (js) js를 위해서 class를 추가-->
+    {% csrf_token %}
+    <div class="input-group"> <!-- 부트스트랩에 buttons on -->
+      {{ comment_form }} <!-- form 태그 생성후 한줄지우고 form.py 에 생성한 폼을 가지고옴 -->
+      <div class="input-group-append">
+        <input type="submit" value="Submit" class="btn btn-primary"/>
+      </div>
+    </div>
+  </form>
+  {% endif %}
+</div>

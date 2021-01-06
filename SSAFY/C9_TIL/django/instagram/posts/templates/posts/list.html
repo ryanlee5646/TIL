@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% load bootstrap4 %}
+
+{% block container %}
+
+<h1>Post List</h1>
+
+{% for post in posts %}
+
+{% include 'posts/_post.html' %}  <!-- _post.html에다가 입력받은 내용을 분리함. -->
+
+{% endfor %}
+
+<script>
+    const likeButtons = document.querySelectorAll('.like-button') // 좋아요 버튼 구현
+    likeButtons.forEach(function(button){
+        button.addEventListener('click', function(event){
+            console.log(event)
+            const postId = event.target.dataset.id
+            axios.get(`/posts/${postId}/like/`)
+                .then(function(response){
+                    // response.data // {liked: true, count:1}
+                    document.querySelector(`#like-count-${postId}`).innerText = response.data.count
+                    if (response.data.liked){
+                        event.target.classList.remove('far') 
+                        event.target.classList.add('fas')
+                    } else {
+                        event.target.classList.remove('fas') 
+                        event.target.classList.add('far')
+                    }
+                })
+        })
+    })
+    
+    const commentForms = document.querySelectorAll('.comment-form')
+    commentForms.forEach(function(form){
+        form.addEventListener('submit', function(event){ // trigger 'submit' 제출버튼을 누르는 순간 뒤에 함수가 실행
+            event.preventDefault() // 원래 html이 들고 있는 기존 event를 수행하지 않겠다(댓글을 달면 맨 위로 올라가는 행동0)
+            console.log(event)
+            // event.target === form
+            const data = new FormData(event.target)
+            // Inspect FormData
+            for (const item of data.entries()){
+                console.log(item)
+            }
+            axios.post(event.target.action, data) // _post.html에 있는 event.target(==form)태그에 있는 action을 가지고옴 
+                    .then(function(response){
+                        const comment = response.data
+                        const commentList = document.querySelector(`#comment-list-${comment.postId}`) // 동적으로 변하는 값은 ``(backtick)
+                        const newComment = `<div class="card=text"> 
+                            <strong>${comment.username}</strong> ${comment.content}
+                            <a href="/posts/${comment.postId}/comments/${comment.id}/delete/">삭제</a> <!--아이디값 순서대로 띄어쓰기로 구분  -->
+                          </div>`
+                        commentList.insertAdjacentHTML('beforeend', newComment)
+                        event.target.reset()
+                    })
+            
+        })
+    })
+
+</script>
+
+{% endblock %}

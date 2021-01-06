@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+{% block container%}
+
+<h1>Profile Edit</h1>
+
+<form method="POST" enctype="multipart/form-data"> <!-- enctype 파일보내는 방식 인코딩 (기본값은 원래 string)-->
+    {% csrf_token %}
+    {% bootstrap_form profile_form %}
+    <input type="submit" value="Submit"/>
+</form>
+{% endblock %}

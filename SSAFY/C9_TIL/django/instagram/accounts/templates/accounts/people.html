@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block container %}
+
+<div class="container">
+    <div class="row">
+        <div calss="col-3">
+            <h1>
+                {% if people.profile.image %} <!-- people의 프로필 사진이 있다면 -->
+                <img src="{{ people.profile.image.url }}" width = "50" alt="{{ people.profile.image.url }}">
+                {% endif %}
+                {{ people.username }}
+            </h1>
+        </div>
+        <div class="col-9">
+            <div>
+                <strong>{{ people.profile.nickname }}</strong> <!-- 유저가(people)들고있는 프로필 닉네임 -->
+                {% if user != people %}
+                    {% if user in people.followers.all %} <!-- 만약 유저가 people의 follower에 속해 있다면 -->
+                    <a href="{% url 'accounts:follow' people.id %}">UnFollow</a> <!-- unfollow가 뜨게 -->
+                    {% else %} <!-- 그렇지 않다면 -->
+                    <a href="{% url 'accounts:follow' people.id %}">Follow</a> <!-- follow가 뜨게 -->
+                    {% endif %}
+                {% endif %}
+            </div>
+            <div>
+                <strong>Followers</strong> {{ people.followers.count}} <!-- 몇명이 people을 follow하고 있는지 -->
+                <strong>Followings</strong> {{ people.followings.count}} <!-- people이 몇명을 follow하고 있는지 -->
+            </div>
+            <div>
+                {{ people.profile.introduction }} <!-- 유저가(people)들고있는 프로필 소개글 -->
+            </div>
+        </div>
+    </div>
+    <!--<h1>{{ people.username }}</h1> <!-- 아이디를 클릭하면 그사람이 올린 포스트를 볼 수 잇음 -->
+    
+    {% if user == people %}
+    <div>
+        <a href="{% url 'accounts:profile_update' %}">프로필 수정</a>
+        <a href="{% url 'accounts:update' %}"> 계정정보수정</a>
+    </div>
+    {% endif %}
+    <div class="row">
+        {% for post in people.post_set.all %}
+        <div class="col-4">
+            <img src="{{ post.image_set.first.file.url }}" class="img-fluid"/> <!-- 첫번째 post가 들고있는 모든 image들 중에서 첫번째, 파일의, url -->
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

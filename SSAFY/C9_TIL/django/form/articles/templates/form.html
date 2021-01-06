@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>New Article</h1>
+    
+    {{ form.non_field_errors }}
+    <form method="post">
+        {% csrf_token %}
+        <!--<input type="text" name="title" required/> -->
+        <!-- required넣으면 아무것도 입력하지 않은 값을 방어  -->
+        <!--<input type="text" name="content" required/>-->
+        
+        <!-- 1. title-->
+        <div>
+            {{ form.title.errors }} <!-- error messages (ul, li tag) -->
+            {{ form.title.label_tag }} <!-- label tag -->
+            {{ form.title }}    <!-- input tag -->
+        </div>
+        <!-- 2.content -->
+        <div>
+            {{ form.content.errors}}
+            {{ form.content.label_tag}}
+            {{ form.content }}
+        </div>
+            <!--{{ form }}-->
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

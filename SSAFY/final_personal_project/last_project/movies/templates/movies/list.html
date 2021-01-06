@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block container %}
+
+<div class="container-fluid">
+    <div class="row">
+        {% for movie in movies %}
+        <div class=" col-3 mt-3" style="width: 18rem;">
+          <!--<img src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" class="card-img-top" alt="...">-->
+          <!--style="background-image: url('https://image.tmdb.org/t/p/w500{{movie.poster_path}}');-->
+          <!-- zoomout -->
+          <figure class="imghvr-zoom-out" style="background-color: black; background-size:cover;">
+          <img src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" style="background-color: black;  " alt="example-image">
+          <figcaption style="background-color:black; ">
+            <h3 class="ih-fade-down ih-delay-sm ">{{ movie.title_kr }}  </h3>
+            <p class="ih-zoom-in ih-delay-md">
+              {% if movie.overview|length > 80 %}
+              <i>{{ movie.overview|slice:"0:80" }} ... </i>
+              {% else %}
+              <i>{{ movie.overview }} </i>
+              {% endif %}
+            </p>
+          </figcaption>
+          <a href="{% url 'movies:detail' movie.id %}"></a>
+          
+        </figure>
+        <!-- zoomout -->
+          <div class="card-body">
+            <h5 class="card-title" ><a href="{% url 'movies:detail' movie.id %}">{{ movie.title_kr }}({{ movie.title_en }})</a></h5>
+          </div>
+          <div class="card-body">
+          <i class="{% if user in movie.like_users.all %}fas{% else %} far {% endif %} fa-heart like-button" data-id="{{ movie.id }}"></i>
+          <p class="card-text"><small class="text-muted" id="like-count-{{ movie.id }}">{{ movie.like_users.count}}</small><small> <span>명이 좋아요</span></small></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            
+          </ul>
+        </div>
+        
+        {% endfor %}
+    </div>
+</div>
+
+        
+    {% endblock %}
+
+

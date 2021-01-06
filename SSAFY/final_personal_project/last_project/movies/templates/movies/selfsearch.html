@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block container %}
+
+<form action="{% url 'movies:selftop' %}" method="POST">
+    {% csrf_token %}
+    <select class="custom-select custom-select-lg mb-3" name="genrename">
+      <option selected>장르선택</option>
+      {% for genre in genres %}
+      <option value="1" >{{ genre.name }}</option>
+      {% endfor %}
+    </select>
+    
+    
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="inputPassword6">평점자수</label>
+        <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline" name="people">
+        <small id="passwordHelpInline" class="text-muted">
+          0명이상 입력하세요.
+        </small>
+      </div>
+    </form>
+    
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="inputPassword6">평점</label>
+        <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline" name="point">
+        <small id="passwordHelpInline" class="text-muted">
+          0~ 10점 사이 입력하세요.
+        </small>
+      </div>
+    </form>
+    
+    <form class="form-inline" >
+      <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Preference</label>
+      <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="year">
+        <option selected>개봉일</option>
+        <option value="1">2017</option>
+        <option value="2">2018</option>
+        <option value="3">2019</option>
+      </select>
+      </form>
+  <input type="submit" value="Submit"/>
+ </form>
+{% endblock %}

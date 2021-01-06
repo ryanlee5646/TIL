@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% load bootstrap4 %}
+
+{% block container %}
+
+<div class="container">
+<h1>회원정보수정</h1>
+<h2>ID:  {{ request.user.username }}</h2>
+
+<form method='POST'>
+    {% csrf_token %}
+    {% bootstrap_form profile_form %}
+    <input type="submit" value="수정하기"/>
+</form>
+</div>
+{% endblock %}

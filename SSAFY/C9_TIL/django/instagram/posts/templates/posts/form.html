@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% load bootstrap4 %}
+
+{% block container %}
+
+<h1>Post Form</h1>
+
+<form action="" method="post" enctype="multipart/form-data"> <!-- enctype: 텍스트 파일이 아닌 파일(이미지,음성)을 보내는 방식-->
+    {% csrf_token %}
+    {% bootstrap_form post_form %}
+    {{ image_formset.as_p }} <!-- 여러개의 이미지를 올릴 form을 불러오고 이미지를 p타입 태그로 감쌈 -->
+    {% buttons %}
+        <button type="submit" class="btn btn-primary">Submit</button>
+    {% endbuttons %}
+    
+</form>
+{% endblock %}
