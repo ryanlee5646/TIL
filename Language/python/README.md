@@ -24,8 +24,11 @@ print(string.title())
 
 ### Python 함수 가변의 Argument
 
-1. `*args` : Python에서 함수을 생성할 때 가변의 인자값(argument)을 받고 싶을 때 사용
-   * `*args`에 속한 인자값들은 튜플(tuple) 형태로 넘어온다.
+#### 1.`*args` 
+
+* Python에서 함수을 생성할 때 가변의 인자값(argument)을 받고 싶을 때 사용
+
+* `*args`에 속한 인자값들은 튜플(tuple) 형태로 넘어온다.
 
 ```python
 def plus (a, b , *args):
@@ -39,8 +42,11 @@ plus(1,2,3,3,3,3,3,3,3,3)
   
 ```
 
-2. `**kwargs`: `*args` 와 같이 가변의 인자값을 받고 싶을 때 사용한다. 다만 keyword 형태로 인자값을 받을 때 사용한다
-   * `**kwargs` 에 속한 인자값들은 딕셔너리(Dictionary) 형태로 넘어온다.
+#### 2. `**kwargs`
+
+* `*args` 와 같이 가변의 인자값을 받고 싶을 때 사용한다. 다만 keyword 형태로 인자값을 받을 때 사용한다.
+
+* `**kwargs` 에 속한 인자값들은 딕셔너리(Dictionary) 형태로 넘어온다.
 
 ```python
 def plus (a, b, **kwargs):
@@ -54,4 +60,50 @@ plus(1,2, hello=True, aa=True, bb=True)
 ```
 
 
+
+### Function과 Method의 차이
+
+#### 1. Function
+
+* 클래스(Class) 바깥에서 선언된 함수
+* 클래스의 메서드(Method)처럼 객체의 Instance를 첫번째 인자(argument)로 받지 않아도 됨(인자가 없어도됨)
+
+```python
+class Car(): 
+  wheel = 4
+  door = 4
+  sheet = 4
+  window = 4
+
+def start():	# Function:  
+  a = 20
+  print(a)
+  
+start()
+>>> 20
+```
+
+#### 2. Method
+
+* 클래스(Class) 안에 선언된 함수
+* 함수의 인자값 없이 호출 하더라도 함수를 선언할 때 첫번 째 인자값을 넣어서 선언해 주어야 한다
+* 클래스의 메서드는 자신을 호출한 객체의 인스턴스가 첫번 째 인자값이 되기 때문이다.
+
+```python
+class Car(): 
+  wheel = 4
+  door = 4
+  sheet = 4
+  window = 4
+
+  def start(self):	# Method: # self = proche라고 봐도 무방하다 
+    self.door = 2
+    print(self.door)
+    
+porche = Car()
+porche.start()
+
+>>> 2
+    
+```
 
