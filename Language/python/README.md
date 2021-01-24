@@ -96,7 +96,7 @@ class Car():
   sheet = 4
   window = 4
 
-  def start(self):	# Method: # self = proche라고 봐도 무방하다 
+  def start(self):	# Method: self = proche라고 봐도 무방하다 
     self.door = 2
     print(self.door)
     
@@ -105,5 +105,35 @@ porche.start()
 
 >>> 2
     
+```
+
+
+
+### 객체의 개념
+
+```python
+class Car():
+    
+    def __init__(self, **kwargs): # Class가 실행될 때 바로 만들어지는 메서드는 __init()
+        self.wheels = 4
+        self.doors = 4
+        self.windows = 4
+        self.seats = 4
+        self.color = kwargs.get("color", "black") # kwargs.get(key, default)
+        self.price = kwargs.get("price", "$20") # 가변의 인자를 받아와서 커스터마이징 가능
+    
+    def __str__(self): # Overiding
+        return f"Car with {self.wheels} wheels"
+
+porche = Car(color="green", price="$40")
+print(porche.color, porche.price)
+
+>>> green $40
+
+mini = Car()
+print(mini.color, mini.price)
+
+>>> black $20
+
 ```
 
