@@ -20,7 +20,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.4",
     "@vue/cli-plugin-pwa": "^3.0.4",
-    "@vue/cli-service": "^3.0.4",
+    "@vue/cli-service": "^5.0.8",
     "font-awesome": "^4.7.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
